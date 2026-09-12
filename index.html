@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Food Finder — Lancaster</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      background: Canvas;
+      color: CanvasText;
+    }
+    h1 { font-size: 1.4rem; }
+    #updated { color: GrayText; font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .event {
+      border: 1px solid color-mix(in srgb, CanvasText 20%, transparent);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+    }
+    .event h2 { font-size: 1.05rem; margin: 0 0 0.25rem; }
+    .meta { color: GrayText; font-size: 0.9rem; margin-bottom: 0.4rem; }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: #2e7d32;
+      color: white;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      margin-bottom: 0.4rem;
+    }
+    .empty { color: GrayText; }
+  </style>
+</head>
+<body>
+  <h1>🍕 Free Food Finder — Lancaster</h1>
+  <p id="updated">Loading…</p>
+  <div id="events"></div>
+
+  <script>
+    fetch('data/results.json')
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById('updated').textContent =
+          `Last checked: ${new Date(data.generated_at).toLocaleString()} — ${data.free_food_count} free food event(s) found`;
+
+        const container = document.getElementById('events');
+        const flagged = data.events.filter(e => e.free_food);
+
+        if (flagged.length === 0) {
+          container.innerHTML = '<p class="empty">No free food events detected right now. Check back later.</p>';
+          return;
+        }
+
+        container.innerHTML = flagged.map(e => `
+          <div class="event">
+            <span class="tag">FREE FOOD</span>
+            <h2><a href="${e.url}" target="_blank" rel="noopener">${e.title}</a></h2>
+            <div class="meta">${e.group_name ? e.group_name + ' · ' : ''}${e.start_date || ''}${e.location ? ' · ' + e.location : ''}</div>
+            <div>${e.description ? e.description.slice(0, 200) : ''}</div>
+          </div>
+        `).join('');
+      })
+      .catch(() => {
+        document.getElementById('updated').textContent = 'Could not load results.json yet — run the scraper first.';
+      });
+  </script>
+</body>
+</html>
