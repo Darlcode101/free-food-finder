@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:38:01.079190+00:00",
+  "generated_at": "2026-09-12T08:45:54.827065+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -620,8 +620,93 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ]
+    },
+    {
+      "source": "fraserhousehub.co.uk",
+      "title": "Software Lancaster Meet up: The Waterwitch Monday 21st Sept @18.00",
+      "description": "We're a community of software / tech professionals and enthusiasts who usually meet twice a month in a pub to chat casually about software engineering, great beers, and pretty much anything else.\n\nLink to follow.",
+      "location": "The Waterwitch Pub, Lancaster",
+      "start_date": "Monday 21 September 2026, 6:00pm to 9:00pm",
+      "start_date_iso": "2026-09-21T18:00:00",
+      "event_type": "NETWORKING",
+      "is_paid": false,
+      "url": "https://www.meetup.com/software-lancaster/events/316182160/?eventOrigin=group_upcoming_events",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'NETWORKING' often includes refreshments"
+      ]
+    },
+    {
+      "source": "fraserhousehub.co.uk",
+      "title": "Fraser House Talks X Alice Ashcroft & Josh Bailey \"The JobFair Journey: How a walk to a carpark became a business\" Thurs 24th Sept @12.30 - 13.00",
+      "description": "Join us as Alice and Josh talk about how they decided to start JobFair. \u00a0We'll learn about the research it's built on, how they collaborated as a team with other Fraser House members, their successful applications of grant funding, and future plans.  Alice Ashcroft is a researcher and consultant who analyses the impact of identity and gendered language in software design and team meetings. Alice has been published in peer-reviewed journals and her PhD, \u201cDesign, Innovation and Software: The Impact of Gender and Language\u201d, focused on how gender affects communication and teamwork in software design and innovation workshops. Their work highlights the need for more inclusive practices that give everyone a voice, helping to improve creativity and collaboration in the design process.  Josh Bailey is the \u00a0founder of  \u00a0    Sqwosh    , an AI engineering and product studio based at Fraser House in Lancaster.  \u00a0    Sqwosh    \u00a0  helps organisations turn AI ideas and early prototypes into dependable products that work in the real world, not just impressive demos. \u00a0His  \u00a0work spans AI strategy, system healthchecks, product design and engineering, and ongoing support after launch, with a particular focus on quality, safety, cost and continuous improvement.    Join us on:    \ud83d\udcc5 Thursday 24th Sept   \ud83d\udd67 12.30 - 13.00   \ud83d\udccd Lecture Theatre, Fraser House Hub    All welcome, no sign up necessary. \u00a0Even better, bring your laptop, trial our space for the day and catch the talk.    See you here soon.",
+      "location": "Fraser House",
+      "start_date": "Thursday 24 September 2026, 12:30pm to 1:00pm",
+      "start_date_iso": "2026-09-24T12:30:00",
+      "event_type": "NETWORKING, EDUCATIONAL",
+      "is_paid": false,
+      "url": "https://fraserhousehub.co.uk/events",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'NETWORKING, EDUCATIONAL' often includes refreshments"
+      ]
+    },
+    {
+      "source": "fraserhousehub.co.uk",
+      "title": "Book Launch \"The Ecosystem Mindset\" by Dan Knowles: Fri 2nd Oct @14.00-16.00",
+      "description": "Come along to the book launch and get your signed copy of The Ecosystem Mindset\ud83d\udc47  Friday 2nd October @ 2pm - 4pm, Lancaster  How do you turn disconnected ideas, people and projects into an innovation ecosystem that actually works? \u00a0If there's one person who knows the answer to that question it's Dan Knowles.  As the founder of Northern Reach, Dan has played a pivotal role in shaping innovation across Lancashire and building the region's digital ecosystem.\u00a0 You'll get to hear Dan\u2019s take on building stronger regional economies, meet others shaping innovation across Lancashire and Cumbria, and leave with your own signed copy.  If you're a business leader or local authority decision-maker, this is one event you won't want to miss!  Register at the link.",
+      "location": null,
+      "start_date": "Friday 02 October 2026, 2:00pm to 4:00pm",
+      "start_date_iso": "2026-10-02T14:00:00",
+      "event_type": "ARRAY FESTIVAL, NETWORKING",
+      "is_paid": false,
+      "url": "https://www.skiddle.com/whats-on/Lancaster/Fraser-House-Hub-%28Lancaster%29/Book-Launch-The-Ecosystem-Mindset-with-Dan-Knowles/42664007/",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'ARRAY FESTIVAL, NETWORKING' often includes refreshments"
+      ]
+    },
+    {
+      "source": "fraserhousehub.co.uk",
+      "title": "Fhunded Founder X Funder Event: Tues 6th Oct @14.30- 17.30",
+      "description": "Join us for an exciting Founder X Funder event at Fraser House Hub for founders and funders!\n\nTips from the funders - PlayFair (15:15-15:45):\nSharing tips for raising investment.\n\nFounder X Funder Networking (15:45-17:30):\nInformal networking.",
+      "location": "Fraser House",
+      "start_date": "Tuesday 06 October 2026, 2:30pm to 5:30pm",
+      "start_date_iso": "2026-10-06T14:30:00",
+      "event_type": "NETWORKING, Innovation",
+      "is_paid": false,
+      "url": "https://www.eventbrite.co.uk/e/fhunded-founder-x-funder-event-in-collaboration-with-playfair-tickets-1976599478248?aff=erelpanelorg",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'NETWORKING, Innovation' often includes refreshments"
+      ]
+    },
+    {
+      "source": "fraserhousehub.co.uk",
+      "title": "WILD is turning 3: Mon 19th Oct @18.00-19.30",
+      "description": "Join WILD as it celebrates is 3rd birthday and relaunch.   As part of the event, Dr Joanna Taylor will lead a thought-provoking workshop exploring bewilderment and the value of uncertainty. In a world where smartphones and AI can give us instant answers, we have fewer opportunities to sit with not knowing. Yet uncertainty is also where creativity, surprise and new ideas can thrive. Taking inspiration from historic women\u2019s writing, Joanna will guide us through a series of simple prompts and activities designed to help us explore uncertainty in a safe, supportive and creative way.   Open to women and non-binary people working in digital, creative, marketing, tech or business around Lancaster  More information and sign up at the link.",
+      "location": "Fraser House",
+      "start_date": "Monday 19 October 2026, 6:00pm to 7:30pm",
+      "start_date_iso": "2026-10-19T18:00:00",
+      "event_type": "NETWORKING, EDUCATIONAL",
+      "is_paid": false,
+      "url": "https://www.eventbrite.com/e/wild-relaunch-celebrating-3-years-of-women-in-lancaster-digital-tickets-1995907173083?utm_source=substack&utm_medium=email",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'NETWORKING, EDUCATIONAL' often includes refreshments"
+      ]
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 9
+  "probable_free_food_count": 14
 }

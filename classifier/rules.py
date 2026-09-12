@@ -32,7 +32,15 @@ def is_free_food(text: str) -> tuple[bool, list[str]]:
 # drinks even though the listing never says so explicitly — guest-speaker
 # talks, networking events, and the like. This is a separate, lower-confidence
 # tier from is_free_food's explicit keyword matches.
-_PROBABLE_EVENT_TYPES = {"talk / public lecture", "seminar", "meeting or networking", "conference"}
+#
+# Matched as a substring rather than an exact type string, since sources
+# label event types differently: Lancaster University uses a single "Talk /
+# Public Lecture" type string, while Fraser House Hub (a town coworking
+# space hosting things like Software Lancaster Talks) uses comma-joined
+# category tags like "NETWORKING, EDUCATIONAL".
+_PROBABLE_EVENT_TYPE_RE = re.compile(
+    r"\b(talk|lecture|seminar|networking|conference|meetup|meet[\s-]?up)\b", re.IGNORECASE
+)
 
 _PROBABLE_KEYWORDS_RE = re.compile(
     r"\b(guest speaker|fireside chat|keynote|panel discussion|networking event|"
@@ -45,7 +53,8 @@ def is_probable_free_food(title: str, description: str, event_type: str = "") ->
     """Heuristic second tier: flag likely-food events even without an explicit mention."""
     reasons = []
 
-    if event_type and event_type.strip().lower() in _PROBABLE_EVENT_TYPES:
+    type_match = event_type and _PROBABLE_EVENT_TYPE_RE.search(event_type)
+    if type_match:
         reasons.append(f"event type '{event_type}' often includes refreshments")
 
     keyword_match = _PROBABLE_KEYWORDS_RE.search(f"{title} {description}")

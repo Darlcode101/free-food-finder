@@ -1,4 +1,4 @@
-"""Scrape LUSU + Lancaster University events, flag free-food ones, write data/results.json."""
+"""Scrape LUSU, Lancaster University, and Fraser House Hub events, flag free-food ones, write data/results.json."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 
 from classifier.rules import is_free_food, is_probable_free_food
-from scraper import lusu, university
+from scraper import fraserhouse, lusu, university
 from scraper.common import get_session
 
 OUTPUT_PATH = Path(__file__).parent / "data" / "results.json"
@@ -56,7 +56,7 @@ def classify_event(event: dict, session) -> dict:
 def run() -> list[dict]:
     session = get_session()
 
-    all_events = lusu.fetch_events() + university.fetch_events()
+    all_events = lusu.fetch_events() + university.fetch_events() + fraserhouse.fetch_events()
     classified = [classify_event(event, session) for event in all_events]
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)

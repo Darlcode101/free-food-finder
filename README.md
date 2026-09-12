@@ -1,8 +1,9 @@
 # Free Food Finder — Lancaster
 
-Scrapes Lancaster University and LUSU (Students' Union) event listings and
-flags events that mention free food, so you don't have to trawl every
-society page yourself.
+Scrapes Lancaster University, LUSU (Students' Union), and town venues like
+Fraser House Hub for event listings and flags ones that mention free food,
+so you don't have to trawl every society page or coworking calendar
+yourself.
 
 **Live site:** https://darlcode101.github.io/free-food-finder/
 
@@ -13,6 +14,13 @@ society page yourself.
 - [`scraper/lusu.py`](scraper/lusu.py) — parses the event listing at
   `lancastersu.co.uk/events` (200+ societies post here), and fetches the full
   event page when the listing's truncated summary isn't enough to classify.
+- [`scraper/fraserhouse.py`](scraper/fraserhouse.py) — pulls the JSON embedded
+  in `fraserhousehub.co.uk/events`, a Lancaster coworking space that hosts
+  town (non-university) meetups like Software Lancaster Talks. These rarely
+  say "free pizza" in the venue listing itself (that perk usually only shows
+  up in the cross-posted Meetup/LinkedIn/Instagram announcement) — they're
+  almost always caught by the probable-food heuristic instead, via their
+  "NETWORKING"/"EDUCATIONAL" category tags.
 - [`classifier/rules.py`](classifier/rules.py) — two tiers of detection:
   - `is_free_food` — a keyword/regex baseline that flags explicit text like
     "free pizza" or "refreshments provided". Intentionally simple v1: there's
@@ -58,6 +66,10 @@ add more sources, check their `robots.txt` first.
 
 - Train a proper classifier once there's labeled data from real scrapes.
 - Extract structured location/time instead of just linking to the event.
+- Consider scraping the Meetup.com group page for Software Lancaster Talks
+  directly (meetup.com/software-lancaster-talks) — that's where the "Free
+  pizza and drinks!" wording actually appears, rather than on Fraser House
+  Hub's own venue listing.
 - Consider society Instagram/Facebook posts — a lot of real "free pizza"
   announcements happen there rather than on the SU website, but that needs
   auth-gated scraping and is out of scope for v1.
