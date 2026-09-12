@@ -1,5 +1,6 @@
-"""Shared HTTP helpers for polite, robots.txt-respecting scraping."""
+"""Shared HTTP and formatting helpers for polite, robots.txt-respecting scraping."""
 import time
+from datetime import datetime
 
 import requests
 
@@ -23,3 +24,24 @@ def polite_get(session: requests.Session, url: str, **kwargs) -> requests.Respon
     response.raise_for_status()
     time.sleep(CRAWL_DELAY_SECONDS)
     return response
+
+
+def format_date_range(start_iso: str, end_iso: str = "") -> str:
+    """Turn ISO start/end timestamps into 'Monday 27 July 2026, 6:00pm to 8:00pm'."""
+    if not start_iso:
+        return ""
+    try:
+        start = datetime.fromisoformat(start_iso)
+    except ValueError:
+        return start_iso
+
+    def fmt_time(dt: datetime) -> str:
+        return dt.strftime("%I:%M%p").lstrip("0").lower()
+
+    display = f"{start.strftime('%A %d %B %Y')}, {fmt_time(start)}"
+    if end_iso:
+        try:
+            display += f" to {fmt_time(datetime.fromisoformat(end_iso))}"
+        except ValueError:
+            pass
+    return display

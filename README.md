@@ -25,6 +25,12 @@ yourself.
   cross-posted Meetup/LinkedIn/Instagram announcement) — they're caught by
   the probable-food heuristic instead, via their "NETWORKING"/"EDUCATIONAL"
   category tags.
+- [`scraper/meetup.py`](scraper/meetup.py) — pulls the GraphQL data embedded
+  in the "Software Lancaster Talks" Meetup group page. Unlike Fraser House's
+  own listing, Meetup's event descriptions explicitly say "Free pizza and
+  drinks!" every time, so these are confirmed matches, not probable ones.
+  (There's a second, separate Meetup group, "software-lancaster" — the
+  casual pub meetup with no food — which this deliberately does not target.)
 - [`classifier/rules.py`](classifier/rules.py) — two tiers of detection:
   - `is_free_food` — a keyword/regex baseline that flags explicit text like
     "free pizza" or "refreshments provided". Intentionally simple v1: there's
@@ -70,10 +76,8 @@ add more sources, check their `robots.txt` first.
 
 - Train a proper classifier once there's labeled data from real scrapes.
 - Extract structured location/time instead of just linking to the event.
-- Consider scraping the Meetup.com group page for Software Lancaster Talks
-  directly (meetup.com/software-lancaster-talks) — that's where the "Free
-  pizza and drinks!" wording actually appears, rather than on Fraser House
-  Hub's own venue listing.
 - Consider society Instagram/Facebook posts — a lot of real "free pizza"
   announcements happen there rather than on the SU website, but that needs
   auth-gated scraping and is out of scope for v1.
+- Look for more Lancaster town sources (e.g. The Storey, Lancaster Castle
+  events, other coworking spaces) as they turn up.

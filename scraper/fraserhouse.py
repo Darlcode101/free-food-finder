@@ -15,9 +15,8 @@ Next.js. The event list is embedded server-side as JSON in a
 """
 import json
 import re
-from datetime import datetime
 
-from .common import get_session, polite_get
+from .common import format_date_range, get_session, polite_get
 
 EVENTS_URL = "https://fraserhousehub.co.uk/events"
 
@@ -55,7 +54,7 @@ def fetch_events() -> list[dict]:
                 "title": raw.get("Name", ""),
                 "description": description,
                 "location": location,
-                "start_date": _format_date(raw.get("StartDate", ""), raw.get("EndDate", "")),
+                "start_date": format_date_range(raw.get("StartDate", ""), raw.get("EndDate", "")),
                 "start_date_iso": raw.get("StartDate", ""),
                 # Only feed categories to the probable-food heuristic for
                 # events actually held at Fraser House — off-site meetups
@@ -71,25 +70,3 @@ def fetch_events() -> list[dict]:
 
 def _strip_html(text: str) -> str:
     return re.sub(r"<[^>]+>", " ", text or "").strip()
-
-
-def _format_date(start_iso: str, end_iso: str) -> str:
-    """Turn '2026-09-21T18:00:00' / end into 'Monday 21 September 2026, 6:00pm to 9:00pm'."""
-    if not start_iso:
-        return ""
-    try:
-        start = datetime.fromisoformat(start_iso)
-    except ValueError:
-        return start_iso
-
-    def fmt_time(dt: datetime) -> str:
-        return dt.strftime("%I:%M%p").lstrip("0").lower()
-
-    display = f"{start.strftime('%A %d %B %Y')}, {fmt_time(start)}"
-    if end_iso:
-        try:
-            end = datetime.fromisoformat(end_iso)
-            display += f" to {fmt_time(end)}"
-        except ValueError:
-            pass
-    return display
