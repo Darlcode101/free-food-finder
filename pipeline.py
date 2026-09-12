@@ -13,6 +13,16 @@ OUTPUT_PATH = Path(__file__).parent / "data" / "results.json"
 
 
 def classify_event(event: dict, session) -> dict:
+    # A known ticket cost means any "food included"/"refreshments provided"
+    # wording is part of what you paid for, not free — e.g. a £40 conference
+    # ticket that includes lunch. Skip classification entirely in that case.
+    if event.get("is_paid") is True:
+        event["free_food"] = False
+        event["matched_phrases"] = []
+        event["probable_free_food"] = False
+        event["probable_reasons"] = []
+        return event
+
     text = f"{event['title']} {event.get('description', '')}"
     flagged, matches = is_free_food(text)
 

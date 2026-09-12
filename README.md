@@ -25,7 +25,10 @@ society page yourself.
     "Probably has food" with its reasoning, never mixed in with confirmed
     matches.
 - [`pipeline.py`](pipeline.py) — runs both scrapers, classifies every event,
-  writes `data/results.json`.
+  writes `data/results.json`. Skips classification entirely for events with
+  a known ticket cost (`is_paid`, from LUSU's ticket price or the
+  university's `RegistrationType`) — a paid conference ticket that "includes
+  lunch" isn't free food, it's food you paid for.
 - [`index.html`](index.html) — a static page that reads `data/results.json`:
   a month calendar (days with events get a dot, click one to filter the
   lists below to that day) plus separate "Confirmed" and "Probably has food"

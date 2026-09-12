@@ -47,8 +47,13 @@ def fetch_events() -> list[dict]:
         if link is None or not link.get("href"):
             continue
 
-        status = _text(card, ".event-status")
+        status = _text(card, ".event-status").lower()
         date_text = _text(card, ".event-date")
+
+        # Only trust an explicit price ("Tickets from £X") as a paid signal;
+        # anything else (including a missing status) is left unknown rather
+        # than assumed free, so the classifier doesn't gate on a guess.
+        is_paid = True if "£" in status else (False if status.startswith("free") else None)
 
         events.append(
             {
@@ -59,7 +64,7 @@ def fetch_events() -> list[dict]:
                 "location": _text(card, ".venue"),
                 "start_date": date_text,
                 "start_date_iso": _parse_date(date_text),
-                "is_free": status.lower().startswith("free"),
+                "is_paid": is_paid,
                 "url": BASE_URL + link["href"],
             }
         )

@@ -25,6 +25,7 @@ def fetch_events() -> list[dict]:
 
     events = []
     for raw in raw_events:
+        registration_type = raw.get("RegistrationType", "")
         events.append(
             {
                 "source": "lancaster.ac.uk",
@@ -34,6 +35,10 @@ def fetch_events() -> list[dict]:
                 "start_date": raw.get("DateDetails", {}).get("Format", {}).get("Full", ""),
                 "start_date_iso": raw.get("StartDate", ""),
                 "event_type": raw.get("Type", ""),
+                # Only "Cost to attend" is a confident paid signal — treat
+                # anything else (including blank) as not-known-to-be-paid,
+                # since most values here just mean "no charge mentioned".
+                "is_paid": "cost to attend" in registration_type.lower(),
                 "url": EVENTS_URL + raw.get("Slug", ""),
             }
         )
