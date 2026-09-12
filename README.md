@@ -15,12 +15,16 @@ yourself.
   `lancastersu.co.uk/events` (200+ societies post here), and fetches the full
   event page when the listing's truncated summary isn't enough to classify.
 - [`scraper/fraserhouse.py`](scraper/fraserhouse.py) — pulls the JSON embedded
-  in `fraserhousehub.co.uk/events`, a Lancaster coworking space that hosts
-  town (non-university) meetups like Software Lancaster Talks. These rarely
-  say "free pizza" in the venue listing itself (that perk usually only shows
-  up in the cross-posted Meetup/LinkedIn/Instagram announcement) — they're
-  almost always caught by the probable-food heuristic instead, via their
-  "NETWORKING"/"EDUCATIONAL" category tags.
+  in `fraserhousehub.co.uk/events`, a Lancaster coworking space. Only its
+  on-site speaker talks (e.g. "Fraser House Talks X ...") actually have food
+  — the off-site casual pub meetups run by the same community (e.g.
+  "Software Lancaster Meet up" at The Waterwitch) share the same category
+  tags but don't, so the scraper only exposes event type to the classifier
+  when `Location` is Fraser House itself. On-site talks rarely say "free
+  pizza" in the venue listing text (that perk usually only shows up in the
+  cross-posted Meetup/LinkedIn/Instagram announcement) — they're caught by
+  the probable-food heuristic instead, via their "NETWORKING"/"EDUCATIONAL"
+  category tags.
 - [`classifier/rules.py`](classifier/rules.py) — two tiers of detection:
   - `is_free_food` — a keyword/regex baseline that flags explicit text like
     "free pizza" or "refreshments provided". Intentionally simple v1: there's

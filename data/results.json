@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:45:54.827065+00:00",
+  "generated_at": "2026-09-12T08:48:52.517117+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -628,15 +628,13 @@
       "location": "The Waterwitch Pub, Lancaster",
       "start_date": "Monday 21 September 2026, 6:00pm to 9:00pm",
       "start_date_iso": "2026-09-21T18:00:00",
-      "event_type": "NETWORKING",
+      "event_type": "",
       "is_paid": false,
       "url": "https://www.meetup.com/software-lancaster/events/316182160/?eventOrigin=group_upcoming_events",
       "free_food": false,
       "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'NETWORKING' often includes refreshments"
-      ]
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "fraserhousehub.co.uk",
@@ -659,18 +657,16 @@
       "source": "fraserhousehub.co.uk",
       "title": "Book Launch \"The Ecosystem Mindset\" by Dan Knowles: Fri 2nd Oct @14.00-16.00",
       "description": "Come along to the book launch and get your signed copy of The Ecosystem Mindset\ud83d\udc47  Friday 2nd October @ 2pm - 4pm, Lancaster  How do you turn disconnected ideas, people and projects into an innovation ecosystem that actually works? \u00a0If there's one person who knows the answer to that question it's Dan Knowles.  As the founder of Northern Reach, Dan has played a pivotal role in shaping innovation across Lancashire and building the region's digital ecosystem.\u00a0 You'll get to hear Dan\u2019s take on building stronger regional economies, meet others shaping innovation across Lancashire and Cumbria, and leave with your own signed copy.  If you're a business leader or local authority decision-maker, this is one event you won't want to miss!  Register at the link.",
-      "location": null,
+      "location": "",
       "start_date": "Friday 02 October 2026, 2:00pm to 4:00pm",
       "start_date_iso": "2026-10-02T14:00:00",
-      "event_type": "ARRAY FESTIVAL, NETWORKING",
+      "event_type": "",
       "is_paid": false,
       "url": "https://www.skiddle.com/whats-on/Lancaster/Fraser-House-Hub-%28Lancaster%29/Book-Launch-The-Ecosystem-Mindset-with-Dan-Knowles/42664007/",
       "free_food": false,
       "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'ARRAY FESTIVAL, NETWORKING' often includes refreshments"
-      ]
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "fraserhousehub.co.uk",
@@ -708,5 +704,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 14
+  "probable_free_food_count": 12
 }
