@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:18:40.248135+00:00",
+  "generated_at": "2026-09-12T08:28:55.151725+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -8,10 +8,13 @@
       "description": "Merch Options: Check out the full list here: Merch Options Presentation Terms and Conditions Purchases are non-refundable.",
       "location": "Lancaster University",
       "start_date": "Saturday 22-03-2025 - 00:00",
+      "start_date_iso": "2025-03-22T00:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/magic-aerial-circus-society-lumacs/events/lumacs-merch",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -20,10 +23,13 @@
       "description": "Support the Lancaster University Magic and Circus  ...",
       "location": "Lancaster University",
       "start_date": "Monday 19-05-2025 - 00:00",
+      "start_date_iso": "2025-05-19T00:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/magic-and-circus-society-lumacs/events/lumacs-donation",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -32,10 +38,13 @@
       "description": "Use this to pay for transport to any events. If you need to do this, the exec will let you know, but if you're not sure, send us a message! :) **NOTE this is not to pay for the event itself, just getting yourself there and back",
       "location": "N/A",
       "start_date": "Tuesday 11-11-2025 - 18:00",
+      "start_date_iso": "2025-11-11T18:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/lancaster-ssago-student-scouts-and-guides/events/transport-payments",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -44,10 +53,13 @@
       "description": "LUBarbell 2025 Internal T-Shirt - Limited Sizes Available",
       "location": "Online",
       "start_date": "Tuesday 10-02-2026 - 00:00",
+      "start_date_iso": "2026-02-10T00:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/barbell-f79c/events/lubarbell-internal-2025-t-shirt",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -56,10 +68,13 @@
       "description": "2026 LUBarbell Champs T-Shirt - Limited Sizes Left",
       "location": "Online",
       "start_date": "Tuesday 10-02-2026 - 00:00",
+      "start_date_iso": "2026-02-10T00:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/barbell-f79c/events/lubarbell-champs-2026-t-shirt",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -68,10 +83,13 @@
       "description": "Squash jumpers",
       "location": "Lancaster University",
       "start_date": "Wednesday 10-06-2026 - 00:00",
+      "start_date_iso": "2026-06-10T00:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/groups/squash-8fa8/events/squash-jumpers-9686",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -80,10 +98,13 @@
       "description": "Emergency First Aid at Work\u00a0training open to students of Lancaster University.\u00a0 The training is being charged at cost price - the Students' Union is not making any money from the training.",
       "location": "Students' Union Board Room, B104, Bowland Main, Lancaster University, Lancaster, LA1 4YT",
       "start_date": "Tuesday 22-09-2026 - 10:00",
+      "start_date_iso": "2026-09-22T10:00:00",
       "is_free": false,
       "url": "https://lancastersu.co.uk/events/emergency-first-aid-at-work-efaw",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancastersu.co.uk",
@@ -92,363 +113,487 @@
       "description": "Antisemitism Awareness Session",
       "location": "Students' Union Board Room, B104, Bowland Main, Lancaster University, Lancaster, LA1 4YT",
       "start_date": "Wednesday 14-10-2026 - 14:00",
+      "start_date_iso": "2026-10-14T14:00:00",
       "is_free": true,
       "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Undergraduate Open Day",
       "description": "Book your place on our Open Day to visit our campus and find out more.",
       "location": "Lancaster University Campus",
-      "start_date": "2026-09-12T09:00:25+01:00",
+      "start_date": "Saturday 12 September 2026, 9:00am to 4:00pm",
+      "start_date_iso": "2026-09-12T09:00:25+01:00",
       "event_type": "Open Day",
       "url": "https://www.lancaster.ac.uk/events/undergraduate-open-day-2026-09-12-09-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Undergraduate Open Day",
       "description": "Book your place on our Open Day to visit our campus and find out more.",
       "location": "Lancaster University Campus",
-      "start_date": "2026-09-13T09:00:25+01:00",
+      "start_date": "Sunday 13 September 2026, 9:00am to 4:00pm",
+      "start_date_iso": "2026-09-13T09:00:25+01:00",
       "event_type": "Open Day",
       "url": "https://www.lancaster.ac.uk/events/undergraduate-open-day-2026-09-13-09-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 16 September 2026, 16:00",
       "description": "Your campus tour will last approximately 1 hour.",
       "location": "Welcome Hub",
-      "start_date": "2026-09-16T16:00:00+01:00",
+      "start_date": "Wednesday 16 September 2026, 4:00pm to 5:00pm",
+      "start_date_iso": "2026-09-16T16:00:00+01:00",
       "event_type": "Campus Tour",
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-16-september-2026-1600",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 19 September 2026, 11:00",
       "description": "Your campus tour will last approximately 1 hour.",
       "location": "Welcome Hub",
-      "start_date": "2026-09-19T11:00:00+01:00",
+      "start_date": "Saturday 19 September 2026, 11:00am to 12:00pm",
+      "start_date_iso": "2026-09-19T11:00:00+01:00",
       "event_type": "Campus Tour",
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-5-september-2026-1100-2026-09-05-11-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 19 September 2026, 13:00",
       "description": "Your campus tour will last approximately 1 hour.",
       "location": "Welcome Hub",
-      "start_date": "2026-09-19T13:00:00+01:00",
+      "start_date": "Saturday 19 September 2026, 1:00pm to 2:00pm",
+      "start_date_iso": "2026-09-19T13:00:00+01:00",
       "event_type": "Campus Tour",
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-19-september-2026-1100",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Live Stream Campus and City Tour - 22 September, 12:00",
       "description": "The campus and city tour will last approximately 1 hour.",
       "location": "Online",
-      "start_date": "2026-09-22T12:00:00+01:00",
+      "start_date": "Tuesday 22 September 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-09-22T12:00:00+01:00",
       "event_type": "Webinar",
       "url": "https://www.lancaster.ac.uk/events/live-stream-campus-and-city-tour-1-september-1200",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 23 September 2026, 16:00",
       "description": "Your campus tour will last approximately 1 hour.",
       "location": "Welcome Hub",
-      "start_date": "2026-09-23T16:00:00+01:00",
+      "start_date": "Wednesday 23 September 2026, 4:00pm to 5:00pm",
+      "start_date_iso": "2026-09-23T16:00:00+01:00",
       "event_type": "Campus Tour",
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-16-september-2026-1600-2026-09-16-16-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Restore Eco Market",
       "description": "Lancaster University will host its ReStore Eco Market during Arrivals Weekend and Welcome Week, giving students the opportunity to pick up essentials affordably and sustainably.",
       "location": "Alexandra Square, Bailrigg, Lancaster, UK",
-      "start_date": "2026-09-25T10:30:16+01:00",
+      "start_date": "Friday 25 September 2026, 10:30am to Friday 2 October 2026, 3:00pm",
+      "start_date_iso": "2026-09-25T10:30:16+01:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/restore-eco-market-2026-09-25-10-30",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "DSAIL AI Showcase Event",
       "description": "The Showcase will provide an opportunity to learn more about the Institute\u2019s current research, teaching, partnerships and strategic priorities, and to discuss future opportunities for collaboration.",
       "location": "Lancaster House Hotel",
-      "start_date": "2026-09-28T09:30:25+01:00",
+      "start_date": "Monday 28 September 2026, 9:30am to 5:00pm",
+      "start_date_iso": "2026-09-28T09:30:25+01:00",
       "event_type": "Meeting or Networking",
       "url": "https://www.lancaster.ac.uk/events/dsail-ai-showcase-event-will-take-place-on-monday-28th-september",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Meeting or Networking' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 30 September 2026, 16:00",
       "description": "Your campus tour will last approximately 1 hour.",
       "location": "Welcome Hub",
-      "start_date": "2026-09-30T16:00:00+01:00",
+      "start_date": "Wednesday 30 September 2026, 4:00pm to 5:00pm",
+      "start_date_iso": "2026-09-30T16:00:00+01:00",
       "event_type": "Campus Tour",
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-23-september-2026-1600",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Natures in Translation: AI, Ethics and Environmental Conservation",
       "description": "This interdisciplinary conference Natures in Translation: AI, Ethics and Environmental Conservation explores the ethical implications of AI-assisted animal translation for environmental conservation and human\u2013environmental relations. ",
       "location": "Management School",
-      "start_date": "2026-10-01T08:15:33+01:00",
+      "start_date": "Thursday 1 October 2026, 8:15am to Friday 2 October 2026, 5:45pm",
+      "start_date_iso": "2026-10-01T08:15:33+01:00",
       "event_type": "Conference",
       "url": "https://www.lancaster.ac.uk/events/natures-in-translation-ai-ethics-and-environmental-conservation",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Conference' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Webinar (AM): Nature Tools and the Tool Stack",
       "description": "The Pentland Centre for Sustainability in Business is holding a free webinar exploring how businesses can get more value from the growing range of nature-related tools.",
       "location": "Microsoft Teams online ",
-      "start_date": "2026-10-06T08:00:15+01:00",
+      "start_date": "Tuesday 6 October 2026, 8:00am to 9:00am",
+      "start_date_iso": "2026-10-06T08:00:15+01:00",
       "event_type": "Webinar",
       "url": "https://www.lancaster.ac.uk/events/nature-tools-and-the-tool-stack",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Webinar (PM): Nature Tools and the Tool Stack",
       "description": "The Pentland Centre for Sustainability in Business is holding a free webinar exploring how businesses can get more value from the growing range of nature-related tools.",
       "location": "Microsoft Teams online ",
-      "start_date": "2026-10-06T16:00:15+01:00",
+      "start_date": "Tuesday 6 October 2026, 4:00pm to 5:00pm",
+      "start_date_iso": "2026-10-06T16:00:15+01:00",
       "event_type": "Webinar",
       "url": "https://www.lancaster.ac.uk/events/nature-tools-and-the-tool-stack-2026-10-06-08-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Commemorating the 1826 Lancashire Handloom Weavers Uprising",
       "description": "In collaboration with the Open University, the Regional Heritage Centre hosts a special event commemorating 200 years since the 1826 Lancashire handloom weavers uprising with additional commemorative activities, including musical performances and an art exhibition ongoing throughout the afternoon. ",
       "location": "Lancaster Suite, Lancaster Castle",
-      "start_date": "2026-10-10T09:30:08+01:00",
+      "start_date": "Saturday 10 October 2026, 9:30am to 12:30pm",
+      "start_date_iso": "2026-10-10T09:30:08+01:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/commemorating-the-1826-lancashire-loom-riots",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "The Business Briefing: Due Diligence ",
       "description": "Join us for The Business Briefing \u2014 an event series from Brabners, a leading UK law firm, and Lancaster University Management School\u2019s Entrepreneurs in Residence.",
       "location": "Lancaster University Management School",
-      "start_date": "2026-10-13T08:30:45+01:00",
+      "start_date": "Tuesday 13 October 2026, 8:30am to 9:15am",
+      "start_date_iso": "2026-10-13T08:30:45+01:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/the-business-briefing-due-diligence",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "A Celebration of Lancaster University Confucius Institute's 15th Anniversary",
       "description": "LUCI's 15th anniversary celebration will consist of music and dance performances by students and staff from our partner, South China University of Technology, as well as by Lancaster University contributors.",
       "location": "Lancaster Institute for the Contemporary Arts (LICA)",
-      "start_date": "2026-10-14T13:00:06+01:00",
+      "start_date": "Wednesday 14 October 2026, 1:00pm to 2:30pm",
+      "start_date_iso": "2026-10-14T13:00:06+01:00",
       "event_type": "Concert or Performance",
       "url": "https://www.lancaster.ac.uk/events/a-celebration-of-lancaster-university-confucius-institutes-15th-anniversary",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "A Fireside Chat \u2013 Resilience, Legacy and Leadership",
       "description": "Join us for a powerful conversation with Gillian Hall, third-generation cheesemaker and owner of Butlers Farmhouse Cheeses.",
       "location": "Lancaster University Management School",
-      "start_date": "2026-10-15T18:00:03+01:00",
+      "start_date": "Thursday 15 October 2026, 6:00pm to 7:30pm",
+      "start_date_iso": "2026-10-15T18:00:03+01:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/a-fireside-chat-resilience-legacy-and-leadership",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments",
+        "mentions 'Fireside Chat'"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Undergraduate Open Day",
       "description": "Book your place on our Open Day to visit our campus and find out more.",
       "location": "Lancaster University Campus",
-      "start_date": "2026-10-17T09:00:25+01:00",
+      "start_date": "Saturday 17 October 2026, 9:00am to 4:00pm",
+      "start_date_iso": "2026-10-17T09:00:25+01:00",
       "event_type": "Open Day",
       "url": "https://www.lancaster.ac.uk/events/undergraduate-open-day-2025-09-13-09-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Postgraduate Open Day ",
       "description": "Want to find out more about postgraduate study at Lancaster? Our on campus open day will provide the perfect opportunity to see what we have to offer.",
       "location": "LIB - Commons Lecture Theatre LG28",
-      "start_date": "2026-10-17T10:00:39+01:00",
+      "start_date": "Saturday 17 October 2026, 10:00am to 3:00pm",
+      "start_date_iso": "2026-10-17T10:00:39+01:00",
       "event_type": "Open Day",
       "url": "https://www.lancaster.ac.uk/events/postgraduate-open-day-2026-10-17-10-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Safer Ocean Industries: Defining social sustainability expectations",
       "description": "The Pentland Centre is holding a seminar on\u00a0Safer Ocean Industries: Defining social sustainability expectations, with Dr Mahmoud Gad, Dr Ophelia Chidgey, and Dr Hesham Yousef.",
       "location": "Infolab C60b/c and via Teams",
-      "start_date": "2026-10-20T14:00:51+01:00",
+      "start_date": "Tuesday 20 October 2026, 2:00pm to 3:30pm",
+      "start_date_iso": "2026-10-20T14:00:51+01:00",
       "event_type": "Seminar",
       "url": "https://www.lancaster.ac.uk/events/safer-ocean-industries-defining-social-sustainability-expectations",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Seminar' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "The Power of Words (Shaping Your Distinct Voice): A course for Ambitious Writers. 10-Week Course",
       "description": "21 Oct - 23 Dec 2026 (10-weeks online) \nThere is enormous prestige involved in having published in an academic arena: the focus of this 10-week course will be on the successful placement of your writing in an academic/and or commercial journal or the acceptance of a proposal for a monograph or book.",
       "location": "Online Microsoft Teams",
-      "start_date": "2026-10-21T09:00:28+01:00",
+      "start_date": "Wednesday 21 October 2026, 9:00am to 10:00am",
+      "start_date_iso": "2026-10-21T09:00:28+01:00",
       "event_type": "Course, Training, or Workshop",
       "url": "https://www.lancaster.ac.uk/events/the-power-of-words-shaping-your-distinct-voice-a-course-for-ambitious-writers-10-week-course",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "CWD-RAFM Air Power Lecture: Air Commodore (Retd) Dr Andrew Curtis OBE, 'From deterrence to intervention and back again: The strategic drift of UK defence policy since the Cold War'",
       "description": "The annual Air Power Lecture is co-hosted by the Centre for War and Diplomacy and the Royal Air Force Museum. This year's speaker, Dr Andrew Curtis, draws from a 35-year career in the RAF - including operational appointments in Afghanistan, Libya and Haiti - and a PhD from King's College London.",
       "location": "Campus - room tbc",
-      "start_date": "2026-10-29T17:00:38+00:00",
+      "start_date": "Thursday 29 October 2026, 5:00pm to 6:30pm",
+      "start_date_iso": "2026-10-29T17:00:38+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/cwd-rafm-air-power-lecture-dr-andrew-curtis-from-deterrence-to-intervention-and-back-again-the-strategic-drift-of-uk-defence-policy-since-the-cold-war-2026-10-29-17-00",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Building Business Across Borders: Lessons from China, Cambodia and Vietnam   ",
       "description": "Join business leaders from China, Cambodia and Vietnam for an honest conversation about building careers and ventures between Asia and the UK.  ",
       "location": "Lancaster University Management School",
-      "start_date": "2026-11-05T08:00:45+00:00",
+      "start_date": "Thursday 5 November 2026, 8:00am to 9:30am",
+      "start_date_iso": "2026-11-05T08:00:45+00:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/building-business-across-borders-lessons-from-china-cambodia-and-vietnam",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "LUMS Inaugural Lecture: Professor Pete Thomas",
       "description": "Lancaster University Management School is excited to invite you to our Inaugural Lecture Series, a special set of public lectures celebrating the careers of our newest Professors. ",
       "location": "Management School Lecture Theatre 3",
-      "start_date": "2026-11-11T16:00:46+00:00",
+      "start_date": "Wednesday 11 November 2026, 4:00pm to 5:30pm",
+      "start_date_iso": "2026-11-11T16:00:46+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/lums-inaugural-lecture-professor-pete-thomas",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "A Fireside Chat \u2013 The Accidental Entrepreneur",
       "description": "Join us for a Fireside Chat with Professor Ian Gordon, entrepreneur, educator and proud Lancaster University alumnus.",
       "location": "Lancaster University Management School",
-      "start_date": "2026-11-12T18:00:03+00:00",
+      "start_date": "Thursday 12 November 2026, 6:00pm to 7:30pm",
+      "start_date_iso": "2026-11-12T18:00:03+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/a-fireside-chat-the-accidental-entrepreneur",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments",
+        "mentions 'Fireside Chat'"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Postgraduate Online Open Event - 18th November 2026",
       "description": "Join us online for an insight into postgraduate study at Lancaster University.",
       "location": "Live Online",
-      "start_date": "2026-11-18T12:00:48+00:00",
+      "start_date": "Wednesday 18 November 2026, 12:00pm to 3:00pm",
+      "start_date_iso": "2026-11-18T12:00:48+00:00",
       "event_type": "Open Day",
       "url": "https://www.lancaster.ac.uk/events/postgraduate-online-open-event-18th-november-2026",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Advertising: A Practitioner Perspective ",
       "description": "Go behind the scenes of the advertising industry with the people who actually work in it. Hear directly from people working at the forefront of advertising and marketing and discover what it takes to build a career in this fast-changing industry.",
       "location": "Lancaster University Management School",
-      "start_date": "2026-11-19T16:00:45+00:00",
+      "start_date": "Thursday 19 November 2026, 4:00pm to 6:00pm",
+      "start_date_iso": "2026-11-19T16:00:45+00:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/advertising-a-practitioner-perspective",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "Railways: 200 Years That Transformed Britain",
       "description": "To mark the bicentenary of the birth of the railway (1825), and the 150th anniversary of the Midland Railway's new main line from London to Scotland via the Settle and Carlisle, the Regional Heritage Centre and the Midland Railway Society are co-hosting a study day on Saturday 21 November 2026.",
       "location": "LUMS Lecture Theatre 1",
-      "start_date": "2026-11-21T09:30:46+00:00",
+      "start_date": "Saturday 21 November 2026, 9:30am to 5:00pm",
+      "start_date_iso": "2026-11-21T09:30:46+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/railways-200-years-that-transformed-britain",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "The Business Briefing: Employment Law",
       "description": "Join us for The Business Briefing \u2014 an event series from Brabners, a leading UK law firm, and Lancaster University Management School\u2019s Entrepreneurs in Residence.",
       "location": "Lancaster University Management School",
-      "start_date": "2026-12-02T08:30:45+00:00",
+      "start_date": "Wednesday 2 December 2026, 8:30am to 9:15am",
+      "start_date_iso": "2026-12-02T08:30:45+00:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/the-business-briefing-employment-law",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "LUMS Inaugural Lecture: Professor Jonathan Ivy",
       "description": "Lancaster University Management School is excited to invite you to our Inaugural Lecture Series, a special set of public lectures celebrating the careers of our newest Professors. ",
       "location": "Hybrid: Online and in person",
-      "start_date": "2027-01-27T16:00:46+00:00",
+      "start_date": "Wednesday 27 January 2027, 4:00pm to 5:30pm",
+      "start_date_iso": "2027-01-27T16:00:46+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/lums-inaugural-lecture-professor-jonathan-ivy",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
       "title": "The Business Briefing: Procurement Law",
       "description": "Join us for The Business Briefing \u2014 an event series from Brabners, a leading UK law firm, and Lancaster University Management School\u2019s Entrepreneurs in Residence.",
       "location": "Lancaster University Management School",
-      "start_date": "2027-01-28T08:30:45+00:00",
+      "start_date": "Thursday 28 January 2027, 8:30am to 9:30am",
+      "start_date_iso": "2027-01-28T08:30:45+00:00",
       "event_type": "Other",
       "url": "https://www.lancaster.ac.uk/events/the-business-briefing-procurement-law",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
       "title": "LUMS Inaugural Lecture: Professor Joe Deville",
       "description": "Lancaster University Management School is excited to invite you to our Inaugural Lecture Series, a special set of public lectures celebrating the careers of our newest Professors. ",
       "location": "Hybrid: Online and in person",
-      "start_date": "2027-03-10T16:00:46+00:00",
+      "start_date": "Wednesday 10 March 2027, 4:00pm to 5:30pm",
+      "start_date_iso": "2027-03-10T16:00:46+00:00",
       "event_type": "Talk / Public Lecture",
       "url": "https://www.lancaster.ac.uk/events/lums-inaugural-lecture-professor-joe-deville",
       "free_food": false,
-      "matched_phrases": []
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     }
   ],
-  "free_food_count": 0
+  "free_food_count": 0,
+  "probable_free_food_count": 11
 }

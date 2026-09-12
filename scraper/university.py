@@ -31,7 +31,8 @@ def fetch_events() -> list[dict]:
                 "title": raw.get("Title", ""),
                 "description": raw.get("ShortDescription", ""),
                 "location": raw.get("Location", ""),
-                "start_date": raw.get("StartDate", ""),
+                "start_date": raw.get("DateDetails", {}).get("Format", {}).get("Full", ""),
+                "start_date_iso": raw.get("StartDate", ""),
                 "event_type": raw.get("Type", ""),
                 "url": EVENTS_URL + raw.get("Slug", ""),
             }

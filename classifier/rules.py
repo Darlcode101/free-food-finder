@@ -26,3 +26,30 @@ def is_free_food(text: str) -> tuple[bool, list[str]]:
         return False, []
 
     return True, matches
+
+
+# Event types and phrasing that, from experience, often come with free food/
+# drinks even though the listing never says so explicitly — guest-speaker
+# talks, networking events, and the like. This is a separate, lower-confidence
+# tier from is_free_food's explicit keyword matches.
+_PROBABLE_EVENT_TYPES = {"talk / public lecture", "seminar", "meeting or networking", "conference"}
+
+_PROBABLE_KEYWORDS_RE = re.compile(
+    r"\b(guest speaker|fireside chat|keynote|panel discussion|networking event|"
+    r"drinks reception|welcome reception|industry talk|alumni (?:talk|event)|roundtable)\b",
+    re.IGNORECASE,
+)
+
+
+def is_probable_free_food(title: str, description: str, event_type: str = "") -> tuple[bool, list[str]]:
+    """Heuristic second tier: flag likely-food events even without an explicit mention."""
+    reasons = []
+
+    if event_type and event_type.strip().lower() in _PROBABLE_EVENT_TYPES:
+        reasons.append(f"event type '{event_type}' often includes refreshments")
+
+    keyword_match = _PROBABLE_KEYWORDS_RE.search(f"{title} {description}")
+    if keyword_match:
+        reasons.append(f"mentions '{keyword_match.group(0)}'")
+
+    return bool(reasons), reasons

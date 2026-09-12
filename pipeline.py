@@ -5,7 +5,7 @@ from pathlib import Path
 
 import requests
 
-from classifier.rules import is_free_food
+from classifier.rules import is_free_food, is_probable_free_food
 from scraper import lusu, university
 from scraper.common import get_session
 
@@ -31,6 +31,15 @@ def classify_event(event: dict, session) -> dict:
 
     event["free_food"] = flagged
     event["matched_phrases"] = matches
+
+    probable, reasons = (False, [])
+    if not flagged:
+        probable, reasons = is_probable_free_food(
+            event["title"], event.get("description", ""), event.get("event_type", "")
+        )
+    event["probable_free_food"] = probable
+    event["probable_reasons"] = reasons
+
     return event
 
 
@@ -47,6 +56,7 @@ def run() -> list[dict]:
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "events": classified,
                 "free_food_count": sum(1 for e in classified if e["free_food"]),
+                "probable_free_food_count": sum(1 for e in classified if e["probable_free_food"]),
             },
             indent=2,
         )
@@ -57,6 +67,9 @@ def run() -> list[dict]:
 if __name__ == "__main__":
     results = run()
     flagged = [e for e in results if e["free_food"]]
-    print(f"Scraped {len(results)} events, flagged {len(flagged)} with free food.")
+    probable = [e for e in results if e["probable_free_food"]]
+    print(f"Scraped {len(results)} events, flagged {len(flagged)} with free food, {len(probable)} probable.")
     for event in flagged:
         print(f" - [{event['source']}] {event['title']} ({event['start_date']})")
+    for event in probable:
+        print(f" - probable [{event['source']}] {event['title']} ({event['start_date']}) — {', '.join(event['probable_reasons'])}")

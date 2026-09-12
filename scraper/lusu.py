@@ -6,6 +6,9 @@ note this is a different template from /upcoming-events, which loads its
 event cards via a separate AJAX widget call and isn't used here.
 robots.txt for this site sets only a Crawl-delay, no disallowed paths.
 """
+import re
+from datetime import datetime
+
 from bs4 import BeautifulSoup
 
 from .common import get_session, polite_get
@@ -13,10 +16,24 @@ from .common import get_session, polite_get
 BASE_URL = "https://lancastersu.co.uk"
 EVENTS_URL = f"{BASE_URL}/events"
 
+_DATE_RE = re.compile(r"(\d{2})-(\d{2})-(\d{4})\s*-\s*(\d{2}):(\d{2})")
+
 
 def _text(card, selector: str) -> str:
     el = card.select_one(selector)
     return el.get_text(strip=True) if el else ""
+
+
+def _parse_date(text: str) -> str:
+    """Parse LUSU's 'DD-MM-YYYY - HH:MM' date text into an ISO timestamp, if it matches."""
+    match = _DATE_RE.search(text)
+    if not match:
+        return ""
+    day, month, year, hour, minute = match.groups()
+    try:
+        return datetime(int(year), int(month), int(day), int(hour), int(minute)).isoformat()
+    except ValueError:
+        return ""
 
 
 def fetch_events() -> list[dict]:
@@ -31,6 +48,7 @@ def fetch_events() -> list[dict]:
             continue
 
         status = _text(card, ".event-status")
+        date_text = _text(card, ".event-date")
 
         events.append(
             {
@@ -39,7 +57,8 @@ def fetch_events() -> list[dict]:
                 "group_name": _text(card, ".group-name"),
                 "description": _text(card, ".event-description"),
                 "location": _text(card, ".venue"),
-                "start_date": _text(card, ".event-date"),
+                "start_date": date_text,
+                "start_date_iso": _parse_date(date_text),
                 "is_free": status.lower().startswith("free"),
                 "url": BASE_URL + link["href"],
             }
