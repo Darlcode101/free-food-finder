@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:36:30.303763+00:00",
+  "generated_at": "2026-09-13T20:18:50.062798+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -116,21 +116,6 @@
       "start_date_iso": "2026-10-14T14:00:00",
       "is_paid": false,
       "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Undergraduate Open Day",
-      "description": "Book your place on our Open Day to visit our campus and find out more.",
-      "location": "Lancaster University Campus",
-      "start_date": "Sunday 13 September 2026, 9:00am to 4:00pm",
-      "start_date_iso": "2026-09-13T09:00:25+01:00",
-      "event_type": "Open Day",
-      "is_paid": false,
-      "url": "https://www.lancaster.ac.uk/events/undergraduate-open-day-2026-09-13-09-00",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
