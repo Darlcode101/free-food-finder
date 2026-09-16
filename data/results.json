@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:50:33.219654+00:00",
+  "generated_at": "2026-09-16T16:07:28.056955+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -402,6 +402,23 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Public Lecture: Early Modern Europe and the World",
+      "description": "Professor Francisco Bethencourt will lead this public lecture, exploring the historical construction of the concepts of Europe and, later, the West, examining when these ideas emerged and the political, cultural, and intellectual purposes they served.",
+      "location": "The Dukes",
+      "start_date": "Tuesday 20 October 2026, 6:30pm to 8:00pm",
+      "start_date_iso": "2026-10-20T18:30:54+01:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/public-lecture-early-modern-europe-and-the-world",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "The Power of Words (Shaping Your Distinct Voice): A course for Ambitious Writers. 10-Week Course",
       "description": "21 Oct - 23 Dec 2026 (10-weeks online) \nThere is enormous prestige involved in having published in an academic arena: the focus of this 10-week course will be on the successful placement of your writing in an academic/and or commercial journal or the acceptance of a proposal for a monograph or book.",
       "location": "Online Microsoft Teams",
@@ -480,6 +497,23 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments",
         "mentions 'Fireside Chat'"
+      ]
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Lancaster International Fiction Lecture: Andrey Kurkov \u2018What Can Fiction Do in a Time of War?\u2019",
+      "description": "Litfest is delighted that the 6th Lancaster International Fiction Lecture, a joint venture with the School of Global Affairs at Lancaster University, will be given by the acclaimed Ukrainian writer Andrey Kurkov.",
+      "location": "Faraday Lecture Theatre",
+      "start_date": "Thursday 12 November 2026, 6:30pm to Wednesday 18 November 2026, 8:00pm",
+      "start_date_iso": "2026-11-12T18:30:45+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/lancaster-international-fiction-lecture-andrey-kurk-what-can-fiction-do-in-a-time-of-war",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
       ]
     },
     {
@@ -674,5 +708,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 12
+  "probable_free_food_count": 14
 }
