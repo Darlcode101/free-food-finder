@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:24:26.900784+00:00",
+  "generated_at": "2026-09-17T10:57:19.966845+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -247,6 +247,36 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "On Campus Tour - 3 October 2026, 11:00",
+      "description": "Your campus tour will last approximately 75 minutes. ",
+      "location": "Welcome Hub",
+      "start_date": "Saturday 3 October 2026, 11:00am to 12:15pm",
+      "start_date_iso": "2026-10-03T11:00:00+01:00",
+      "event_type": "Campus Tour",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-19-september-2026-1100-2026-09-19-11-00",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "On Campus Tour - 3 October 2026, 13:00",
+      "description": "Your campus tour will last approximately 75 minutes. ",
+      "location": "Welcome Hub",
+      "start_date": "Saturday 3 October 2026, 1:00pm to 2:15pm",
+      "start_date_iso": "2026-10-03T13:00:00+01:00",
+      "event_type": "Campus Tour",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-3-october-2026-1100",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Webinar (AM): Nature Tools and the Tool Stack",
       "description": "The Pentland Centre for Sustainability in Business is holding a free webinar exploring how businesses can get more value from the growing range of nature-related tools.",
       "location": "Microsoft Teams online ",
@@ -285,6 +315,36 @@
       "event_type": "Talk / Public Lecture",
       "is_paid": true,
       "url": "https://www.lancaster.ac.uk/events/commemorating-the-1826-lancashire-loom-riots",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "On Campus Tour - 10 October 2026, 11:00",
+      "description": "Your campus tour will last approximately 75 minutes. ",
+      "location": "Welcome Hub",
+      "start_date": "Saturday 10 October 2026, 11:00am to 12:15pm",
+      "start_date_iso": "2026-10-10T11:00:00+01:00",
+      "event_type": "Campus Tour",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-3-october-2026-1100-2026-10-03-11-00",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "On Campus Tour - 10 October 2026, 13:00",
+      "description": "Your campus tour will last approximately 75 minutes. ",
+      "location": "Welcome Hub",
+      "start_date": "Saturday 10 October 2026, 1:00pm to 2:15pm",
+      "start_date_iso": "2026-10-10T13:00:00+01:00",
+      "event_type": "Campus Tour",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-3-october-2026-1300",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -416,6 +476,23 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Film screening: A Basket Full of Eggs plus Q&A with Professor Hazel Marsh  ",
+      "description": "Join us for a screening of A Basket Full of Eggs (2025), followed by a presentation and Q&A with Professor Hazel Marsh. The film explores Romani heritage through the story of Minty Smith, revealing the overlooked influence of Romani communities on England's folk music traditions.",
+      "location": "Health Innovation One - Lecture Theatre",
+      "start_date": "Thursday 29 October 2026, 3:00pm to 4:00pm",
+      "start_date_iso": "2026-10-29T15:00:25+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/film-screening-a-basket-full-of-eggs-plus-qa-with-professor-hazel-marsh",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -693,5 +770,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 14
+  "probable_free_food_count": 15
 }
