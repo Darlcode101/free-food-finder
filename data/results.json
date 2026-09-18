@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:34:03.283415+00:00",
+  "generated_at": "2026-09-18T15:48:57.769122+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -445,6 +445,21 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Biomedical and Life Sciences - Postgraduate Information Event 2026",
+      "description": "Love Lancaster? There are some great reasons to continue your studies with us! Join us for this information event, exclusive to BLS and Medical School students, to find out more about the opportunities available to you.",
+      "location": "FUR - Furness LT 2",
+      "start_date": "Monday 19 October 2026, 11:00am to 12:30pm",
+      "start_date_iso": "2026-10-19T11:00:42+01:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/biomedical-and-life-sciences-postgraduate-information-event-2026",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Safer Ocean Industries: Defining social sustainability expectations",
       "description": "The Pentland Centre is holding a seminar on\u00a0Safer Ocean Industries: Defining social sustainability expectations, with Dr Mahmoud Gad, Dr Ophelia Chidgey, and Dr Hesham Yousef.",
       "location": "Infolab C60b/c and via Teams",
@@ -880,6 +895,23 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Royal Institute of Philosophy Talk - John Foster - Earthcare beyond ethics?",
+      "description": "Public lecture and discussion.",
+      "location": "The Storey, ",
+      "start_date": "Thursday 26 November 2026, 6:00pm to 7:00pm",
+      "start_date_iso": "2026-11-26T18:00:13+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/royal-institute-of-philosophy-talk-john-foster-earthcare-beyond-ethics",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 28 November 2026, 11:00",
       "description": "Your campus tour will last approximately 75 minutes. ",
       "location": "Welcome Hub",
@@ -1190,5 +1222,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 15
+  "probable_free_food_count": 16
 }
