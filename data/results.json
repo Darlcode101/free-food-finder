@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T03:06:48.670013+00:00",
+  "generated_at": "2026-09-19T15:21:20.040974+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -116,36 +116,6 @@
       "start_date_iso": "2026-10-14T14:00:00",
       "is_paid": false,
       "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 19 September 2026, 11:00",
-      "description": "Your campus tour will last approximately 1 hour.",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 19 September 2026, 11:00am to 12:00pm",
-      "start_date_iso": "2026-09-19T11:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-5-september-2026-1100-2026-09-05-11-00",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 19 September 2026, 13:00",
-      "description": "Your campus tour will last approximately 1 hour.",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 19 September 2026, 1:00pm to 2:00pm",
-      "start_date_iso": "2026-09-19T13:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-19-september-2026-1100",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
