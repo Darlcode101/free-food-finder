@@ -11,6 +11,20 @@ from scraper.common import get_session
 
 OUTPUT_PATH = Path(__file__).parent / "data" / "results.json"
 
+SOURCES = {
+    "lancastersu.co.uk": lusu.fetch_events,
+    "lancaster.ac.uk": university.fetch_events,
+    "fraserhousehub.co.uk": fraserhouse.fetch_events,
+    "meetup.com": meetup.fetch_events,
+}
+
+
+def load_previous_events() -> list[dict]:
+    try:
+        return json.loads(OUTPUT_PATH.read_text())["events"]
+    except (FileNotFoundError, KeyError, ValueError):
+        return []
+
 
 def classify_event(event: dict, session) -> dict:
     # A known ticket cost means any "food included"/"refreshments provided"
@@ -29,11 +43,12 @@ def classify_event(event: dict, session) -> dict:
     # Descriptions from the LUSU listing page are truncated; if the summary
     # didn't trip the classifier, check the full event page before giving up.
     # Event pages occasionally 404 (event removed/expired since the listing
-    # was fetched) — that just means no extra text to check.
+    # was fetched) or blip on the network — that just means no extra text to
+    # check, not a reason to fail the run.
     if not flagged and event["source"] == "lancastersu.co.uk":
         try:
             full_text = lusu.fetch_event_detail(session, event["url"])
-        except requests.HTTPError:
+        except requests.RequestException:
             full_text = ""
         flagged, matches = is_free_food(f"{event['title']} {full_text}")
         if full_text:
@@ -55,11 +70,20 @@ def classify_event(event: dict, session) -> dict:
 
 def run() -> list[dict]:
     session = get_session()
+    previous = load_previous_events()
 
-    all_events = (
-        lusu.fetch_events() + university.fetch_events() + fraserhouse.fetch_events() + meetup.fetch_events()
-    )
-    classified = [classify_event(event, session) for event in all_events]
+    classified = []
+    for source, fetch in SOURCES.items():
+        try:
+            fresh = fetch()
+        except (requests.RequestException, ValueError) as error:
+            # One flaky or changed site shouldn't fail the whole run or wipe
+            # its events off the page — keep what the last run had for it,
+            # and surface a warning on the Actions run summary.
+            print(f"::warning::{source} failed ({error}); keeping its previous results")
+            classified += [event for event in previous if event["source"] == source]
+            continue
+        classified += [classify_event(event, session) for event in fresh]
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     OUTPUT_PATH.write_text(

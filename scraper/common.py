@@ -3,6 +3,8 @@ import time
 from datetime import datetime
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 USER_AGENT = (
     "free-food-finder/0.1 (+https://github.com/alexanderdarlington/free-food-finder; "
@@ -15,6 +17,10 @@ CRAWL_DELAY_SECONDS = 5  # matches lancastersu.co.uk robots.txt Crawl-delay
 def get_session() -> requests.Session:
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
+    # Scheduled runs have failed on one-off blips (host unreachable, a 15s
+    # read timeout), so retry those a few times with backoff before giving up.
+    retry = Retry(total=3, backoff_factor=2, status_forcelist=(500, 502, 503, 504))
+    session.mount("https://", HTTPAdapter(max_retries=retry))
     return session
 
 
