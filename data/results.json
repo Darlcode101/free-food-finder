@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:10:10.839022+00:00",
+  "generated_at": "2026-09-22T03:17:49.534839+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -1108,21 +1108,6 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ]
-    },
-    {
-      "source": "fraserhousehub.co.uk",
-      "title": "Software Lancaster Meet up: The Waterwitch Monday 21st Sept @18.00",
-      "description": "We're a community of software / tech professionals and enthusiasts who usually meet twice a month in a pub to chat casually about software engineering, great beers, and pretty much anything else.\n\nLink to follow.",
-      "location": "The Waterwitch Pub, Lancaster",
-      "start_date": "Monday 21 September 2026, 6:00pm to 9:00pm",
-      "start_date_iso": "2026-09-21T18:00:00",
-      "event_type": "",
-      "is_paid": false,
-      "url": "https://www.meetup.com/software-lancaster/events/316182160/?eventOrigin=group_upcoming_events",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
     },
     {
       "source": "fraserhousehub.co.uk",
