@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:06:39.048125+00:00",
+  "generated_at": "2026-09-24T16:30:00.001620+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -93,14 +93,14 @@
     },
     {
       "source": "lancastersu.co.uk",
-      "title": "Emergency First Aid at Work - EFAW",
+      "title": "Antisemitism Awareness Sessions for Student Leaders - In person",
       "group_name": "",
-      "description": "Emergency First Aid at Work\u00a0training open to stud ...",
+      "description": "Antisemitism Awareness Session",
       "location": "Students' Union Board Room, B104, Bowland Main, Lancaster University, Lancaster, LA1 4YT",
-      "start_date": "Tuesday 22-09-2026 - 10:00",
-      "start_date_iso": "2026-09-22T10:00:00",
-      "is_paid": true,
-      "url": "https://lancastersu.co.uk/events/emergency-first-aid-at-work-efaw",
+      "start_date": "Wednesday 14-10-2026 - 14:00",
+      "start_date_iso": "2026-10-14T14:00:00",
+      "is_paid": false,
+      "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -112,10 +112,10 @@
       "group_name": "",
       "description": "Antisemitism Awareness Session",
       "location": "Students' Union Board Room, B104, Bowland Main, Lancaster University, Lancaster, LA1 4YT",
-      "start_date": "Wednesday 14-10-2026 - 14:00",
-      "start_date_iso": "2026-10-14T14:00:00",
+      "start_date": "Tuesday 20-10-2026 - 11:00",
+      "start_date_iso": "2026-10-20T11:00:00",
       "is_paid": false,
-      "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
+      "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person-da15",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -322,6 +322,21 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Chinese Mandarin Language Classes",
+      "description": "A 9-week extra-curricular Chinese Mandarin language course for staff, students and members of the public.",
+      "location": "Lancaster University Confucius Institute (The Roundhouse)",
+      "start_date": "Monday 12 October 2026, 12:15pm to Thursday 15 October 2026, 7:45pm",
+      "start_date_iso": "2026-10-12T12:15:00+01:00",
+      "event_type": "Course, Training, or Workshop",
+      "is_paid": true,
+      "url": "https://www.lancaster.ac.uk/events/chinese-mandarin-language-classes-2026-04-28-18-15-2",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "The Business Briefing: Due Diligence ",
       "description": "Join us for The Business Briefing \u2014 an event series from Brabners, a leading UK law firm, and Lancaster University Management School\u2019s Entrepreneurs in Residence.",
       "location": "Lancaster University Management School",
@@ -337,6 +352,21 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Chinese Calligraphy Classes",
+      "description": "A 9-week Chinese calligraphy course (taught in English).",
+      "location": "Lancaster University Confucius Institute (The Roundhouse)",
+      "start_date": "Tuesday 13 October 2026, 6:15pm to 7:45pm",
+      "start_date_iso": "2026-10-13T18:15:00+01:00",
+      "event_type": "Course, Training, or Workshop",
+      "is_paid": true,
+      "url": "https://www.lancaster.ac.uk/events/chinese-calligraphy-classes-2026-04-28-18-15-2",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "A Celebration of Lancaster University Confucius Institute's 15th Anniversary",
       "description": "LUCI's 15th anniversary celebration will consist of music and dance performances by students and staff from our partner, South China University of Technology, as well as by Lancaster University contributors.",
       "location": "Lancaster Institute for the Contemporary Arts (LICA)",
@@ -345,6 +375,21 @@
       "event_type": "Concert or Performance",
       "is_paid": false,
       "url": "https://www.lancaster.ac.uk/events/a-celebration-of-lancaster-university-confucius-institutes-15th-anniversary",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Tai Chi ",
+      "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
+      "location": "Lancaster University Confucius Institute (The Roundhouse)",
+      "start_date": "Wednesday 14 October 2026, 1:30pm to 2:30pm",
+      "start_date_iso": "2026-10-14T13:30:00+01:00",
+      "event_type": "Course, Training, or Workshop",
+      "is_paid": true,
+      "url": "https://www.lancaster.ac.uk/events/tai-chi-2026-04-22-12-00-2",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1111,23 +1156,6 @@
     },
     {
       "source": "fraserhousehub.co.uk",
-      "title": "Fraser House Talks X Alice Ashcroft & Josh Bailey \"The JobFair Journey: How a walk to a carpark became a business\" Thurs 24th Sept @12.30 - 13.00",
-      "description": "Join us as Alice and Josh talk about how they decided to start JobFair. \u00a0We'll learn about the research it's built on, how they collaborated as a team with other Fraser House members, their successful applications of grant funding, and future plans.  Alice Ashcroft is a researcher and consultant who analyses the impact of identity and gendered language in software design and team meetings. Alice has been published in peer-reviewed journals and her PhD, \u201cDesign, Innovation and Software: The Impact of Gender and Language\u201d, focused on how gender affects communication and teamwork in software design and innovation workshops. Their work highlights the need for more inclusive practices that give everyone a voice, helping to improve creativity and collaboration in the design process.  Josh Bailey is the \u00a0founder of  \u00a0    Sqwosh    , an AI engineering and product studio based at Fraser House in Lancaster.  \u00a0    Sqwosh    \u00a0  helps organisations turn AI ideas and early prototypes into dependable products that work in the real world, not just impressive demos. \u00a0His  \u00a0work spans AI strategy, system healthchecks, product design and engineering, and ongoing support after launch, with a particular focus on quality, safety, cost and continuous improvement.    Join us on:    \ud83d\udcc5 Thursday 24th Sept   \ud83d\udd67 12.30 - 13.00   \ud83d\udccd Lecture Theatre, Fraser House Hub    All welcome, no sign up necessary. \u00a0Even better, bring your laptop, trial our space for the day and catch the talk.    See you here soon.",
-      "location": "Fraser House",
-      "start_date": "Thursday 24 September 2026, 12:30pm to 1:00pm",
-      "start_date_iso": "2026-09-24T12:30:00",
-      "event_type": "NETWORKING, EDUCATIONAL",
-      "is_paid": false,
-      "url": "https://fraserhousehub.co.uk/events",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'NETWORKING, EDUCATIONAL' often includes refreshments"
-      ]
-    },
-    {
-      "source": "fraserhousehub.co.uk",
       "title": "Book Launch \"The Ecosystem Mindset\" by Dan Knowles: Fri 2nd Oct @14.00-16.00",
       "description": "Come along to the book launch and get your signed copy of The Ecosystem Mindset\ud83d\udc47  Friday 2nd October @ 2pm - 4pm, Lancaster  How do you turn disconnected ideas, people and projects into an innovation ecosystem that actually works? \u00a0If there's one person who knows the answer to that question it's Dan Knowles.  As the founder of Northern Reach, Dan has played a pivotal role in shaping innovation across Lancashire and building the region's digital ecosystem.\u00a0 You'll get to hear Dan\u2019s take on building stronger regional economies, meet others shaping innovation across Lancashire and Cumbria, and leave with your own signed copy.  If you're a business leader or local authority decision-maker, this is one event you won't want to miss!  Register at the link.",
       "location": "",
@@ -1209,5 +1237,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 17
+  "probable_free_food_count": 16
 }
