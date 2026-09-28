@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:54:03.841600+00:00",
+  "generated_at": "2026-09-28T22:56:00.502235+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -135,23 +135,6 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "DSAIL AI Showcase Event",
-      "description": "The Showcase will provide an opportunity to learn more about the Institute\u2019s current research, teaching, partnerships and strategic priorities, and to discuss future opportunities for collaboration.",
-      "location": "Lancaster House Hotel",
-      "start_date": "Monday 28 September 2026, 9:30am to 5:00pm",
-      "start_date_iso": "2026-09-28T09:30:25+01:00",
-      "event_type": "Meeting or Networking",
-      "is_paid": false,
-      "url": "https://www.lancaster.ac.uk/events/dsail-ai-showcase-event-will-take-place-on-monday-28th-september",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Meeting or Networking' often includes refreshments"
-      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -385,7 +368,7 @@
       "title": "Tai Chi ",
       "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
       "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Wednesday 14 October 2026, 1:30pm to 2:30pm",
+      "start_date": "Wednesday 14 October 2026, 1:30pm to 2:20pm",
       "start_date_iso": "2026-10-14T13:30:00+01:00",
       "event_type": "Course, Training, or Workshop",
       "is_paid": true,
@@ -1237,5 +1220,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 16
+  "probable_free_food_count": 15
 }
