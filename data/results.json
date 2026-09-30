@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:51:35.212182+00:00",
+  "generated_at": "2026-09-30T03:58:21.282985+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -78,21 +78,6 @@
     },
     {
       "source": "lancastersu.co.uk",
-      "title": "Squash jumpers",
-      "group_name": "Squash",
-      "description": "Squash jumpers",
-      "location": "Lancaster University",
-      "start_date": "Wednesday 10-06-2026 - 00:00",
-      "start_date_iso": "2026-06-10T00:00:00",
-      "is_paid": true,
-      "url": "https://lancastersu.co.uk/groups/squash-8fa8/events/squash-jumpers-9686",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancastersu.co.uk",
       "title": "Flapjacks - Fylde Only Bake",
       "group_name": "Baking Society",
       "description": "Welcome to the Baking Society!\n\nThis bake is for ...",
@@ -116,6 +101,21 @@
       "start_date_iso": "2026-10-14T14:00:00",
       "is_paid": false,
       "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancastersu.co.uk",
+      "title": "Antisemitism Awareness Sessions for Student Leaders - In person",
+      "group_name": "",
+      "description": "Antisemitism Awareness Session",
+      "location": "Students' Union Board Room, B104, Bowland Main, Lancaster University, Lancaster, LA1 4YT",
+      "start_date": "Tuesday 20-10-2026 - 11:00",
+      "start_date_iso": "2026-10-20T11:00:00",
+      "is_paid": false,
+      "url": "https://lancastersu.co.uk/events/antisemitism-awareness-sessions-for-student-leaders-in-person-da15",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
