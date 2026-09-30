@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:55:22.520793+00:00",
+  "generated_at": "2026-09-30T17:36:31.095764+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -131,21 +131,6 @@
       "event_type": "Other",
       "is_paid": false,
       "url": "https://www.lancaster.ac.uk/events/restore-eco-market-2026-09-25-10-30",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 30 September 2026, 16:00",
-      "description": "Your campus tour will last approximately 1 hour.",
-      "location": "Welcome Hub",
-      "start_date": "Wednesday 30 September 2026, 4:00pm to 5:00pm",
-      "start_date_iso": "2026-09-30T16:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-23-september-2026-1600",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
