@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:36:31.095764+00:00",
+  "generated_at": "2026-09-30T21:52:18.835030+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -71,21 +71,6 @@
       "start_date_iso": "2026-02-10T00:00:00",
       "is_paid": true,
       "url": "https://lancastersu.co.uk/groups/barbell-f79c/events/lubarbell-champs-2026-t-shirt",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancastersu.co.uk",
-      "title": "Flapjacks - Fylde Only Bake",
-      "group_name": "Baking Society",
-      "description": "Welcome to the Baking Society!\n\nThis bake is for ...",
-      "location": "Fylde Common Room",
-      "start_date": "Saturday 03-10-2026 - 10:30",
-      "start_date_iso": "2026-10-03T10:30:00",
-      "is_paid": true,
-      "url": "https://lancastersu.co.uk/groups/baking-society-06de/events/flapjacks-fylde-only-bake",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
