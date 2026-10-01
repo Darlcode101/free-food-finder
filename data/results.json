@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:52:18.835030+00:00",
+  "generated_at": "2026-10-01T04:07:46.859494+00:00",
   "events": [
     {
       "source": "lancastersu.co.uk",
@@ -26,21 +26,6 @@
       "start_date_iso": "2025-05-19T00:00:00",
       "is_paid": true,
       "url": "https://lancastersu.co.uk/groups/magic-and-circus-society-lumacs/events/lumacs-donation",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancastersu.co.uk",
-      "title": "Transport Payments",
-      "group_name": "Lancaster SSAGO (Student Scouts And Guides)",
-      "description": "Use this to pay for transport to any events. If yo ...",
-      "location": "N/A",
-      "start_date": "Tuesday 11-11-2025 - 18:00",
-      "start_date_iso": "2025-11-11T18:00:00",
-      "is_paid": true,
-      "url": "https://lancastersu.co.uk/groups/lancaster-ssago-student-scouts-and-guides/events/transport-payments",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
