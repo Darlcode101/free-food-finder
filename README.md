@@ -52,6 +52,13 @@ yourself.
   external booking link (TryBooking, Eventbrite, LibCal, ...) scraped from
   the event page — so the site can show a "Sign-up required" badge and a
   direct Register button. Booking links are cached across runs.
+- [`scraper/booking.py`](scraper/booking.py) — for TryBooking and
+  Eventbrite links, reads the schema.org `Offer` data on the booking page
+  to get when sign-up closes (`registration_deadline`) and whether it's
+  fully booked (`registration_status`). Rechecked every run, since events
+  sell out. Other booking sites fall back to any "Booking closes on ..."
+  text on the university event page. The site never shows a deadline later
+  than the event start (organisers sometimes leave sales open past it).
 - [`index.html`](index.html) — a static page that reads `data/results.json`:
   a month calendar (days with events get a dot, click one to filter the
   lists below to that day) plus separate "Confirmed" and "Probably has food"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:29:08.143173+00:00",
+  "generated_at": "2026-10-02T12:38:06.840680+00:00",
   "events": [
     {
       "source": "lancaster.ac.uk",
@@ -34,7 +34,9 @@
       "probable_reasons": [
         "event type 'Conference' often includes refreshments"
       ],
-      "registration_url": "https://www.trybooking.com/uk/GSQY"
+      "registration_url": "https://www.trybooking.com/uk/GSQY",
+      "registration_deadline": "2026-09-17T17:00:00.000",
+      "registration_status": "sold_out"
     },
     {
       "source": "lancaster.ac.uk",
@@ -296,7 +298,9 @@
         "event type 'Talk / Public Lecture' often includes refreshments",
         "mentions 'Fireside Chat'"
       ],
-      "registration_url": "https://www.trybooking.com/uk/GDED"
+      "registration_url": "https://www.trybooking.com/uk/GDED",
+      "registration_deadline": "2026-10-15T18:00:00.000",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -363,7 +367,8 @@
       "probable_reasons": [
         "event type 'Seminar' often includes refreshments"
       ],
-      "registration_url": "https://lancaster-uk.libcal.com/calendar/pentland-centre/c4safe"
+      "registration_url": "https://lancaster-uk.libcal.com/calendar/pentland-centre/c4safe",
+      "registration_deadline": "2026-10-17"
     },
     {
       "source": "lancaster.ac.uk",
@@ -382,7 +387,9 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://www.trybooking.com/uk/GYAZ"
+      "registration_url": "https://www.trybooking.com/uk/GYAZ",
+      "registration_deadline": "2026-10-20T18:00:00.000",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -497,7 +504,9 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://www.trybooking.com/uk/GYJD"
+      "registration_url": "https://www.trybooking.com/uk/GYJD",
+      "registration_deadline": "2026-10-29T15:00:00.000",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -646,7 +655,9 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-pete-thomas-tickets-1998365623374?aff=oddtdtcreator&_gl=1*uypqr0*_up*MQ..*_ga*MTc2NTg3MDQ1Mi4xNzg3MDY1NzMw*_ga_TQVES5V6SH*czE3ODcwNjU3MjkkbzEkZzAkdDE3ODcwNjU3MjkkajYwJGwwJGgw"
+      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-pete-thomas-tickets-1998365623374?aff=oddtdtcreator&_gl=1*uypqr0*_up*MQ..*_ga*MTc2NTg3MDQ1Mi4xNzg3MDY1NzMw*_ga_TQVES5V6SH*czE3ODcwNjU3MjkkbzEkZzAkdDE3ODcwNjU3MjkkajYwJGwwJGgw",
+      "registration_deadline": "2026-11-11T16:00:00Z",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -666,7 +677,9 @@
         "event type 'Talk / Public Lecture' often includes refreshments",
         "mentions 'Fireside Chat'"
       ],
-      "registration_url": "https://www.trybooking.com/uk/GDEJ"
+      "registration_url": "https://www.trybooking.com/uk/GDEJ",
+      "registration_deadline": "2026-11-12T18:00:00.000",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -685,7 +698,8 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://dukeslancaster.org/whats-on/theatre/litfest-andrey-kurkov-lancaster-international-fiction-lecture-2026"
+      "registration_url": "https://dukeslancaster.org/whats-on/theatre/litfest-andrey-kurkov-lancaster-international-fiction-lecture-2026",
+      "registration_deadline": ""
     },
     {
       "source": "lancaster.ac.uk",
@@ -1076,7 +1090,9 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-jonathan-ivy-tickets-1998350686698?aff=oddtdtcreator&_gl=1*ujcd5l*_up*MQ..*_ga*MTAxNzI2ODI3Mi4xNzg3MDY2MjM1*_ga_TQVES5V6SH*czE3ODcwNjYyMzQkbzEkZzEkdDE3ODcwNjYyMzckajU3JGwwJGgw"
+      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-jonathan-ivy-tickets-1998350686698?aff=oddtdtcreator&_gl=1*ujcd5l*_up*MQ..*_ga*MTAxNzI2ODI3Mi4xNzg3MDY2MjM1*_ga_TQVES5V6SH*czE3ODcwNjYyMzQkbzEkZzEkdDE3ODcwNjYyMzckajU3JGwwJGgw",
+      "registration_deadline": "2028-01-27T16:30:00Z",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -1111,7 +1127,9 @@
       "probable_reasons": [
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
-      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-joe-deville-tickets-1997560097023?aff=oddtdtcreator&keep_tld=true"
+      "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-joe-deville-tickets-1997560097023?aff=oddtdtcreator&keep_tld=true",
+      "registration_deadline": "2027-12-15T16:30:00Z",
+      "registration_status": "open"
     },
     {
       "source": "fraserhousehub.co.uk",

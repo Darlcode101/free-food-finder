@@ -143,6 +143,9 @@
       border-radius: 6px;
     }
     .register:hover { filter: brightness(1.1); }
+    .register.closed { background: var(--border); color: var(--muted); }
+    .deadline { color: var(--muted); font-size: 0.8rem; margin-left: 0.6rem; }
+    .deadline.soon { color: var(--signup); font-weight: 600; }
     .empty-state { color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0; }
   </style>
 </head>
@@ -247,6 +250,47 @@
       });
     }
 
+    // registration_deadline is either a full timestamp (from the booking
+    // site) or a bare "YYYY-MM-DD" (from "Booking closes on ..." text on the
+    // university page) — the latter means booking is open all that day.
+    function parseDeadline(iso) {
+      if (!iso) return null;
+      const dateOnly = iso.length === 10;
+      const date = new Date(dateOnly ? iso + 'T23:59:59' : iso);
+      return isNaN(date) ? null : { date, dateOnly };
+    }
+
+    function registerActions(e) {
+      const href = e.registration_url || e.url;
+      let deadline = parseDeadline(e.registration_deadline);
+      // Organisers sometimes leave sales open past the event itself (one
+      // Eventbrite lecture has ticket sales ending a year after it), so
+      // never show a sign-up deadline later than the event's start.
+      const start = e.start_date_iso ? new Date(e.start_date_iso) : null;
+      if (deadline && start && !isNaN(start) && start < deadline.date) {
+        deadline = { date: start, dateOnly: false };
+      }
+      const now = new Date();
+      const closed = e.registration_status === 'sold_out' || (deadline && deadline.date < now);
+
+      if (closed) {
+        const label = e.registration_status === 'sold_out' ? 'Fully booked' : 'Booking closed';
+        return `<div class="actions"><a class="register closed" href="${href}" target="_blank" rel="noopener">${label}</a></div>`;
+      }
+
+      let deadlineText = '';
+      if (deadline) {
+        const opts = { weekday: 'short', day: 'numeric', month: 'short' };
+        if (deadline.date.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
+        if (!deadline.dateOnly) Object.assign(opts, { hour: 'numeric', minute: '2-digit' });
+        const daysLeft = Math.ceil((deadline.date - now) / 86400000);
+        const left = daysLeft <= 1 ? 'closes within a day' : `${daysLeft} days left`;
+        deadlineText = `<span class="deadline${daysLeft <= 3 ? ' soon' : ''}">Sign up by ${deadline.date.toLocaleString(undefined, opts)} · ${left}</span>`;
+      }
+      const label = e.registration_url ? 'Register' : 'Register (see event page)';
+      return `<div class="actions"><a class="register" href="${href}" target="_blank" rel="noopener">${label} ↗</a>${deadlineText}</div>`;
+    }
+
     function eventCard(e, tagClass, tagLabel) {
       const reasons = e.probable_reasons && e.probable_reasons.length
         ? `<div class="why">Why: ${e.probable_reasons.join('; ')}</div>`
@@ -256,9 +300,7 @@
       const signupTag = e.registration_required
         ? '<span class="tag signup">Sign-up required</span>'
         : '';
-      const registerButton = e.registration_required
-        ? `<div class="actions"><a class="register" href="${e.registration_url || e.url}" target="_blank" rel="noopener">${e.registration_url ? 'Register' : 'Register (see event page)'} ↗</a></div>`
-        : '';
+      const registerButton = e.registration_required ? registerActions(e) : '';
       return `
         <div class="event">
           <span class="tag ${tagClass}">${tagLabel}</span>${signupTag}

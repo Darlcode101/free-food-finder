@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 
 from classifier.rules import is_free_food, is_probable_free_food
-from scraper import fraserhouse, lusu, meetup, university
+from scraper import booking, fraserhouse, lusu, meetup, university
 from scraper.common import get_session
 
 OUTPUT_PATH = Path(__file__).parent / "data" / "results.json"
@@ -68,29 +68,50 @@ def classify_event(event: dict, session) -> dict:
     return event
 
 
-def add_registration_url(event: dict, session, known_urls: dict[str, str]) -> None:
-    """Attach the university's external booking link to food events that need sign-up.
+def add_registration_info(event: dict, session, previous_by_url: dict[str, dict]) -> None:
+    """Attach the booking link, sign-up deadline and availability to food events that need sign-up.
 
-    Only done for flagged events (each lookup is another crawl-delayed page
-    fetch), and links found on previous runs are reused rather than refetched.
+    Only done for flagged events, since each lookup is another crawl-delayed
+    page fetch. The university page (link + any "Booking closes on" date)
+    rarely changes, so that's reused from the previous run; the booking
+    site itself is rechecked every run because events sell out.
     """
-    if event["source"] != "lancaster.ac.uk" or not event.get("registration_required"):
+    if not event.get("registration_required"):
         return
     if not (event["free_food"] or event["probable_free_food"]):
         return
-    if event["url"] in known_urls:
-        event["registration_url"] = known_urls[event["url"]]
-        return
-    try:
-        event["registration_url"] = university.fetch_registration_url(session, event["url"])
-    except requests.RequestException:
-        event["registration_url"] = ""
+
+    if event["source"] == "lancaster.ac.uk":
+        previous = previous_by_url.get(event["url"], {})
+        # Results saved before deadlines were tracked lack the key entirely,
+        # so those get refetched once rather than cached without a deadline.
+        if previous.get("registration_url") and "registration_deadline" in previous:
+            event["registration_url"] = previous["registration_url"]
+            event["registration_deadline"] = previous.get("registration_deadline", "")
+        else:
+            try:
+                event["registration_url"], event["registration_deadline"] = (
+                    university.fetch_registration_info(session, event["url"])
+                )
+            except requests.RequestException:
+                event["registration_url"], event["registration_deadline"] = "", ""
+
+    url = event.get("registration_url", "")
+    if url and booking.is_supported(url):
+        try:
+            status = booking.fetch_booking_status(session, url)
+        except requests.RequestException:
+            return
+        # The booking site's own close time beats a date typed into the
+        # university page, which can go stale if booking is extended.
+        event["registration_deadline"] = status["registration_deadline"] or event.get("registration_deadline", "")
+        event["registration_status"] = status["registration_status"]
 
 
 def run() -> list[dict]:
     session = get_session()
     previous = load_previous_events()
-    known_registration_urls = {e["url"]: e["registration_url"] for e in previous if e.get("registration_url")}
+    previous_by_url = {e["url"]: e for e in previous}
 
     classified = []
     for source, fetch in SOURCES.items():
@@ -105,7 +126,7 @@ def run() -> list[dict]:
             continue
         for event in fresh:
             classify_event(event, session)
-            add_registration_url(event, session, known_registration_urls)
+            add_registration_info(event, session, previous_by_url)
         classified += fresh
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
