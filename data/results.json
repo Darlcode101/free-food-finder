@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:01:49.400031+00:00",
+  "generated_at": "2026-10-02T11:52:29.831151+00:00",
   "events": [
     {
       "source": "lancaster.ac.uk",
@@ -227,6 +227,23 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "CWD Work in Progress Seminar - Mustafa Elmenshawi: How to Win a War After It Ends: Propaganda, Memory and the 1973 Arab-Israeli War",
+      "description": "The CWD Work in Progress Seminar is a forum for researchers at Lancaster to discuss their work. All are welcome to attend.",
+      "location": "COS - County South D72",
+      "start_date": "Wednesday 14 October 2026, 1:00pm to 2:00pm",
+      "start_date_iso": "2026-10-14T13:00:54+01:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/cwd-work-in-progress-seminar-mustafa-elmenshawi-how-to-win-a-war-after-it-ends-propaganda-memory-and-the-1973-arab-israeli-war",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -758,6 +775,23 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "CWD-LMHG 2026 Martin Edmonds Memorial Lecture - Professor Caroline Kennedy-Pipe: The New (Old) Geopolitics of the High North",
+      "description": "The annual Martin Edmonds Memorial Lecture is co-hosted by the Centre for War and Diplomacy and the Lancaster Military Heritage Group. This year's speaker is Caroline Kennedy-Pipe, professor of war studies at Loughborough University. A wine reception will follow the talk.",
+      "location": "FAR - Frankland LT",
+      "start_date": "Wednesday 25 November 2026, 5:00pm to 6:30pm",
+      "start_date_iso": "2026-11-25T17:00:03+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "url": "https://www.lancaster.ac.uk/events/cwd-lmhg-2026-martin-edmonds-memorial-lecture-professor-caroline-kennedy-pipe-the-new-old-geopolitics-of-the-high-north",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Royal Institute of Philosophy Talk - John Foster - Earthcare beyond ethics?",
       "description": "Public lecture and discussion.",
       "location": "The Storey, ",
@@ -1037,7 +1071,7 @@
     {
       "source": "fraserhousehub.co.uk",
       "title": "Fraser House Talks X Iseabail Robbie: Thurs 8th Oct @12.30 - 13.00",
-      "description": "Details to follow on Iseabail's talk    \ud83d\udcc5 Thursday 8th\u00a0Oct   \ud83d\udd67 12.30 - 13.00   \ud83d\udccd Lecture Theatre, Fraser House Hub    All welcome, no sign up necessary. \u00a0Even better, bring your laptop, trial our space for the day and catch the talk.    See you here soon.",
+      "description": "Iseabail Robbie   \u00a0  -  \u00a0    TCM Capital    \u00a0  and \"Insights Into Innovation: What's actually working?\"     \u00a0     \ud83d\udcc5 Thursday 8th October     \ud83d\udd67 12.30- 13.00     \ud83d\udccd Lecture Theatre, Fraser House Hub        Discover what's driving UK innovation as Iseabail shares insights from her daily conversations with founders and tech leads across AI, biotech, software and architecture; highlighting the emerging patterns and shifting approaches.        Iseabail studied Natural Sciences at Lancaster University before working nearby as a market researcher for RONIN International. She is now an advisor at TCM Capital, helping UK businesses identify and access funding. When she has the opportunity she loves to return to Lancaster and of course drop in at the hub.        All welcome, no sign up necessary for Thursday's talk, just bring your butties. Even better, bring your laptop and stay and work out of the hub for free for the rest of the day.        All welcome, no sign up necessary. \u00a0Even better, bring your laptop, trial our space for the day and catch the talk.    See you here soon.",
       "location": "",
       "start_date": "Thursday 08 October 2026, 12:30pm to 1:00pm",
       "start_date_iso": "2026-10-08T12:30:00",
@@ -1085,5 +1119,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 15
+  "probable_free_food_count": 17
 }
