@@ -63,6 +63,9 @@ def fetch_events() -> list[dict]:
                 "event_type": categories if on_site else "",
                 "is_paid": bool(has_tickets and cheapest_price > 0),
                 "url": raw.get("TicketsPage") or EVENTS_URL,
+                # Free events still use a (£0) ticket when numbers are capped.
+                "registration_required": bool(has_tickets),
+                "registration_url": (raw.get("TicketsPage") or "") if has_tickets else "",
             }
         )
     return events

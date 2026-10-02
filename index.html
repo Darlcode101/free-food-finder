@@ -14,6 +14,8 @@
       --accent-bg: color-mix(in srgb, var(--accent) 14%, Canvas);
       --probable: #a3690a;
       --probable-bg: color-mix(in srgb, var(--probable) 14%, Canvas);
+      --signup: #b3261e;
+      --signup-bg: color-mix(in srgb, var(--signup) 12%, Canvas);
     }
     * { box-sizing: border-box; }
     body {
@@ -128,6 +130,19 @@
     }
     .tag.confirmed { background: var(--accent-bg); color: var(--accent); }
     .tag.probable { background: var(--probable-bg); color: var(--probable); }
+    .tag.signup { background: var(--signup-bg); color: var(--signup); margin-left: 0.25rem; }
+    .actions { margin-top: 0.7rem; }
+    .register {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.35rem 0.8rem;
+      border-radius: 6px;
+    }
+    .register:hover { filter: brightness(1.1); }
     .empty-state { color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0; }
   </style>
 </head>
@@ -236,13 +251,22 @@
       const reasons = e.probable_reasons && e.probable_reasons.length
         ? `<div class="why">Why: ${e.probable_reasons.join('; ')}</div>`
         : '';
+      // Many "free" events cap numbers and turn away anyone who didn't
+      // sign up, so make that impossible to miss and link straight to the form.
+      const signupTag = e.registration_required
+        ? '<span class="tag signup">Sign-up required</span>'
+        : '';
+      const registerButton = e.registration_required
+        ? `<div class="actions"><a class="register" href="${e.registration_url || e.url}" target="_blank" rel="noopener">${e.registration_url ? 'Register' : 'Register (see event page)'} ↗</a></div>`
+        : '';
       return `
         <div class="event">
-          <span class="tag ${tagClass}">${tagLabel}</span>
+          <span class="tag ${tagClass}">${tagLabel}</span>${signupTag}
           <h3><a href="${e.url}" target="_blank" rel="noopener">${e.title}</a></h3>
           <div class="meta">${e.group_name ? e.group_name + ' · ' : ''}${e.start_date || ''}${e.location ? ' · ' + e.location : ''}</div>
           <div class="desc">${e.description ? e.description.slice(0, 200) : ''}</div>
           ${reasons}
+          ${registerButton}
         </div>
       `;
     }

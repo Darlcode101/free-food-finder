@@ -47,6 +47,11 @@ yourself.
   a known ticket cost (`is_paid`, from LUSU's ticket price or the
   university's `RegistrationType`) — a paid conference ticket that "includes
   lunch" isn't free food, it's food you paid for.
+  Also records `registration_required` (most university events are "Free to
+  attend - registration required") and, for flagged university events, the
+  external booking link (TryBooking, Eventbrite, LibCal, ...) scraped from
+  the event page — so the site can show a "Sign-up required" badge and a
+  direct Register button. Booking links are cached across runs.
 - [`index.html`](index.html) — a static page that reads `data/results.json`:
   a month calendar (days with events get a dot, click one to filter the
   lists below to that day) plus separate "Confirmed" and "Probably has food"

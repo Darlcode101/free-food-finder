@@ -69,6 +69,9 @@ def fetch_events() -> list[dict]:
                 # every event on this group has been free so far.
                 "is_paid": event.get("feeSettings") is not None,
                 "url": event.get("eventUrl", EVENTS_URL),
+                # Meetup events need an RSVP, done on the event page itself.
+                "registration_required": True,
+                "registration_url": event.get("eventUrl", EVENTS_URL),
             }
         )
     return events

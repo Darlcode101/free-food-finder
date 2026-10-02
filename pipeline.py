@@ -68,9 +68,29 @@ def classify_event(event: dict, session) -> dict:
     return event
 
 
+def add_registration_url(event: dict, session, known_urls: dict[str, str]) -> None:
+    """Attach the university's external booking link to food events that need sign-up.
+
+    Only done for flagged events (each lookup is another crawl-delayed page
+    fetch), and links found on previous runs are reused rather than refetched.
+    """
+    if event["source"] != "lancaster.ac.uk" or not event.get("registration_required"):
+        return
+    if not (event["free_food"] or event["probable_free_food"]):
+        return
+    if event["url"] in known_urls:
+        event["registration_url"] = known_urls[event["url"]]
+        return
+    try:
+        event["registration_url"] = university.fetch_registration_url(session, event["url"])
+    except requests.RequestException:
+        event["registration_url"] = ""
+
+
 def run() -> list[dict]:
     session = get_session()
     previous = load_previous_events()
+    known_registration_urls = {e["url"]: e["registration_url"] for e in previous if e.get("registration_url")}
 
     classified = []
     for source, fetch in SOURCES.items():
@@ -83,7 +103,10 @@ def run() -> list[dict]:
             print(f"::warning::{source} failed ({error}); keeping its previous results")
             classified += [event for event in previous if event["source"] == source]
             continue
-        classified += [classify_event(event, session) for event in fresh]
+        for event in fresh:
+            classify_event(event, session)
+            add_registration_url(event, session, known_registration_urls)
+        classified += fresh
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     OUTPUT_PATH.write_text(

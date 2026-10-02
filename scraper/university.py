@@ -5,6 +5,9 @@ directly in the HTML, so we extract that JSON rather than parsing markup.
 """
 import json
 import re
+from urllib.parse import urlparse
+
+from bs4 import BeautifulSoup
 
 from .common import get_session, polite_get
 
@@ -39,7 +42,32 @@ def fetch_events() -> list[dict]:
                 # anything else (including blank) as not-known-to-be-paid,
                 # since most values here just mean "no charge mentioned".
                 "is_paid": "cost to attend" in registration_type.lower(),
+                # "Free to attend - registration required" / "Cost to attend -
+                # booking required" vs "Registration not required - just turn up".
+                # Blank means the feed didn't say, so leave it unknown.
+                "registration_required": (
+                    None if not registration_type
+                    else "not required" not in registration_type.lower()
+                ),
                 "url": EVENTS_URL + raw.get("Slug", ""),
             }
         )
     return events
+
+
+def fetch_registration_url(session, url: str) -> str:
+    """Find the external booking link (TryBooking, Salesforce, ...) on an event page.
+
+    The feed only says *whether* registration is required; the actual link
+    lives on the event page — usually a "Book now" button, otherwise a bare
+    link in the event info box.
+    """
+    response = polite_get(session, url)
+    soup = BeautifulSoup(response.text, "lxml")
+
+    for link in soup.select(".book-now a[href], .event-info-item a[href]"):
+        href = link["href"].strip()
+        host = urlparse(href).netloc
+        if host and not host.endswith("lancaster.ac.uk"):
+            return href
+    return ""
