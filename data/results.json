@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-02T17:27:56.407483+00:00",
+  "generated_at": "2026-10-02T21:49:44.533318+00:00",
   "events": [
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Natures in Translation: AI, Ethics and Environmental Conservation",
-      "description": "This interdisciplinary conference Natures in Translation: AI, Ethics and Environmental Conservation explores the ethical implications of AI-assisted animal translation for environmental conservation and human\u2013environmental relations. ",
-      "location": "Management School",
-      "start_date": "Thursday 1 October 2026, 8:15am to Friday 2 October 2026, 5:45pm",
-      "start_date_iso": "2026-10-01T08:15:33+01:00",
-      "event_type": "Conference",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/natures-in-translation-ai-ethics-and-environmental-conservation",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Conference' often includes refreshments"
-      ],
-      "registration_url": "https://www.trybooking.com/uk/GSQY",
-      "registration_deadline": "2026-09-17T17:00:00.000",
-      "registration_status": "sold_out"
-    },
     {
       "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 3 October 2026, 11:00",
@@ -1191,5 +1170,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 17
+  "probable_free_food_count": 16
 }
