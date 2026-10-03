@@ -1,38 +1,6 @@
 {
-  "generated_at": "2026-10-03T11:06:23.245268+00:00",
+  "generated_at": "2026-10-03T15:43:27.480619+00:00",
   "events": [
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 3 October 2026, 11:00",
-      "description": "Your campus tour will last approximately 75 minutes. ",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 3 October 2026, 11:00am to 12:15pm",
-      "start_date_iso": "2026-10-03T11:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-19-september-2026-1100-2026-09-19-11-00",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 3 October 2026, 13:00",
-      "description": "Your campus tour will last approximately 75 minutes. ",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 3 October 2026, 1:00pm to 2:15pm",
-      "start_date_iso": "2026-10-03T13:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-3-october-2026-1100",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
     {
       "source": "lancaster.ac.uk",
       "title": "Webinar (AM): Nature Tools and the Tool Stack",
