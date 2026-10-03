@@ -31,13 +31,13 @@ def fetch_events() -> list[dict]:
 
     match = _NEXT_DATA_RE.search(response.text)
     if not match:
-        return []
+        raise ValueError("no __NEXT_DATA__ script on the events page")
 
     data = json.loads(match.group(1))
     try:
         raw_events = data["props"]["mobxStore"]["eventsStore"]["eventsPage"]["CalendarEvents"]
     except KeyError:
-        return []
+        raise ValueError("__NEXT_DATA__ no longer has the CalendarEvents list")
 
     events = []
     for raw in raw_events:

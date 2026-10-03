@@ -23,7 +23,7 @@ def fetch_events() -> list[dict]:
 
     match = _ALL_EVENTS_RE.search(response.text)
     if not match:
-        return []
+        raise ValueError("no allEvents JSON on the events page")
 
     raw_events = json.loads(match.group(1))
 

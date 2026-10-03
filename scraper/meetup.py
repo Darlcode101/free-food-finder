@@ -31,19 +31,19 @@ def fetch_events() -> list[dict]:
 
     match = _NEXT_DATA_RE.search(response.text)
     if not match:
-        return []
+        raise ValueError("no __NEXT_DATA__ script on the group page")
 
     apollo = json.loads(match.group(1)).get("props", {}).get("pageProps", {}).get("__APOLLO_STATE__", {})
 
     group = next((v for v in apollo.values() if v.get("__typename") == "Group"), None)
     if group is None:
-        return []
+        raise ValueError("no Group in the embedded Apollo state")
 
     # The upcoming-events query key embeds the timestamp Meetup rendered the
     # page at, so it can't be hardcoded — match it by shape instead.
     upcoming_key = next((k for k in group if _UPCOMING_EVENTS_KEY_RE.match(k)), None)
     if upcoming_key is None:
-        return []
+        raise ValueError("no upcoming-events query in the embedded Apollo state")
 
     events = []
     for edge in group[upcoming_key].get("edges", []):

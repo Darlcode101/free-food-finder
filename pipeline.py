@@ -1,5 +1,6 @@
 """Scrape LUSU, Lancaster University, Fraser House Hub, and Meetup events, flag free-food ones, write data/results.json."""
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,8 +12,12 @@ from scraper.common import get_session
 
 OUTPUT_PATH = Path(__file__).parent / "data" / "results.json"
 
+# Small calendars that can genuinely be empty for a while; their scrapers
+# raise if the page structure is missing, so an empty list here is real.
+MAY_BE_EMPTY = {"fraserhousehub.co.uk", "meetup.com"}
+
 SOURCES = {
-    "lancastersu.co.uk": lusu.fetch_events,
+    "lusu.co.uk": lusu.fetch_events,
     "lancaster.ac.uk": university.fetch_events,
     "fraserhousehub.co.uk": fraserhouse.fetch_events,
     "meetup.com": meetup.fetch_events,
@@ -26,7 +31,7 @@ def load_previous_events() -> list[dict]:
         return []
 
 
-def classify_event(event: dict, session) -> dict:
+def classify_event(event: dict) -> dict:
     # A known ticket cost means any "food included"/"refreshments provided"
     # wording is part of what you paid for, not free — e.g. a £40 conference
     # ticket that includes lunch. Skip classification entirely in that case.
@@ -39,20 +44,6 @@ def classify_event(event: dict, session) -> dict:
 
     text = f"{event['title']} {event.get('description', '')}"
     flagged, matches = is_free_food(text)
-
-    # Descriptions from the LUSU listing page are truncated; if the summary
-    # didn't trip the classifier, check the full event page before giving up.
-    # Event pages occasionally 404 (event removed/expired since the listing
-    # was fetched) or blip on the network — that just means no extra text to
-    # check, not a reason to fail the run.
-    if not flagged and event["source"] == "lancastersu.co.uk":
-        try:
-            full_text = lusu.fetch_event_detail(session, event["url"])
-        except requests.RequestException:
-            full_text = ""
-        flagged, matches = is_free_food(f"{event['title']} {full_text}")
-        if full_text:
-            event["description"] = full_text
 
     event["free_food"] = flagged
     event["matched_phrases"] = matches
@@ -68,7 +59,35 @@ def classify_event(event: dict, session) -> dict:
     return event
 
 
-def add_registration_info(event: dict, session, previous_by_url: dict[str, dict]) -> None:
+# Fields lusu.fetch_event_detail fills in, reused from the previous run so
+# each of the ~200 society events only costs one details request ever.
+LUSU_DETAIL_FIELDS = (
+    "description", "location", "start_date", "start_date_iso", "is_paid",
+    "registration_required", "registration_url", "registration_deadline", "registration_status",
+)
+
+
+def add_lusu_detail(event: dict, session, previous_by_url: dict[str, dict], fetched_now: set[str]) -> None:
+    """Fill in a LUSU/society event's description, times and ticketing from Rubric.
+
+    The listing has no description, so the classifier would only see the
+    title. Known-paid events are skipped since they're never classified.
+    """
+    if event.get("is_paid") is True:
+        return
+    previous = previous_by_url.get(event["url"], {})
+    if "registration_required" in previous:
+        event.update({k: previous[k] for k in LUSU_DETAIL_FIELDS if k in previous})
+        return
+    try:
+        event.update(lusu.fetch_event_detail(session, event["url"]))
+        fetched_now.add(event["url"])
+    except (requests.RequestException, ValueError) as error:
+        # A deleted event or a blip just leaves the listing-only fields.
+        print(f"::warning::lusu.co.uk details failed for {event['url']} ({error})")
+
+
+def add_registration_info(event: dict, session, previous_by_url: dict[str, dict], fetched_now: set[str]) -> None:
     """Attach the booking link, sign-up deadline and availability to food events that need sign-up.
 
     Only done for flagged events, since each lookup is another crawl-delayed
@@ -96,6 +115,15 @@ def add_registration_info(event: dict, session, previous_by_url: dict[str, dict]
             except requests.RequestException:
                 event["registration_url"], event["registration_deadline"] = "", ""
 
+    # Society tickets sell out, so recheck cached Rubric events with food.
+    if event["source"] == "lusu.co.uk" and event["url"] not in fetched_now:
+        try:
+            detail = lusu.fetch_event_detail(session, event["url"])
+        except (requests.RequestException, ValueError):
+            return
+        event.update({k: v for k, v in detail.items() if k.startswith("registration_")})
+        return
+
     url = event.get("registration_url", "")
     if url and booking.is_supported(url):
         try:
@@ -108,25 +136,37 @@ def add_registration_info(event: dict, session, previous_by_url: dict[str, dict]
         event["registration_status"] = status["registration_status"]
 
 
-def run() -> list[dict]:
+def run() -> tuple[list[dict], list[str]]:
+    """Scrape, classify and write results. Returns (events, sources that broke)."""
     session = get_session()
     previous = load_previous_events()
     previous_by_url = {e["url"]: e for e in previous}
+    fetched_now: set[str] = set()
 
-    classified = []
+    classified, broken = [], []
     for source, fetch in SOURCES.items():
         try:
             fresh = fetch()
+            # The university and LUSU always have *some* upcoming events, so
+            # zero means the page layout or API changed under us (as when LUSU
+            # moved to Squarespace and this silently returned nothing).
+            if not fresh and source not in MAY_BE_EMPTY:
+                raise ValueError("returned 0 events — has the site changed?")
         except (requests.RequestException, ValueError) as error:
-            # One flaky or changed site shouldn't fail the whole run or wipe
-            # its events off the page — keep what the last run had for it,
-            # and surface a warning on the Actions run summary.
+            # One flaky or changed site shouldn't wipe its events off the
+            # page — keep what the last run had for it. Network blips are
+            # just a warning (they fix themselves); anything else means the
+            # scraper is broken, so it fails the Actions run to get noticed.
             print(f"::warning::{source} failed ({error}); keeping its previous results")
             classified += [event for event in previous if event["source"] == source]
+            if not isinstance(error, requests.RequestException):
+                broken.append(f"{source}: {error}")
             continue
         for event in fresh:
-            classify_event(event, session)
-            add_registration_info(event, session, previous_by_url)
+            if source == "lusu.co.uk":
+                add_lusu_detail(event, session, previous_by_url, fetched_now)
+            classify_event(event)
+            add_registration_info(event, session, previous_by_url, fetched_now)
         classified += fresh
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
@@ -141,11 +181,11 @@ def run() -> list[dict]:
             indent=2,
         )
     )
-    return classified
+    return classified, broken
 
 
 if __name__ == "__main__":
-    results = run()
+    results, broken = run()
     flagged = [e for e in results if e["free_food"]]
     probable = [e for e in results if e["probable_free_food"]]
     print(f"Scraped {len(results)} events, flagged {len(flagged)} with free food, {len(probable)} probable.")
@@ -153,3 +193,7 @@ if __name__ == "__main__":
         print(f" - [{event['source']}] {event['title']} ({event['start_date']})")
     for event in probable:
         print(f" - probable [{event['source']}] {event['title']} ({event['start_date']}) — {', '.join(event['probable_reasons'])}")
+    if broken:
+        for problem in broken:
+            print(f"::error::{problem}")
+        sys.exit(1)
