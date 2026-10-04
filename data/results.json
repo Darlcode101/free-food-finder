@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:18:25.275959+00:00",
+  "generated_at": "2026-10-04T11:47:54.929081+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -744,7 +744,7 @@
       "event_type": "Ball/Dinner/Gala",
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=79310",
-      "registration_required": true,
+      "registration_required": false,
       "registration_url": "https://campus.hellorubric.com/?eid=79310",
       "registration_deadline": "2026-10-04T21:00:00",
       "registration_status": "open",
@@ -2019,6 +2019,22 @@
       "registration_url": "https://campus.hellorubric.com/?eid=84448",
       "registration_deadline": "2026-10-09T06:00:00",
       "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Archery beginner's Course",
+      "group_name": "Archery",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 09 October 2026, 8:00am",
+      "start_date_iso": "2026-10-09T08:00:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=86764",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
