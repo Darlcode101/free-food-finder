@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:58:44.290912+00:00",
+  "generated_at": "2026-10-10T21:10:24.645830+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -1028,6 +1028,23 @@
       "event_type": "Other",
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=88027",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Womens+ Preston Wall Trip! (19/10)",
+      "group_name": "Mountaineering",
+      "description": "Hey there psyched womens+ individuals, If you fancy escaping the dreary October drizzle then come on our evening trip to Preston Wall where it is sure to be nice and dry! We will be heading down on Monday 19th of October . Unlike Lancaster Wall, Preston has top roping, auto belays, and lead climbing as well as bouldering, so there are lots of different things to get on. This trip is open to all Womens+ members regardless of experience or ability! Cars will be setting off at various times throughout the evening. If you haven't been to Preston Wall (or Kendal Wall) before then please fill out the Registration Form to speed things up when we arrive on the day. If you don't have shoes or a harness we can lend you them, just pop what you need down in the questionnaire when you check out. (This trip is open to for any person who identifies as a woman or another marginalised gender.) The BMC statement of participation: ' Climbing, hill walking and mountaineering can provide life-long physical, social and mental health benefits through exercise and adventure in amazing environments. The BMC recognises these activities involve a risk of personal injury or death. Participants should be aware of and accept these risks and be responsible for their own actions and involvement.' If you have any questions, don't hesitate to get in touch with an exec member!",
+      "location": "PrestonWall Climbing Centre, Preston, UK",
+      "start_date": "Monday 19 October 2026, 5:00pm to 10:00pm",
+      "start_date_iso": "2026-10-19T17:00:00",
+      "event_type": "Trip/Camp",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=88323",
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
@@ -2351,6 +2368,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=85831",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Reality Fracture Society Draft!",
+      "group_name": "LUBATS: Lancaster Uni Board and Tabletop games Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 07 November 2026, 11:00am",
+      "start_date_iso": "2026-11-07T11:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=88473",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
