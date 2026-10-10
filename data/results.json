@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:19:27.037284+00:00",
+  "generated_at": "2026-10-10T11:55:20.004392+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -5094,38 +5094,6 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87444",
       "registration_required": false,
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Commemorating the 1826 Lancashire Handloom Weavers Uprising",
-      "description": "In collaboration with the Open University, the Regional Heritage Centre hosts a special event commemorating 200 years since the 1826 Lancashire handloom weavers uprising with additional commemorative activities, including musical performances and an art exhibition ongoing throughout the afternoon. ",
-      "location": "Lancaster Suite, Lancaster Castle",
-      "start_date": "Saturday 10 October 2026, 9:30am to 12:30pm",
-      "start_date_iso": "2026-10-10T09:30:08+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/commemorating-the-1826-lancashire-loom-riots",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 10 October 2026, 11:00",
-      "description": "Your campus tour will last approximately 75 minutes. ",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 10 October 2026, 11:00am to 12:15pm",
-      "start_date_iso": "2026-10-10T11:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-3-october-2026-1100-2026-10-03-11-00",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
