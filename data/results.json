@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:35:17.444708+00:00",
+  "generated_at": "2026-10-13T22:18:34.055786+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -86,6 +86,22 @@
       "registration_url": "https://campus.hellorubric.com/?eid=88811",
       "registration_deadline": "2026-10-14T05:00:00",
       "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "13/10/26",
+      "group_name": "Hip Hop Dance",
+      "description": "",
+      "location": "",
+      "start_date": "Tuesday 13 October 2026, 6:00pm",
+      "start_date_iso": "2026-10-13T18:00:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89369",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -482,6 +498,26 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Campus Hide and Seek",
+      "group_name": "Architecture Society",
+      "description": "Hide and seek around campus ! Explore new parts of campus while having fun in friendly competition !",
+      "location": "foyer, LICA Building, Bailrigg, Lancaster, UK",
+      "start_date": "Thursday 15 October 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-10-15T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87093",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87093",
+      "registration_deadline": "2026-10-15T22:00:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Level 2 Training Session - Thursday",
       "group_name": "Muay Thai Boxing",
       "description": "Join us for our Level 2 Training session! Make sure you have your membership, or message one of our team to arrange your first free session!",
@@ -653,6 +689,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=87808",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Innnerleithen mtb trip",
+      "group_name": "Cycling",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 16 October 2026, 4:00pm",
+      "start_date_iso": "2026-10-16T16:00:00",
+      "event_type": "Trip/Camp",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=88405",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1339,6 +1391,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=88029",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Learn to Ski - Beginner Ski Course",
+      "group_name": "Lancaster Snow",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 22 October 2026, 4:30pm",
+      "start_date_iso": "2026-10-22T16:30:00",
+      "event_type": "Trip/Camp",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89378",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -2059,7 +2127,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Saturday 15:00 Badminton Session",
+      "title": "Saturday 15:00 Halloween Badminton Session ",
       "group_name": "Badminton Society",
       "description": "",
       "location": "",
@@ -5533,42 +5601,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Artists in Conversation: Parham Ghalamdar",
-      "description": "Join us for our free artist conversation programme. Artists making exciting work across a range of media will be joined by researchers or those working in relevant fields to discuss the ideas, themes and questions driving their work.",
-      "location": "LIC - LICA A36",
-      "start_date": "Tuesday 13 October 2026, 5:00pm to 6:00pm",
-      "start_date_iso": "2026-10-13T17:00:08+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/artists-in-conversation-parham-ghalamdar",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ],
-      "registration_url": "https://www.lancasterarts.org/youre-invited/whats-on/artists-in-conversation-parham-ghalamdar",
-      "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Chinese Calligraphy Classes",
-      "description": "A 9-week Chinese calligraphy course (taught in English).",
-      "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Tuesday 13 October 2026, 6:15pm to 7:45pm",
-      "start_date_iso": "2026-10-13T18:15:00+01:00",
-      "event_type": "Course, Training, or Workshop",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/chinese-calligraphy-classes-2026-04-28-18-15-2",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "A Celebration of Lancaster University Confucius Institute's 15th Anniversary",
       "description": "LUCI's 15th anniversary celebration will consist of music and dance performances by students and staff from our partner, South China University of Technology, as well as by Lancaster University contributors.",
       "location": "Lancaster Institute for the Contemporary Arts (LICA)",
@@ -6760,5 +6792,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 20
+  "probable_free_food_count": 19
 }
