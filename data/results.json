@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:31:56.675632+00:00",
+  "generated_at": "2026-10-14T11:11:26.148156+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -143,26 +143,6 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "LinkedIn workshop + headshots",
-      "group_name": "Lancaster Economics and Finance Society",
-      "description": "Optimise your LinkedIn profile to stand out to recruiters and build your personal brand. Get networking insights, learn to secure finance opportunities online, and receive a professional headshot.",
-      "location": "LT 17, Management School, Bailrigg, Lancaster, UK",
-      "start_date": "Wednesday 14 October 2026, 5:00pm to 6:00pm",
-      "start_date_iso": "2026-10-14T17:00:00",
-      "event_type": "Industry/Career",
-      "is_paid": false,
-      "url": "https://campus.hellorubric.com/?eid=88813",
-      "registration_required": true,
-      "registration_url": "https://campus.hellorubric.com/?eid=88813",
-      "registration_deadline": "2026-10-15T05:00:00",
-      "registration_status": "open",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lusu.co.uk",
       "title": "CD Painting \ud83d\udcbf",
       "group_name": "Craft",
       "description": "",
@@ -205,6 +185,26 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87358",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "LinkedIn workshop + headshots",
+      "group_name": "Lancaster Economics and Finance Society",
+      "description": "Optimise your LinkedIn profile to stand out to recruiters and build your personal brand. Get networking insights, learn to secure finance opportunities online, and receive a professional headshot.",
+      "location": "LT 17, Management School, Bailrigg, Lancaster, UK",
+      "start_date": "Wednesday 14 October 2026, 5:00pm to 6:00pm",
+      "start_date_iso": "2026-10-14T17:00:00",
+      "event_type": "Industry/Career",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=88813",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=88813",
+      "registration_deadline": "2026-10-15T05:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -5634,7 +5634,7 @@
       ],
       "registration_url": "https://www.trybooking.com/uk/GYAZ",
       "registration_deadline": "2026-10-20T18:00:00.000",
-      "registration_status": "sold_out"
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
