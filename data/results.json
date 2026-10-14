@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:32:37.915778+00:00",
+  "generated_at": "2026-10-14T21:18:00.209343+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -536,7 +536,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "BadSoc x GTT Women's Badminton Taster Session",
+      "title": "BadSoc x GTT Women's Taster Session (SOLD OUT)",
       "group_name": "Badminton Society",
       "description": "BADSOC X GTT JOINT CLASS: WOMEN-ONLY BADMINTON TASTER SESSION\ud83c\udff8\ud83d\udc97 We\u2019re teaming up with Girls Training Together to create a women-only session where you can explore the sport at your own pace, build confidence and get comfortable being in a sporting environment, without the pressure of having to prove yourself. You don\u2019t need to be good at badminton. You don\u2019t need to be sporty. You don\u2019t even need to know where to start. You\u2019re allowed to be a beginner, make mistakes, feel a little awkward and learn as you go. You deserve to take up space in sport just as much as anyone else, regardless of your experience or confidence. \ud83d\udc97 Whether you\u2019ve always wanted to try badminton, are looking to build your confidence, or simply want to try something new in a welcoming environment, we\u2019d love for you to join us! And as for the seasoned players, future Olympians\u2026 if it\u2019s free badminton you\u2019re after, we see you \ud83d\udc40\ud83d\ude02 \ud83d\udccd Sports Hall 2 \u23f0 6\u20137pm You don\u2019t need to be a member of either Badminton or Girls Go Training to join us - just bring yourself and a pair of trainers! Equipment will be provided, so all you need to do is turn up and give it a go. \ud83c\udff8\ud83d\udc95 Come as you are. We\u2019ll figure out the rest together. \ud83e\udef6",
       "location": "Sports Hall 2, Sports Centre, Bailrigg, Lancaster, UK",
@@ -5435,22 +5435,6 @@
       "is_paid": true,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/chinese-mandarin-language-classes-2026-04-28-18-15-2",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Forced Entertainment: Cold Sweat",
-      "description": "Lancaster Arts is thrilled to be welcoming back Forced Entertainment for Cold Sweat, with original texts and sound from the group\u2019s artistic director Tim Etchells.",
-      "location": "GHC - Nuffield Theatre",
-      "start_date": "Wednesday 14 October 2026, 7:30pm to 8:45pm",
-      "start_date_iso": "2026-10-14T19:30:54+01:00",
-      "event_type": "Concert or Performance",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/forced-entertainment-cold-sweat",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
