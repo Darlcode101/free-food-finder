@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:19:17.368188+00:00",
+  "generated_at": "2026-10-15T20:56:49.593706+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -403,6 +403,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Advanced Training Session",
+      "group_name": "Sailing",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 17 October 2026, 9:00am",
+      "start_date_iso": "2026-10-17T09:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89807",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "LUWEMS Fresher's Walk 2026",
       "group_name": "Wilderness and Emergency Medicine Society",
       "description": "Fresher's Walk 2026",
@@ -564,6 +580,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=89056",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Beginner Session ",
+      "group_name": "Sailing",
+      "description": "",
+      "location": "",
+      "start_date": "Sunday 18 October 2026, 9:00am",
+      "start_date_iso": "2026-10-18T09:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89805",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -5181,44 +5213,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Chinese Mandarin Language Classes",
-      "description": "A 9-week extra-curricular Chinese Mandarin language course for staff, students and members of the public.",
-      "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Monday 12 October 2026, 12:15pm to Thursday 15 October 2026, 7:45pm",
-      "start_date_iso": "2026-10-12T12:15:00+01:00",
-      "event_type": "Course, Training, or Workshop",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/chinese-mandarin-language-classes-2026-04-28-18-15-2",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "A Fireside Chat \u2013 Resilience, Legacy and Leadership",
-      "description": "Join us for a powerful conversation with Gillian Hall, third-generation cheesemaker and owner of Butlers Farmhouse Cheeses.",
-      "location": "Lancaster University Management School - Lecture Theatre 2",
-      "start_date": "Thursday 15 October 2026, 6:00pm to 7:30pm",
-      "start_date_iso": "2026-10-15T18:00:03+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/a-fireside-chat-resilience-legacy-and-leadership",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments",
-        "mentions 'Fireside Chat'"
-      ],
-      "registration_url": "https://www.trybooking.com/uk/GDED",
-      "registration_deadline": "2026-10-15T18:00:00.000",
-      "registration_status": "open"
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Tim Etchells / Bert & Nasi: L\u2019Addition",
       "description": "Join us in the Nuffield Theatre as creative forces combine in L\u2019Addition, a hilarious and absurd collaboration between Forced Entertainment\u2019s Tim Etchells and performance duo Bert and Nasi.",
       "location": "GHC - Nuffield Theatre",
@@ -6322,5 +6316,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 18
+  "probable_free_food_count": 17
 }
