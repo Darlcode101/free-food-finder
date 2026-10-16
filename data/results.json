@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T10:42:12.508631+00:00",
+  "generated_at": "2026-10-16T16:05:18.119987+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -667,6 +667,26 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Week 3 Social: Pub Golf",
+      "group_name": "Badminton Society",
+      "description": "Welcome to Pub Golf! You will play in teams. No pressure to drink; fun, friendly competition for those who do. Free attendance event. Feel free to pair up (you can buy two tickets per order); otherwise, you can decide your pairs on the day. The concept: We will go to 9 bars and order a drink. Each bar will have a different type of drink, e.g. beer, cider, etc... The aim is to finish your drink in the least amount of sips (exactly like playing golf). The team with the lowest score wins! Each pub will have different challenges, and we will have general game rules too! Meet time: 6pm at Pendle Witch (get there early to start as soon as possible) Game rules: Trip +1 Mention anything work-related +1 Water hazards (Toilet trips) (see below) +2 Break bar rules (see below) +2 Minor spillage +1; Dropped drink +4 Decking it +3 Unfinished drink +3 Drink forfeit + 4 Kicked out bar +7 Chunder +10 Cheating +10 Drinking Holes, bar games and drinks!! Hole 1. Pendle Witch - Post-drink interview (social media content) - Cider - Par 2 Hole 2. Spoons - Do not say yes or no (gestures count too) - Wine - Water Hazard - Par 2 Hole 3. Ring O\u2019Bells - No hands (partner holds drink) - Beer - Par 3 Hole 4. Staggered Inn - No Phones - Mixer - Par 1 Hole 5. The Pub - Balance shuttlecock on your head - Water break / soft drink - Par 1 Hole 6. Spoons - Left Hand Only - Buzz Golf Balls - Water hazard - Par 2 Hole 7. Greens - Team drinks relays (losers' score is doubled) - Alco-pop e.g. VK - Par 2 Hole 8. Molly O\u2019Malley\u2019s - Baby Guinness shot - Water hazard - Par 1 Hole 9. Generations - Corky's shot or J\u00e4ger Bomb - Par 1 Please be aware that our social media exec will be making some people do reels :)",
+      "location": "Pendle Witch, Penny Street, Lancaster, UK",
+      "start_date": "Wednesday 21 October 2026, 6:00pm to 12:00am",
+      "start_date_iso": "2026-10-21T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87074",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87074",
+      "registration_deadline": "2026-10-22T04:30:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Chess Wednesday Social",
       "group_name": "Chess",
       "description": "Chess Society meets every Wednesday from 6-10. This will include a mix of both competitions (like ECF rated rapids and a 960 tournament) and casual society meetups. Ratings will range from 2000 to people who have never played before. Check the discord or Instagram story for exact details on what that exact Wednesday social will entail. We meet in Welcome Centre LT1 on weeks 2,4,6,8,10 and in Welcome Centre LT2 all other weeks of every term. We hope to see everyone there and please feel free to message an exec if you have any questions about our socials.",
@@ -1030,6 +1050,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=88787",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Intramural 7-a-side league",
+      "group_name": "Lancaster University Students' Union",
+      "description": "",
+      "location": "",
+      "start_date": "Sunday 25 October 2026, 3:00pm",
+      "start_date_iso": "2026-10-25T15:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89923",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
