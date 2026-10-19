@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T03:14:49.694026+00:00",
+  "generated_at": "2026-10-19T12:07:38.388476+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -541,6 +541,26 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "STAR Bingo night",
+      "group_name": "Lancaster STAR",
+      "description": "Bingo night!!!!",
+      "location": "Bowland North, seminar room 06., Lancaster University Law School, Bowland North, Bailrigg, Lancaster, UK",
+      "start_date": "Thursday 22 October 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-10-22T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=90303",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=90303",
+      "registration_deadline": "2026-10-23T04:20:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Thursday Badminton Session",
       "group_name": "Badminton Society",
       "description": "",
@@ -668,6 +688,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=90210",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Chuntey Workshop",
+      "group_name": "Edible Campus",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 24 October 2026, 9:30am",
+      "start_date_iso": "2026-10-24T09:30:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90302",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1789,6 +1825,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=87806",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Tyne Tour 2026 (6th-8th November)",
+      "group_name": "Canoe",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 06 November 2026, 5:00pm",
+      "start_date_iso": "2026-11-06T17:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90338",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4787,22 +4839,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Biomedical and Life Sciences - Postgraduate Information Event 2026",
-      "description": "Love Lancaster? There are some great reasons to continue your studies with us! Join us for this information event, exclusive to BLS and Medical School students, to find out more about the opportunities available to you.",
-      "location": "FUR - Furness LT 2",
-      "start_date": "Monday 19 October 2026, 11:00am to 12:30pm",
-      "start_date_iso": "2026-10-19T11:00:42+01:00",
-      "event_type": "Other",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/biomedical-and-life-sciences-postgraduate-information-event-2026",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Safer Ocean Industries: Defining social sustainability expectations",
       "description": "The Pentland Centre is holding a seminar on\u00a0Safer Ocean Industries: Defining social sustainability expectations, with Dr Mahmoud Gad, Dr Ophelia Chidgey, and Dr Hesham Yousef.",
       "location": "George Fox LT 3",
@@ -4840,7 +4876,7 @@
       ],
       "registration_url": "https://www.trybooking.com/uk/GYAZ",
       "registration_deadline": "2026-10-20T18:00:00.000",
-      "registration_status": "open"
+      "registration_status": "sold_out"
     },
     {
       "source": "lancaster.ac.uk",
@@ -4878,6 +4914,26 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Launch of the Register of British Slave Traders Database",
+      "description": "As part of Black History Month, Litfest has collaborated with LU School of Global affairs and Lancaster Black History Group to bring you this special event on campus relating to a new database about Britain\u2019s link to the transatlantic slavery \u2013 the Register of British Slave Traders .",
+      "location": "University Library events space (rear of ground floor)",
+      "start_date": "Wednesday 21 October 2026, 1:30pm to 3:00pm",
+      "start_date_iso": "2026-10-21T13:30:06+01:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/launch-of-the-register-of-british-slave-traders-database",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ],
+      "registration_url": "https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdukeslancaster.org%2Fwhats-on%2Ftheatre%2Flitfest-nick-radburn-will-pettigrew&data=05%7C02%7Cs.abraham1%40lancaster.ac.uk%7C5b56f551136d4dbd88c708df29231760%7C9c9bcd11977a4e9ca9a0bc734090164a%7C0%7C0%7C639274902880052311%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=aDNYvubJ%2FzU3ZnmvcdeXvrpGn4T6Lj254V80Au0hdLE%3D&reserved=0",
+      "registration_deadline": ""
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 21 October 2026, 16:00",
       "description": "Your campus tour will last approximately 75 minutes.",
       "location": "Welcome Hub",
@@ -4903,6 +4959,22 @@
       "is_paid": false,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-24-october-2026-1100",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Campus Orienteering Event",
+      "description": "Explore campus in a new way with this free Campus Orienteering Event.",
+      "location": "Barker House Farm",
+      "start_date": "Saturday 24 October 2026, 12:30pm to 3:30pm",
+      "start_date_iso": "2026-10-24T12:30:34+01:00",
+      "event_type": "Sport",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/campus-orienteering-event",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4957,6 +5029,24 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Lunchtime Talk: Lancaster's LGBTQ+ History",
+      "description": "This lunchtime talk features 300 years of Lancaster's LGBTQ+ History - including prisoners at Lancaster Castle, Lancaster's gay bars, and staff and student life and activism in the 'Queer University' - Lancaster University in the 1970s!",
+      "location": "Library Exhibitions and Events Space",
+      "start_date": "Tuesday 27 October 2026, 12:10pm to 1:30pm",
+      "start_date_iso": "2026-10-27T12:10:40+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/lunchtime-talk-lancasters-lgbtq-history",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -5116,8 +5206,8 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Building Business Across Borders: Lessons from China, Cambodia and Vietnam   ",
-      "description": "Join business leaders from China, Cambodia and Vietnam for an honest conversation about building careers and ventures between Asia and the UK.  ",
+      "title": "Building Business Across Borders: Lessons from Cambodia and Vietnam   ",
+      "description": "Join business leaders from Cambodia and Vietnam for an honest conversation about building careers and ventures between Asia and the UK.  ",
       "location": "Live Online",
       "start_date": "Thursday 5 November 2026, 8:00am to 9:30am",
       "start_date_iso": "2026-11-05T08:00:45+00:00",
@@ -5842,5 +5932,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 17
+  "probable_free_food_count": 19
 }
