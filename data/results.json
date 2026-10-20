@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:56:18.023398+00:00",
+  "generated_at": "2026-10-20T16:21:39.597996+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -627,6 +627,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Leeds Beginners Tournament",
+      "group_name": "Ultimate Frisbee",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 24 October 2026, 9:00am",
+      "start_date_iso": "2026-10-24T09:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90569",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Chuntey Workshop",
       "group_name": "Edible Campus",
       "description": "",
@@ -951,6 +967,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Week 4 Monday Lesson Tickets",
+      "group_name": "Ballroom Dancesport Society",
+      "description": "",
+      "location": "",
+      "start_date": "Monday 26 October 2026, 6:00pm",
+      "start_date_iso": "2026-10-26T18:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90600",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Monday Badminton Session",
       "group_name": "Badminton Society",
       "description": "",
@@ -1186,6 +1218,23 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "LECSoc Pumpkin Carving",
+      "group_name": "LECSoc",
+      "description": "Pumpkin Carving in the LEC atrium at 6pm. Pumpkins, knives and other utensils will be provided and you can bring your own drinks! It is a great w ay to meet people on your course. Please buy a LEC membership before coming. Can't wait to see you all there!",
+      "location": "LEC atrium, Lancaster Environment Centre, Library Avenue, Bailrigg, Lancaster, UK",
+      "start_date": "Thursday 29 October 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-10-29T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=90146",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Level 2 Training Session - Thursday",
       "group_name": "Muay Thai Boxing",
       "description": "Join us for our Level 2 Training session! Make sure you have your membership, or message one of our team to arrange your first free session!",
@@ -1294,6 +1343,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=77297",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Mixed Indoor Regionals",
+      "group_name": "Ultimate Frisbee",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 31 October 2026, 9:00am",
+      "start_date_iso": "2026-10-31T09:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90570",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4861,26 +4926,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Safer Ocean Industries: Defining social sustainability expectations",
-      "description": "The Pentland Centre is holding a seminar on\u00a0Safer Ocean Industries: Defining social sustainability expectations, with Dr Mahmoud Gad, Dr Ophelia Chidgey, and Dr Hesham Yousef.",
-      "location": "George Fox LT 3",
-      "start_date": "Tuesday 20 October 2026, 2:00pm to 3:30pm",
-      "start_date_iso": "2026-10-20T14:00:51+01:00",
-      "event_type": "Seminar",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/safer-ocean-industries-defining-social-sustainability-expectations",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Seminar' often includes refreshments"
-      ],
-      "registration_url": "https://lancaster-uk.libcal.com/calendar/pentland-centre/c4safe",
-      "registration_deadline": "2026-10-17"
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Public Lecture: Early Modern Europe and the World",
       "description": "Professor Francisco Bethencourt will lead this public lecture, exploring the historical construction of the concepts of Europe and, later, the West, examining when these ideas emerged and the political, cultural, and intellectual purposes they served.",
       "location": "The Dukes",
@@ -4897,7 +4942,7 @@
         "event type 'Talk / Public Lecture' often includes refreshments"
       ],
       "registration_url": "https://www.trybooking.com/uk/GYAZ",
-      "registration_deadline": "2026-10-20T18:00:00.000",
+      "registration_deadline": "2026-10-20T18:35:00.000",
       "registration_status": "open"
     },
     {
@@ -5954,5 +5999,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 19
+  "probable_free_food_count": 18
 }
