@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:21:39.597996+00:00",
+  "generated_at": "2026-10-20T21:15:35.435732+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -558,6 +558,26 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "PsychSoc Vision Board Crafting",
+      "group_name": "Psychology Society",
+      "description": "Let's get our craft on at PsychSoc's Vision Board making event! For this event we will be creating vision/ mood boards in the Bow. There will be gel pens, coloured paper, magazines, pencils, and if you are feeling fancy you can use the library printer to customise it even more! It's time to show off your skills and creative flair at this cosy social.",
+      "location": "The Bow- Bowland Common Room, Bowland College, Lancaster University, Bowland Avenue East, Bailrigg, Lancaster, UK",
+      "start_date": "Friday 23 October 2026, 5:00pm to 6:30pm",
+      "start_date_iso": "2026-10-23T17:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=90595",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=90595",
+      "registration_deadline": "2026-10-24T03:00:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Friday 6-7 Astro 2",
       "group_name": "Casual Football",
       "description": "Best session of the week",
@@ -588,6 +608,26 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=88290",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Women's+ Movie Night Social",
+      "group_name": "Muay Thai Boxing",
+      "description": "First Womens+ Social of the Year! \ud83e\udd73 Join us for a chilled movie night social! We\u2019ll have a film on the big screen, face masks and plenty of snacks to share. Unwind at the end of the week and get to know other members away from training. \ud83d\udc86\u200d\u2640\ufe0f\u2728 Come in your comfiest clothes (pyjamas fully encouraged!) \ud83c\udf9f\ufe0f Spaces are limited to 17 people , so you must book a ticket to attend. Tickets are first come, first served, so grab yours quickly! This social is open to all members of the LUMT Womens+ Group. We can\u2019t wait to see you there!",
+      "location": "The Snug, Lancaster University, Lonsdale College, Lancaster, UK",
+      "start_date": "Friday 23 October 2026, 7:00pm to 10:00pm",
+      "start_date_iso": "2026-10-23T19:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=90623",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=90623",
+      "registration_deadline": "2026-10-24T05:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -701,6 +741,26 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=90159",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Lancaster Castle Visit, Serial Vision",
+      "group_name": "Architecture Society",
+      "description": "Saturday (2pm-4pm), Castle Courtyard and St Mary's Church visit. Along the visit, make photos, sketches or prints (do not damage surfaces with the method chosen). Referencing Serial Vision by Gordon Cullen, either sketches or photographs that can be made into a collage for a collection post of everyone's work on the Instagram (Everyone must send their names with the work for us to reference them!). More information about meeting spots and activity can be found on Instagram and WhatsApp.",
+      "location": "Lancaster Castle, Castle Hill, Lancaster, UK",
+      "start_date": "Saturday 24 October 2026, 2:00pm to 4:00pm",
+      "start_date_iso": "2026-10-24T14:00:00",
+      "event_type": "Trip/Camp",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87094",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87094",
+      "registration_deadline": "2026-10-24T20:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4926,27 +4986,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Public Lecture: Early Modern Europe and the World",
-      "description": "Professor Francisco Bethencourt will lead this public lecture, exploring the historical construction of the concepts of Europe and, later, the West, examining when these ideas emerged and the political, cultural, and intellectual purposes they served.",
-      "location": "The Dukes",
-      "start_date": "Tuesday 20 October 2026, 6:30pm to 8:00pm",
-      "start_date_iso": "2026-10-20T18:30:54+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/public-lecture-early-modern-europe-and-the-world",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ],
-      "registration_url": "https://www.trybooking.com/uk/GYAZ",
-      "registration_deadline": "2026-10-20T18:35:00.000",
-      "registration_status": "open"
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "The Power of Words (Shaping Your Distinct Voice): A course for Ambitious Writers. 10-Week Course",
       "description": "21 Oct - 23 Dec 2026 (10-weeks online) \nThere is enormous prestige involved in having published in an academic arena: the focus of this 10-week course will be on the successful placement of your writing in an academic/and or commercial journal or the acceptance of a proposal for a monograph or book.",
       "location": "Online Microsoft Teams",
@@ -5999,5 +6038,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 18
+  "probable_free_food_count": 17
 }
