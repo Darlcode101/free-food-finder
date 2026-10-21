@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:10:26.698792+00:00",
+  "generated_at": "2026-10-21T16:37:00.479765+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -928,6 +928,22 @@
       "event_type": "Class/Workshop",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=83889",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "DD Halloween Bingo!",
+      "group_name": "Defying Dementia Student Society",
+      "description": "",
+      "location": "",
+      "start_date": "Tuesday 27 October 2026, 6:00pm",
+      "start_date_iso": "2026-10-27T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90778",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4812,44 +4828,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Dr Eleanor Drage - What if We Got AI Right?",
-      "description": "What if We Got AI Right?",
-      "location": "Online",
-      "start_date": "Wednesday 21 October 2026, 12:00pm to 1:00pm",
-      "start_date_iso": "2026-10-21T12:00:08+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": false,
-      "url": "https://www.lancaster.ac.uk/events/dr-eleanor-drage-what-if-we-got-ai-right",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ]
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Launch of the Register of British Slave Traders Database",
-      "description": "As part of Black History Month, Litfest has collaborated with LU School of Global affairs and Lancaster Black History Group to bring you this special event on campus relating to a new database about Britain\u2019s link to the transatlantic slavery \u2013 the Register of British Slave Traders .",
-      "location": "University Library events space (rear of ground floor)",
-      "start_date": "Wednesday 21 October 2026, 1:30pm to 3:00pm",
-      "start_date_iso": "2026-10-21T13:30:06+01:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/launch-of-the-register-of-british-slave-traders-database",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ],
-      "registration_url": "https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdukeslancaster.org%2Fwhats-on%2Ftheatre%2Flitfest-nick-radburn-will-pettigrew&data=05%7C02%7Cs.abraham1%40lancaster.ac.uk%7C5b56f551136d4dbd88c708df29231760%7C9c9bcd11977a4e9ca9a0bc734090164a%7C0%7C0%7C639274902880052311%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=aDNYvubJ%2FzU3ZnmvcdeXvrpGn4T6Lj254V80Au0hdLE%3D&reserved=0",
-      "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 21 October 2026, 16:00",
       "description": "Your campus tour will last approximately 75 minutes.",
       "location": "Welcome Hub",
@@ -5845,8 +5823,27 @@
       "probable_reasons": [
         "event type 'NETWORKING, EDUCATIONAL' often includes refreshments"
       ]
+    },
+    {
+      "source": "meetup.com",
+      "title": "Fraser House of Horror, Vol 1: Security Nightmares",
+      "description": "Join us for the spookiest Software Lancaster Talks yet on Friday, 30 October 2026 at 6:00 pm at the haunted Fraser House Hub in Lancaster.\n\nAs Halloween approaches and the nights grow darker, we're bringing you a special Halloween Edition of Software Lancaster Talks, and we've lined up not one, not two, but three incredible speakers for you.\n\nThe theme is Security Nightmares, scary security stories for Halloween. Each of our speakers will be presenting a 10-15 minute postmortem of a real world security incident, how it happened and what the bone-chilling consequences were.\n\nSome nightmares, it turns out, are very real.\n\n\ud83d\udcc5 Date & Time: Friday, 30 October 2026, 18:00\n\ud83d\udccd Location: Fraser House Hub, South Rd, Lancaster LA1 4XQ\n\ud83c\udf55 Perks: Free pizza and drinks!\n\nAnd if you're not quite ready to venture back into the darkness, join us for drinks and post-talk networking from 20:15 onwards at The Royal Hotel & Bar, LA1 1YD.",
+      "location": "Fraser House Hub, Lancaster",
+      "start_date": "Friday 30 October 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-10-30T18:00:00Z",
+      "event_type": "Talk / Meetup",
+      "is_paid": false,
+      "url": "https://www.meetup.com/software-lancaster-talks/events/317070715/",
+      "registration_required": true,
+      "registration_url": "https://www.meetup.com/software-lancaster-talks/events/317070715/",
+      "free_food": true,
+      "matched_phrases": [
+        "Free pizza and drinks"
+      ],
+      "probable_free_food": false,
+      "probable_reasons": []
     }
   ],
-  "free_food_count": 0,
-  "probable_free_food_count": 17
+  "free_food_count": 1,
+  "probable_free_food_count": 15
 }
