@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:18:26.753001+00:00",
+  "generated_at": "2026-10-21T11:10:26.698792+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -4812,22 +4812,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "The Power of Words (Shaping Your Distinct Voice): A course for Ambitious Writers. 10-Week Course",
-      "description": "21 Oct - 23 Dec 2026 (10-weeks online) \nThere is enormous prestige involved in having published in an academic arena: the focus of this 10-week course will be on the successful placement of your writing in an academic/and or commercial journal or the acceptance of a proposal for a monograph or book.",
-      "location": "Online Microsoft Teams",
-      "start_date": "Wednesday 21 October 2026, 9:00am to 10:00am",
-      "start_date_iso": "2026-10-21T09:00:28+01:00",
-      "event_type": "Course, Training, or Workshop",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/the-power-of-words-shaping-your-distinct-voice-a-course-for-ambitious-writers-10-week-course",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Dr Eleanor Drage - What if We Got AI Right?",
       "description": "What if We Got AI Right?",
       "location": "Online",
@@ -4984,7 +4968,7 @@
       "source": "lancaster.ac.uk",
       "title": "Artists in Conversation: Peter Fillingham",
       "description": "Join us for our free artist conversation programme. Artists making exciting work across a range of media will be joined by researchers or those working in relevant fields to discuss the ideas, themes and questions driving their work.",
-      "location": "LIC - LICA A36",
+      "location": "GHC - Jack Hylton Room",
       "start_date": "Tuesday 27 October 2026, 5:00pm to 6:00pm",
       "start_date_iso": "2026-10-27T17:00:08+00:00",
       "event_type": "Talk / Public Lecture",
