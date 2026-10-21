@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:37:00.479765+00:00",
+  "generated_at": "2026-10-21T21:15:40.838508+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -4821,22 +4821,6 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87444",
       "registration_required": false,
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 21 October 2026, 16:00",
-      "description": "Your campus tour will last approximately 75 minutes.",
-      "location": "Welcome Hub",
-      "start_date": "Wednesday 21 October 2026, 4:00pm to 5:15pm",
-      "start_date_iso": "2026-10-21T16:00:00+01:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-7-october-2026-1600-2026-10-07-16-00",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
