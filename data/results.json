@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:10:06.485167+00:00",
+  "generated_at": "2026-10-22T16:38:11.961572+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -463,6 +463,22 @@
       "registration_url": "https://campus.hellorubric.com/?eid=84325",
       "registration_deadline": "2026-10-22T04:00:00",
       "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Hallowen Movie night",
+      "group_name": "Filipino",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 24 October 2026, 5:00pm",
+      "start_date_iso": "2026-10-24T17:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90990",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -3057,6 +3073,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=88784",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Bowland Winter Ball 2026",
+      "group_name": "Bowland College",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 03 December 2026, 5:45pm",
+      "start_date_iso": "2026-12-03T17:45:00",
+      "event_type": "Ball/Dinner/Gala",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=90449",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
