@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T03:22:32.359311+00:00",
+  "generated_at": "2026-10-23T11:00:42.153116+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -5226,6 +5226,22 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Live Stream Campus and City Tour - 17 November, 12:00",
+      "description": "The campus and city tour will last approximately 1 hour.",
+      "location": "Online",
+      "start_date": "Tuesday 17 November 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-11-17T12:00:00+00:00",
+      "event_type": "Webinar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/live-stream-campus-and-city-tour-17-november-1200",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Gettysburg Lecture 2026",
       "description": "Why Black People Threaten the United States: Gettysburg as a case study in American History and Identity",
       "location": "WEL - Welcome Centre LT3 A40",
@@ -5707,6 +5723,22 @@
       "is_paid": false,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-12-december-2026-1100",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Live Stream Campus and City Tour - 15 December, 12:00",
+      "description": "The campus and city tour will last approximately 1 hour.",
+      "location": "Online",
+      "start_date": "Tuesday 15 December 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-12-15T12:00:00+00:00",
+      "event_type": "Webinar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/live-stream-campus-and-city-tour-17-november-1200-2026-11-17-12-00",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
