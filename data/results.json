@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:00:42.153116+00:00",
+  "generated_at": "2026-10-23T16:28:04.072913+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -640,7 +640,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Daisy Beginner",
+      "title": "Daisy Beginner, 2-3pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -672,7 +672,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Daisy Beginner",
+      "title": "Daisy Beginner, 3-4pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -700,6 +700,28 @@
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Week 4 Social: Halloween Movie Night",
+      "group_name": "Badminton Society",
+      "description": "Halloween Movie Night! \ud83c\udf83 Respond to the WhatsApp announcement to suggest a film - we will have a vote on the night. \ud83c\udfa5 Feel free to bring your own drinks and snacks. Please let us know of any allergies beforehand. \ud83c\udf7f As it's Halloween week, you're more than welcome to dress up if you'd like! \ud83e\udddb\u200d\u2642\ufe0f \ud83e\udddf\u200d\u2640\ufe0f Arrive from 6:30pm , when we will take a vote, before starting the film at 7pm .\u00a0\ud83d\udd56 We will be watching in Furness Lecture Theatre 1 . See BOO there! \ud83d\udc7b",
+      "location": "Furness College, Tower Avenue, Bailrigg, Lancaster, UK",
+      "start_date": "Wednesday 28 October 2026, 6:30pm to 10:00pm",
+      "start_date_iso": "2026-10-28T18:30:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87078",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87078",
+      "registration_deadline": "2026-10-29T06:00:00",
+      "registration_status": "open",
+      "free_food": true,
+      "matched_phrases": [
+        "free to bring your own drinks"
+      ],
       "probable_free_food": false,
       "probable_reasons": []
     },
@@ -858,7 +880,23 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Zac Beginner",
+      "title": "Halloween Craft Night",
+      "group_name": "Women in STEM Society",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 29 October 2026, 6:30pm",
+      "start_date_iso": "2026-10-29T18:30:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91172",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Zac Beginner, 7-8pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -874,7 +912,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Zac Improver",
+      "title": "Zac Improver, 8-9pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -900,6 +938,42 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=77297",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Halloween costume contest",
+      "group_name": "ISSUE Fashion Society",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 30 October 2026, 3:00pm",
+      "start_date_iso": "2026-10-30T15:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91182",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Week 4 Social: Halloween Bar Crawl",
+      "group_name": "Badminton Society",
+      "description": "Week 4 Social: Halloween Bar Crawl \ud83c\udf83\ud83d\udc7b Meet time: 8pm Dress Code: Halloween Costume Shout-out to the person with the best costume! \ud83d\ude09 The Route: 1. Pendle Witch 2. Hogarth's 3. Generations 4. Molly's 5. Sugar - Grab your tickets before they sell out! This is the final release! - https://fixr.co/event/murder-on-the-dancefloor-tickets-116255078/tickets Can't wait to see you all in your finest costumes! \ud83e\udddb",
+      "location": "Lancaster, UK",
+      "start_date": "Friday 30 October 2026, 8:00pm to 12:00am",
+      "start_date_iso": "2026-10-30T20:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87080",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87080",
+      "registration_deadline": "2026-10-31T08:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1172,7 +1246,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Daisy Beginner",
+      "title": "Daisy Beginner, 2-3pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -1204,7 +1278,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Daisy Beginner",
+      "title": "Daisy Beginner, 3-4pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -1392,7 +1466,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Zac Beginner",
+      "title": "Zac Beginner, 7-8pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -1424,7 +1498,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Zac Improver",
+      "title": "Zac Improver, 8-9pm",
       "group_name": "Pole Fitness",
       "description": "",
       "location": "",
@@ -5943,6 +6017,6 @@
       "probable_reasons": []
     }
   ],
-  "free_food_count": 1,
+  "free_food_count": 2,
   "probable_free_food_count": 19
 }
