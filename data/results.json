@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:43:23.796570+00:00",
+  "generated_at": "2026-10-25T15:33:20.986176+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -689,7 +689,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Halloween costume contest",
+      "title": "HALLOWEEN COSTUME CONTEST",
       "group_name": "ISSUE Fashion Society",
       "description": "",
       "location": "",
@@ -697,7 +697,7 @@
       "start_date_iso": "2026-10-30T15:00:00",
       "event_type": "Other",
       "is_paid": true,
-      "url": "https://campus.hellorubric.com/?eid=91182",
+      "url": "https://campus.hellorubric.com/?eid=91423",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -2114,6 +2114,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Gingerbread Cake",
+      "group_name": "Baking Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 21 November 2026, 10:30am",
+      "start_date_iso": "2026-11-21T10:30:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91407",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "LUTTC Academy",
       "group_name": "Table Tennis",
       "description": "LUTTC Academy: This is our extra development sessions for those looking to improve and climb through the ranks :D. This session will focus more on drills as well as learning the basics. Spaces are very limited (its a much smaller space than the sports centre) so be sure to book your spot quickly.",
@@ -2502,6 +2518,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Chocolate Orange Cookies",
+      "group_name": "Baking Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 28 November 2026, 10:30am",
+      "start_date_iso": "2026-11-28T10:30:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91408",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "LUTTC Academy",
       "group_name": "Table Tennis",
       "description": "LUTTC Academy: This is our extra development sessions for those looking to improve and climb through the ranks :D. This session will focus more on drills as well as learning the basics. Spaces are very limited (its a much smaller space than the sports centre) so be sure to book your spot quickly.",
@@ -2859,6 +2891,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=77302",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Mince Pies",
+      "group_name": "Baking Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 05 December 2026, 10:30am",
+      "start_date_iso": "2026-12-05T10:30:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91410",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
