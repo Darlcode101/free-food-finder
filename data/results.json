@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:42:16.191280+00:00",
+  "generated_at": "2026-10-27T11:36:18.504051+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -609,6 +609,22 @@
       "registration_url": "https://campus.hellorubric.com/?eid=87080",
       "registration_deadline": "2026-10-31T08:00:00",
       "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Hike to Glenridding",
+      "group_name": "Hiking Club",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 31 October 2026, 8:00am",
+      "start_date_iso": "2026-10-31T08:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91736",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
