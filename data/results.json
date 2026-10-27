@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:29:04.584480+00:00",
+  "generated_at": "2026-10-27T21:50:06.081121+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -1271,7 +1271,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Filled Chocolate Muffins",
+      "title": "Double Chocolate Muffins",
       "group_name": "Baking Society",
       "description": "",
       "location": "",
@@ -2338,6 +2338,26 @@
       "event_type": "Class/Workshop",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=83893",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Casestudy Workshop w/Jack Kim - 180DC x LEFS",
+      "group_name": "Lancaster Economics and Finance Society",
+      "description": "",
+      "location": "Lancaster University Management School, Bailrigg, Lancaster, Vereinigtes K\u00f6nigreich",
+      "start_date": "Tuesday 24 November 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-11-24T18:00:00",
+      "event_type": "Industry/Career",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=91847",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=91847",
+      "registration_deadline": "2026-11-26T05:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4414,42 +4434,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Artists in Conversation: Peter Fillingham",
-      "description": "Join us for our free artist conversation programme. Artists making exciting work across a range of media will be joined by researchers or those working in relevant fields to discuss the ideas, themes and questions driving their work.",
-      "location": "GHC - Jack Hylton Room",
-      "start_date": "Tuesday 27 October 2026, 5:00pm to 6:00pm",
-      "start_date_iso": "2026-10-27T17:00:08+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/artists-in-conversation-peter-fillingham",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ],
-      "registration_url": "https://www.lancasterarts.org/youre-invited/whats-on/artists-in-conversation-peter-fillingham",
-      "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Chinese Calligraphy Classes (taught in English)",
-      "description": "Open to beginner and advanced level learners to learn and practice calligraphy together.",
-      "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Tuesday 27 October 2026, 6:15pm to 7:45pm",
-      "start_date_iso": "2026-10-27T18:15:00+00:00",
-      "event_type": "Course, Training, or Workshop",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/chinese-calligraphy-classes-taught-in-english",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Tai Chi ",
       "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
       "location": "Lancaster University Confucius Institute (The Roundhouse)",
@@ -5795,5 +5779,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 18
+  "probable_free_food_count": 17
 }
