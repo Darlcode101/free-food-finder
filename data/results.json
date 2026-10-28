@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-10-28T03:58:27.605180+00:00",
+  "generated_at": "2026-10-28T12:07:29.817866+00:00",
   "events": [
+    {
+      "source": "lusu.co.uk",
+      "title": "Kendal Wall Trip (2/11)",
+      "group_name": "Mountaineering",
+      "description": "LUMC is Kendal bound on Monday 2nd November! In the afternoon and evening we will set off for some amazing climbing (at the tallest indoor wall in England!) Unlike Lancaster Wall, Kendal has top roping, auto belays, and lead climbing as well as bouldering, so there are lots of different things to get on. This trip is open to all LUMC members regardless of experience or ability! Cars will be setting off at various times throughout the evening. If you haven't been to Kendal Wall before then please fill out the Registration Form to speed things up when we arrive on the day. If you have registered and climbed at Preston Wall then you don't need to do this. If you don't have shoes or a harness we can lend you them, just pop what you need down in the questionnaire when you buy your ticket. The BMC statement of participation: ' Climbing, hill walking and mountaineering can provide life-long physical, social and mental health benefits through exercise and adventure in amazing environments. The BMC recognises these activities involve a risk of personal injury or death. Participants should be aware of and accept these risks and be responsible for their own actions and involvement.' If you have any questions, don't hesitate to get in touch with an exec member!",
+      "location": "KendalWall, Lakeland Climbing Centres, Mint Bridge Road, Kendal, UK",
+      "start_date": "Wednesday 28 October 2026, 12:00pm to 11:59pm",
+      "start_date_iso": "2026-10-28T12:00:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=91924",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
     {
       "source": "lusu.co.uk",
       "title": "Beginners' Session",
