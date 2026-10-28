@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:07:29.817866+00:00",
+  "generated_at": "2026-10-28T22:11:29.543667+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -12,6 +12,23 @@
       "event_type": "Other",
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=91924",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Peak District Weekend Trip!",
+      "group_name": "Mountaineering",
+      "description": "Peak District. 13th-15th. AMAZING climbing! Staying in Bradwell Village Hall, accommodation, food and transport for the weekend is included in the price of tickets. This trip is for everyone regardless of ability or experience! Pre-trip meeting at 6pm on Tuesday 10th, location TBC. Please attend this! An email will be sent out before the trip with any final information. Different ticket types for this trip: Climber ticket - for anyone! Competent second - to buy this ticket you must be able to belay on halves, take out gear and abseil. Leader - for prearranged club leaders only. Driver - for prearranged club drivers only. Boulderer - prearranged group If you are unsure what ticket type to buy an exec member can advise you. Kit list: Waterproof Coat and Trousers (expect it to be wet!) Hiking Boots/Approach shoes Outdoorsy layers (not jeans); spare layers a good idea. Headtorch (+ batteries!) Water Bottles (~2L total) Toiletries, towel etc. Sleeping bag (and pillow/pillowcase) Sleeping roll mat! Any climbing gear you own (ie. Shoes, Harness, Helmet etc.); see the google form. Rucksack to carry your kit to the crag. If you need to borrow anything from this list you will have the opportunity to say so on the google form . BMC statement of participation: Climbing, hill walking and mountaineering can provide life-long physical, social and mental health benefits through exercise and adventure in amazing environments. The BMC recognises these activities involve a risk of personal injury or death. Participants should be aware of and accept these risks and be responsible for their own actions and involvement. Please fill out the google form as soon as you have bought your ticket! Any questions? Message an exec member!",
+      "location": "Peak District, UK",
+      "start_date": "Wednesday 28 October 2026, 12:30pm to 11:59pm",
+      "start_date_iso": "2026-10-28T12:30:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=91926",
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
@@ -150,7 +167,7 @@
       "event_type": "Party/BBQ/Social",
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87078",
-      "registration_required": true,
+      "registration_required": false,
       "registration_url": "https://campus.hellorubric.com/?eid=87078",
       "registration_deadline": "2026-10-29T06:00:00",
       "registration_status": "open",
@@ -1129,6 +1146,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": " LUWinS Surgery- Innovation & Precision Conference",
+      "group_name": "Lancaster University Medical Society (Lancaster MedSoc)",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 07 November 2026, 9:30am",
+      "start_date_iso": "2026-11-07T09:30:00",
+      "event_type": "Industry/Career",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=91565",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Double Chocolate Muffins",
       "group_name": "Baking Society",
       "description": "",
@@ -1845,6 +1878,28 @@
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "ENT Academic Teaching Session",
+      "group_name": "Richard Owen Surgical Society",
+      "description": "Ever wondered what it takes to treat head and neck cancers, where surgeons must not only remove disease but also preserve a patient\u2019s ability to speak, swallow and breathe? Join us for an exciting evening with Mr Sharan Jayaram, Consultant ENT and Head & Neck Surgeon and Clinical Director of ENT at the Royal Preston Hospital. Drawing on his extensive clinical experience, Mr Jayaram will provide fascinating insights into the management of head and neck cancers and thyroid surgery, exploring the challenges, complexities and decision-making involved in these procedures. Whether you\u2019re considering a career in surgery, interested in ENT, or simply curious about how complex cancer care is delivered, this is a fantastic opportunity to learn from an experienced consultant surgeon. Come along, learn something new and enjoy free food and drink!",
+      "location": "RLI Lecture Theatre, Ashton Road, Lancaster, Lancashire LA1 4RP, UK",
+      "start_date": "Tuesday 17 November 2026, 7:00pm to 8:00pm",
+      "start_date_iso": "2026-11-17T19:00:00",
+      "event_type": "Class/Workshop",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=91862",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=91862",
+      "registration_deadline": "2026-11-11T09:36:00",
+      "registration_status": "open",
+      "free_food": true,
+      "matched_phrases": [
+        "free food and drink"
+      ],
       "probable_free_food": false,
       "probable_reasons": []
     },
@@ -4309,38 +4364,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Tai Chi ",
-      "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
-      "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Wednesday 28 October 2026, 1:30pm to 2:20pm",
-      "start_date_iso": "2026-10-28T13:30:00+00:00",
-      "event_type": "Sport",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/tai-chi-2026-10-28-13-30",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 28 October 2026, 16:00",
-      "description": "Your campus tour will last approximately 75 minutes.",
-      "location": "Welcome Hub",
-      "start_date": "Wednesday 28 October 2026, 4:00pm to 5:15pm",
-      "start_date_iso": "2026-10-28T16:00:00+00:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-21-october-2026-1600",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "October Fun with Floats",
       "description": "Enjoy some quality time with the family at our October Fun with Floats session, taking place on Thursday 29 October at Sport Lancaster from 10.00am.",
       "location": "Lancaster University Sports Centre",
@@ -5653,6 +5676,6 @@
       "probable_reasons": []
     }
   ],
-  "free_food_count": 2,
+  "free_food_count": 3,
   "probable_free_food_count": 17
 }
