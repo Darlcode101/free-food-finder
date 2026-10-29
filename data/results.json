@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T04:22:23.267753+00:00",
+  "generated_at": "2026-10-29T12:18:11.420251+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -946,6 +946,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=90338",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Hikes to Thrilmere (Weekend Trip!)",
+      "group_name": "Hiking Club",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 06 November 2026, 5:00pm",
+      "start_date_iso": "2026-11-06T17:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92071",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4164,22 +4180,6 @@
       "is_paid": true,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/chinese-mandarin-language-classes-2026-10-26-18-15",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "October Fun with Floats",
-      "description": "Enjoy some quality time with the family at our October Fun with Floats session, taking place on Thursday 29 October at Sport Lancaster from 10.00am.",
-      "location": "Lancaster University Sports Centre",
-      "start_date": "Thursday 29 October 2026, 10:00am to 11:00am",
-      "start_date_iso": "2026-10-29T10:00:10+00:00",
-      "event_type": "Sport",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/october-fun-with-floats",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
