@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:18:11.420251+00:00",
+  "generated_at": "2026-10-29T22:26:34.607735+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -67,6 +67,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=91462",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "North West Counties League/Regionals Tickets",
+      "group_name": "Squash",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 29 October 2026, 5:26pm",
+      "start_date_iso": "2026-10-29T17:26:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92156",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -323,6 +339,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=91736",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Advanced training session",
+      "group_name": "Sailing",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 31 October 2026, 9:00am",
+      "start_date_iso": "2026-10-31T09:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92191",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -937,7 +969,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Tyne Tour 2026 (6th-8th November)",
+      "title": "Tyne Tour 2026 (6th-8th November) ",
       "group_name": "Canoe",
       "description": "",
       "location": "",
@@ -1329,6 +1361,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87705",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "STAR Mug making ",
+      "group_name": "Lancaster STAR",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 12 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-12T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92120",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1804,6 +1852,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87706",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "STAR Samosa making ",
+      "group_name": "Lancaster STAR",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 19 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-19T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92122",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -2677,6 +2741,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=77302",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Manchester Christmas Markets Trip \ud83c\udf84",
+      "group_name": "Lancaster University Students' Union",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 05 December 2026, 9:00am",
+      "start_date_iso": "2026-12-05T09:00:00",
+      "event_type": "Trip/Camp",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92072",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4171,22 +4251,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Chinese Mandarin Language Classes",
-      "description": "Extra-curricular Chinese Mandarin language classes for staff, students and members of the public.",
-      "location": "The Roundhouse (Confucius Institute)",
-      "start_date": "Monday 26 October 2026, 6:15pm to Thursday 29 October 2026, 7:45pm",
-      "start_date_iso": "2026-10-26T18:15:00+00:00",
-      "event_type": "Course, Training, or Workshop",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/chinese-mandarin-language-classes-2026-10-26-18-15",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Rock Up and Climb Sessions",
       "description": "Children and families can learn the basics of climbing at Sport Lancaster with their new Rock Up and Climb Sessions, running throughout the October Half Term holidays.",
       "location": "Lancaster University Sports Centre",
@@ -4200,46 +4264,6 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Film screening: A Basket Full of Eggs plus panel discussion and Q&A",
-      "description": "Join us for a screening of A Basket Full of Eggs (2025), followed by a presentation and Q&A with Professor Hazel Marsh. The film explores Romani heritage through the story of Minty Smith, revealing the overlooked influence of Romani communities on England's folk music traditions.",
-      "location": "Health Innovation One - Lecture Theatre",
-      "start_date": "Thursday 29 October 2026, 3:00pm to 4:00pm",
-      "start_date_iso": "2026-10-29T15:00:25+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/film-screening-a-basket-full-of-eggs-plus-qa-with-professor-hazel-marsh",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments",
-        "mentions 'panel discussion'"
-      ],
-      "registration_url": "https://www.trybooking.com/uk/GYJD",
-      "registration_deadline": "2026-10-29T15:00:00.000",
-      "registration_status": "open"
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "CWD-RAFM Air Power Lecture: Air Commodore (Retd) Dr Andrew Curtis OBE, 'From deterrence to intervention and back again: The strategic drift of UK defence policy since the Cold War'",
-      "description": "The annual Air Power Lecture is co-hosted by the Centre for War and Diplomacy and the Royal Air Force Museum. This year's speaker, Dr Andrew Curtis, draws from a 35-year career in the RAF - including operational appointments in Afghanistan, Libya and Haiti - and a PhD from King's College London.",
-      "location": "FAR - Cavendish LT",
-      "start_date": "Thursday 29 October 2026, 5:00pm to 6:30pm",
-      "start_date_iso": "2026-10-29T17:00:38+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": false,
-      "url": "https://www.lancaster.ac.uk/events/cwd-rafm-air-power-lecture-dr-andrew-curtis-from-deterrence-to-intervention-and-back-again-the-strategic-drift-of-uk-defence-policy-since-the-cold-war-2026-10-29-17-00",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -5484,5 +5508,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 17
+  "probable_free_food_count": 15
 }
