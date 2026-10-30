@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:08:34.079871+00:00",
+  "generated_at": "2026-10-30T21:57:23.703416+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -85,6 +85,23 @@
       "registration_url": "https://campus.hellorubric.com/?eid=87080",
       "registration_deadline": "2026-10-31T08:00:00",
       "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "FREE Resident Evil Screening",
+      "group_name": "Take2Cinema",
+      "description": "Come join us for a FREE screening of the original Resident Evil film, directly followed by our regular programming of Resident Evil (2026)",
+      "location": "Bowland main Lecture Theatre, Lancaster University, Bailrigg, Lancaster, UK",
+      "start_date": "Friday 30 October 2026, 8:00pm to 9:30pm",
+      "start_date_iso": "2026-10-30T20:00:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92355",
+      "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -343,6 +360,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Week 5 Monday Lesson Tickets",
+      "group_name": "Ballroom Dancesport Society",
+      "description": "",
+      "location": "",
+      "start_date": "Monday 02 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-02T18:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92342",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Monday Badminton Session",
       "group_name": "Badminton Society",
       "description": "",
@@ -386,6 +419,26 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=75877",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Rounders with Lonsdale College ",
+      "group_name": "Bowland College",
+      "description": "Meet at Lonsdale porters at 1pm and then head down to play Rounders!!",
+      "location": "Lonsdale College - Porters, Lancaster, UK",
+      "start_date": "Tuesday 03 November 2026, 1:00pm to 3:00pm",
+      "start_date_iso": "2026-11-03T13:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92346",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=92346",
+      "registration_deadline": "2026-11-04T02:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -667,6 +720,26 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Slide roulette:When things don't go to plan ",
+      "group_name": "LU Entrepreneurship Society",
+      "description": "Hi everyone, After hearing your ideas and solutions we want to invite you to something a bit more humorous. Come along and pitch some randomly allocated slides following different relevant themes. Work on public speaking, working under pressure and the unknown to get a feel for when things don't always go to plan. Making mistakes is all part of the journey, Come and have a go we look forward to meeting you.",
+      "location": "Fyle LT 02 A16, Lancaster University, Bailrigg, Lancaster, UK",
+      "start_date": "Thursday 05 November 2026, 6:30pm to 8:00pm",
+      "start_date_iso": "2026-11-05T18:30:00",
+      "event_type": "Industry/Career",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92339",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=92339",
+      "registration_deadline": "2026-11-06T05:30:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Beginners Class",
       "group_name": "Pole Fitness",
       "description": "",
@@ -728,6 +801,28 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "LMS Mary Cartwright Event ",
+      "group_name": "Lancaster University Maths Association (LUMA)",
+      "description": "The event will consist of two parts: - 1 pm to 3 pm, George Fox LT1: A screening of the Mary Cartwright Lectures organised by the London Mathematical Society (LMS). The Mary Cartwright Lecture is an annual lecture organised by the Committee for Women and Diversity in Mathematics and forms part of the annual programme of Society Meetings. The event was established by the LMS in 2000 and is named after Dame Mary Lucy Cartwright, the first female mathematician FRS, the first woman to receive the Sylvester Medal, the first woman to receive the LMS De Morgan Prize and the first female President of the LMS. The aim is to celebrate the achievements of distinguished women mathematicians. Programme (all times GMT) 13:00 Opening of the meeting and Society Business from Mark Chaplain\u00a0(LMS President) 13:10 Sara Lombardo (LMS Committee for Women and Diversity in Mathematics Chair) will give some background on Mary Cartwright and introduce the first speaker. 13:15 Supporting lecture Daan Janssen (University of York) What is quantum field theory: a brief history Quantum field theory is both a highly successful framework to describe high-energy physics as well as a rich mathematical playground. In this talk, I give a brief conceptual outline of quantum field theory and how it has been used by both physicists and mathematicians to understand the world around us. 14:00 BREAK 14:10 2026\u00a0Mary Cartwright Lecturer Kasia Rejzner (University of York) Mathematics of quantum field theory: symmetries and measurement Quantum field theory is one of the most successful frameworks in modern science, yet its mathematical foundations present profound challenges. In this lecture, I will explain how modern mathematics helps us navigate these difficulties within the framework of algebraic quantum field theory (AQFT). Functional-analytic, geometric and homological ideas allow us to identify meaningful observables and formulate quantum field theories in a way that respects both symmetry and causality. In the context of measurement, we want to understand how can the interaction between a quantum system and a measuring apparatus be described within the theory itself? The AQFT approach offers a precise framework for addressing these questions. In the presence of symmetries, there is the additional complication with identification of physical observables. This is where quantum reference frames come in. 15:00 END - 3 pm to 5 pm, George Fox LT5: A speed networking event for women in mathematics, with lecturers and students.",
+      "location": "George Fox LT1 - LT5",
+      "start_date": "Friday 06 November 2026, 1:00pm to 5:00pm",
+      "start_date_iso": "2026-11-06T13:00:00",
+      "event_type": "Industry/Career",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92403",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=92403",
+      "registration_deadline": "2026-11-07T00:00:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "mentions 'networking event'"
+      ]
     },
     {
       "source": "lusu.co.uk",
@@ -2123,6 +2218,26 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=84572",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Model United Nations Conference",
+      "group_name": "Model United Nations",
+      "description": "We are exited to announce our first ever Internal Conference on the 28th and 29th of November 2026. We will have a Beginner and an Advanced Committee on the 28th and a Crisis Session on the 29th. The Beginner Session will be a General Assembly Session on the topic of: Discussing ways to combat Food Insecurity. The Advanced Session will be a Security Council Session on the topic of: Countering the proliferation and use of Lethal Autonomous Weapons (LAWS) by non-state actors as a threat to international peace and security. The Crisis Session on Sunday will be announced on Thursday of Week 6. Country Selection for the General Assembly Session will be through this link: https://docs.google.com/document/d/1m8N02J_ITxagORcVsPUhiPHEGbZOxDbwroyHN3Y7gBw/edit?tab=t.0 Country Selection for the Security Council Session will be through this link: https://docs.google.com/document/d/17-NSry1seqr4TkLjUV2tbVmkWQDQu0VOSjtqnfAIJzk/edit?tab=t.0 Thank you so much to the Junior Lawyer Against Poverty Society, the Criminology Society, the Politics Society, the Diplomacy Society and the STAR Society for collaborating with us on this event. Please note that you do not have to be a part of any of these societies to join and joining is free. If you have any questions or wish to sign up for the session please don't hesitate to contact us on the conference teams: https://teams.microsoft.com/l/team/19%3Ac-9b-r3XPN3kqdWWhi7IjaFjGcIM8SOwh9oBh03k4Ak1%40thread.tacv2/conversations?groupId=33071ba0-28a2-4459-9121-0a62285108ec&tenantId=9c9bcd11-977a-4e9c-a9a0-bc734090164a (link in bio) or over our instagram: @lancsmun",
+      "location": "Welcome Center Lecture Theatre 3 and Cavendish Colloquium, Lancaster University, Bailrigg, Lancaster, Vereinigtes K\u00f6nigreich",
+      "start_date": "Saturday 28 November 2026, 10:00am to 4:00pm",
+      "start_date_iso": "2026-11-28T10:00:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92357",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=92357",
+      "registration_deadline": "2026-11-28T21:00:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4029,22 +4144,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Tai Chi ",
-      "description": "Fridays: 1.00pm-1.50pm and 2.00-2.50pm at Garstang Arts Centre.\n",
-      "location": "Garstang Arts Centre",
-      "start_date": "Friday 30 October 2026, 1:00pm to 2:50pm",
-      "start_date_iso": "2026-10-30T13:00:00+00:00",
-      "event_type": "Sport",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/tai-chi-2026-03-20-13-00-3",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 31 October 2026, 11:00",
       "description": "Your campus tour will last approximately 75 minutes. ",
       "location": "Welcome Hub",
@@ -5248,27 +5347,8 @@
       "probable_reasons": [
         "event type 'NETWORKING, EDUCATIONAL' often includes refreshments"
       ]
-    },
-    {
-      "source": "meetup.com",
-      "title": "Fraser House of Horror, Vol 1: Security Nightmares",
-      "description": "Join us for the spookiest Software Lancaster Talks yet on Friday, 30 October 2026 at 6:00 pm at the haunted Fraser House Hub in Lancaster.\n\nAs Halloween approaches and the nights grow darker, we're bringing you a special Halloween Edition of Software Lancaster Talks, and we've lined up not one, not two, but three incredible speakers for you.\n\nThe theme is Security Nightmares, scary security stories for Halloween. Each of our speakers will be presenting a 10-15 minute postmortem of a real world security incident, how it happened and what the bone-chilling consequences were.\n\nSome nightmares, it turns out, are very real.\n\n\ud83d\udcc5 Date & Time: Friday, 30 October 2026, 18:00\n\ud83d\udccd Location: Fraser House Hub, South Rd, Lancaster LA1 4XQ\n\ud83c\udf55 Perks: Free pizza and drinks!\n\nAnd if you're not quite ready to venture back into the darkness, join us for drinks and post-talk networking from 20:15 onwards at The Royal Hotel & Bar, LA1 1YD.",
-      "location": "Fraser House Hub, Lancaster",
-      "start_date": "Friday 30 October 2026, 6:00pm to 8:00pm",
-      "start_date_iso": "2026-10-30T18:00:00Z",
-      "event_type": "Talk / Meetup",
-      "is_paid": false,
-      "url": "https://www.meetup.com/software-lancaster-talks/events/317070715/",
-      "registration_required": true,
-      "registration_url": "https://www.meetup.com/software-lancaster-talks/events/317070715/",
-      "free_food": true,
-      "matched_phrases": [
-        "Free pizza and drinks"
-      ],
-      "probable_free_food": false,
-      "probable_reasons": []
     }
   ],
-  "free_food_count": 2,
-  "probable_free_food_count": 15
+  "free_food_count": 1,
+  "probable_free_food_count": 16
 }
