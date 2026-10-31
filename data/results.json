@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:01:39.655125+00:00",
+  "generated_at": "2026-10-31T11:41:35.574861+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -383,6 +383,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=86119",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Craft Society Jewellery Making",
+      "group_name": "Craft",
+      "description": "",
+      "location": "",
+      "start_date": "Tuesday 03 November 2026, 6:30pm",
+      "start_date_iso": "2026-11-03T18:30:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92455",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
