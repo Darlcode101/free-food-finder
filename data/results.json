@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:38:49.291620+00:00",
+  "generated_at": "2026-11-03T22:54:56.937183+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -676,6 +676,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Chuntey Workshop Sat 7th Nov",
+      "group_name": "Edible Campus",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 07 November 2026, 9:00am",
+      "start_date_iso": "2026-11-07T09:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93052",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": " LUWinS Surgery- Innovation & Precision Conference",
       "group_name": "Lancaster University Medical Society (Lancaster MedSoc)",
       "description": "",
@@ -852,6 +868,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=88789",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "JLAP x Baking Society Cupcake Decorating ",
+      "group_name": "Lancaster University Junior Lawyers Against Poverty",
+      "description": "",
+      "location": "",
+      "start_date": "Monday 09 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-09T18:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93040",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -1702,6 +1734,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=84571",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Jewellery-making with Hannah May Jewellery!",
+      "group_name": "Defying Dementia Student Society",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 19 November 2026, 6:30pm",
+      "start_date_iso": "2026-11-19T18:30:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=92793",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4100,26 +4148,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Artists in Conversation: Ellie Barrett",
-      "description": "Join us for our free artist conversation programme. Artists making exciting work across a range of media will be joined by researchers or those working in relevant fields to discuss the ideas, themes and questions driving their work.",
-      "location": "GHC - Jack Hylton Room",
-      "start_date": "Tuesday 3 November 2026, 5:00pm to 6:00pm",
-      "start_date_iso": "2026-11-03T17:00:08+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/artists-in-conversation-peter-fillingham-2026-10-27-17-00-2",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ],
-      "registration_url": "https://www.lancasterarts.org/youre-invited/whats-on/artists-in-conversation-ellie-barrett",
-      "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Tai Chi ",
       "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
       "location": "Lancaster University Confucius Institute (The Roundhouse)",
@@ -5107,7 +5135,7 @@
     {
       "source": "lancaster.ac.uk",
       "title": "Discover Master's Degrees in Linguistics and English Language - Webinar ",
-      "description": "All you need to know about studying for a master\u2019s in Linguistics and English Language at Lancaster University.",
+      "description": "Explore campus-based MAs in Applied Linguistics and TESOL, Forensic Linguistics and Speech Science, and Language and Linguistics, plus online MAs in Language Testing and Corpus Linguistics. ",
       "location": "Live Online",
       "start_date": "Tuesday 8 December 2026, 10:00am to 11:00am",
       "start_date_iso": "2026-12-08T10:00:51+00:00",
@@ -5438,7 +5466,7 @@
     {
       "source": "lancaster.ac.uk",
       "title": "Discover Master's Degrees in Linguistics and English Language - Webinar",
-      "description": "All you need to know about studying for a master\u2019s in Linguistics and English Language at Lancaster University.",
+      "description": "Explore campus-based MAs in Applied Linguistics and TESOL, Forensic Linguistics and Speech Science, and Language and Linguistics, plus online MAs in Language Testing and Corpus Linguistics. ",
       "location": "Live Online",
       "start_date": "Tuesday 9 March 2027, 5:00pm to 6:00pm",
       "start_date_iso": "2027-03-09T17:00:51+00:00",
@@ -5635,7 +5663,7 @@
     {
       "source": "lancaster.ac.uk",
       "title": "Discover Master's Degrees in Linguistics and English Language - Webinar",
-      "description": "All you need to know about studying for a master\u2019s in Linguistics and English Language at Lancaster University.",
+      "description": "Explore campus-based MAs in Applied Linguistics and TESOL, Forensic Linguistics and Speech Science, and Language and Linguistics, plus online MAs in Language Testing and Corpus Linguistics. ",
       "location": "Live Online",
       "start_date": "Tuesday 20 July 2027, 10:00am to 11:00am",
       "start_date_iso": "2027-07-20T10:00:51+01:00",
@@ -5721,5 +5749,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 21
+  "probable_free_food_count": 20
 }
