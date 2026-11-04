@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-04T04:50:33.373468+00:00",
+  "generated_at": "2026-11-04T13:47:09.022184+00:00",
   "events": [
+    {
+      "source": "lusu.co.uk",
+      "title": "Squash Jumpers ",
+      "group_name": "Squash",
+      "description": "",
+      "location": "",
+      "start_date": "Wednesday 04 November 2026, 10:17am",
+      "start_date_iso": "2026-11-04T10:17:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93226",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
     {
       "source": "lusu.co.uk",
       "title": "Beginners' Session",
@@ -1091,6 +1107,22 @@
       "event_type": "Trip/Camp",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=92796",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Digger",
+      "group_name": "Take2Cinema",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 13 November 2026, 7:00pm",
+      "start_date_iso": "2026-11-13T19:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93208",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4051,8 +4083,8 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Building Business Across Borders: Lessons from China, Cambodia and Vietnam   ",
-      "description": "Join business leaders from China, Cambodia, Vietnam and Indonesia for an honest conversation about building careers and ventures between Asia and the UK.  ",
+      "title": "Building Business Across Borders: Lessons from China, Cambodia and Vietnam",
+      "description": "Join business leaders from China, Cambodia, Vietnam and Indonesia for an honest conversation about building careers and ventures between Asia and the UK.",
       "location": "Live Online",
       "start_date": "Thursday 5 November 2026, 8:00am to 9:30am",
       "start_date_iso": "2026-11-05T08:00:45+00:00",
@@ -4140,6 +4172,22 @@
       "is_paid": false,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/on-campus-tour-7-november-2026-1300",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Chanting the Chinese Classics",
+      "description": "Chanting is good for our health. According to recent research, chanting can lower stress hormones, calm our mind, regulate breathing and improve focus. It also helps reduce anxiety and bring a peaceful state to both body and mind.",
+      "location": "TRH - Roundhouse B02",
+      "start_date": "Monday 9 November 2026, 12:00pm to 12:55pm",
+      "start_date_iso": "2026-11-09T12:00:36+00:00",
+      "event_type": "Other",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/chanting-the-chinese-classics",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4727,6 +4775,22 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Discover Undergraduate Degrees in Linguistics / English Language / Language Sciences - Webinar",
+      "description": "All you need to know about studying undergraduate Linguistics, English Language, and Language Sciences at Lancaster University.",
+      "location": "Live Online",
+      "start_date": "Tuesday 24 November 2026, 10:00am to 11:00am",
+      "start_date_iso": "2026-11-24T10:00:51+00:00",
+      "event_type": "Webinar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/discover-undergraduate-degrees-in-linguistics-english-language-language-sciences-webinar",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Tai Chi ",
       "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
       "location": "Lancaster University Confucius Institute (The Roundhouse)",
@@ -4984,6 +5048,26 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Cities at the centre, yet still at the legal margins: The Local Turn in Just Transition & International Climate Law",
+      "description": "Cities generate most greenhouse-gas emissions and are increasingly at the forefront of climate resilience and hazard management. This presentation explores the growing role of cities in Just Transition and international climate governance, arguing that cities are increasingly expected to deliver both climate action and climate justice while emerging as partners and governance actors in their own right.",
+      "location": "Lums LT4 and online",
+      "start_date": "Tuesday 8 December 2026, 2:00pm to 3:00pm",
+      "start_date_iso": "2026-12-08T14:00:35+00:00",
+      "event_type": "Seminar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/cities-at-the-centre-yet-still-at-the-legal-margins-the-local-turn-in-just-transition-international-climate-law",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Seminar' often includes refreshments"
+      ],
+      "registration_url": "https://lancaster-uk.libcal.com/calendar/pentland-centre/cities-just-transition",
+      "registration_deadline": ""
     },
     {
       "source": "lancaster.ac.uk",
@@ -5586,5 +5670,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 20
+  "probable_free_food_count": 21
 }
