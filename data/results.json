@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:05:45.683592+00:00",
+  "generated_at": "2026-11-05T13:59:58.984238+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -13,26 +13,6 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=75868",
       "registration_required": false,
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lusu.co.uk",
-      "title": "Career Mentoring Session",
-      "group_name": "Lancaster University Students' Union",
-      "description": "We invite you to come along to our Careers Workshop with\nIan Newman. Ian graduated from Lancaster University with an Economics\nand Politics degree. He\u2019s been a Career Mentor on the University\u2019s Career\nMentoring Programme since it was launched in 2008 and, since then, \u00a0has\nmentored over 200 students. In November 2023, he was awarded an Honorary Fellowship\nfor the extensive support he provides to the University and its students on\ncareers and employability. He supports around 25 students each year as part of\nthe Career Mentoring Programme. Ian has worked for The Stock Exchange, Royal Mail, The\nHome Office, UK Border Agency and the Department for Work and Pensions. His\nrole at DWP was as the Deputy Head of Internal Communications, managing a team\nof 70 people at a variety of locations in the UK.\u00a0 He is currently the\nDirector for Regions for the Jaguar Enthusiasts\u2019 Club, the largest Jaguar Club\nworldwide. This careers workshop will cover the following topics: - How\n     to write and tailor CVs and Cover Letters to increase your chances of\n     getting to the next stage in the recruitment process - Graduate\n     Programmes - Psychometric\n     Tests, - Interviews\n     (Competency / Behaviour / Strengths based styles of questions) Assessment\n     Cen tres and what to expect",
-      "location": "TBC, Lancaster University, Bailrigg, Lancaster, UK",
-      "start_date": "Thursday 05 November 2026, 11:00am to 12:00pm",
-      "start_date_iso": "2026-11-05T11:00:00",
-      "event_type": "Class/Workshop",
-      "is_paid": false,
-      "url": "https://campus.hellorubric.com/?eid=84529",
-      "registration_required": true,
-      "registration_url": "https://campus.hellorubric.com/?eid=84529",
-      "registration_deadline": "2026-11-05T22:00:00",
-      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -494,6 +474,26 @@
       "registration_required": true,
       "registration_url": "https://campus.hellorubric.com/?eid=87332",
       "registration_deadline": "2026-11-08T05:00:00",
+      "registration_status": "open",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Notts II Sunday November 8th",
+      "group_name": "Lancaster University Speleological Society: Caving",
+      "description": "",
+      "location": "Slaidburn House, Bailrigg, Lancaster, UK",
+      "start_date": "Sunday 08 November 2026, 9:30am to 4:30pm",
+      "start_date_iso": "2026-11-08T09:30:00",
+      "event_type": "Trip/Camp",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=92797",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=92797",
+      "registration_deadline": "2026-11-08T01:30:00",
       "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
@@ -4116,22 +4116,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Building Business Across Borders: Lessons from China, Cambodia and Vietnam",
-      "description": "Join business leaders from China, Cambodia, Vietnam and Indonesia for an honest conversation about building careers and ventures between Asia and the UK.",
-      "location": "Live Online",
-      "start_date": "Thursday 5 November 2026, 8:00am to 9:30am",
-      "start_date_iso": "2026-11-05T08:00:45+00:00",
-      "event_type": "Other",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/building-business-across-borders-lessons-from-china-cambodia-and-vietnam",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Action Hero: A Song and Dance",
       "description": "Lancaster Arts is excited to welcome Action Hero back to the Nuffield Theatre with A Song and Dance, an absurdist nightmare of a performance about masking, performing and \u2018acting the part\u2019. ",
       "location": "GHC - Nuffield Theatre",
@@ -4267,8 +4251,8 @@
       "title": "Deconstructing Untranslatability of Literary Back-translation:  A Case Study on Four Generations under One Roof",
       "description": "Li Wenshuang, PhD candidate at Nankai University (China) shares her research on back-translation in the LUCC PhD Seminar Series",
       "location": "Bowland North Seminar Room 13",
-      "start_date": "Wednesday 11 November 2026, 12:00pm to 1:00pm",
-      "start_date_iso": "2026-11-11T12:00:36+00:00",
+      "start_date": "Wednesday 11 November 2026, 1:00pm to 2:00pm",
+      "start_date_iso": "2026-11-11T13:00:36+00:00",
       "event_type": "Seminar",
       "is_paid": false,
       "registration_required": false,
@@ -4969,6 +4953,28 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "A Fireside Chat - Behind the Scenes of Coca-Cola\u2019s Global Christmas Campaign",
+      "description": "Join us for a special festive Fireside Chat with Sam Possible, Lancaster University alumnus and former Coca-Cola marketing professional.",
+      "location": "Management School Lecture Theatre 3",
+      "start_date": "Thursday 3 December 2026, 6:00pm to 7:30pm",
+      "start_date_iso": "2026-12-03T18:00:03+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/a-fireside-chat-behind-the-scenes-of-coca-colas-global-christmas-campaign",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments",
+        "mentions 'Fireside Chat'"
+      ],
+      "registration_url": "https://www.trybooking.com/uk/event/127210",
+      "registration_deadline": "2026-12-03T18:00:00.000",
+      "registration_status": "open"
     },
     {
       "source": "lancaster.ac.uk",
@@ -5703,5 +5709,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 20
+  "probable_free_food_count": 21
 }
