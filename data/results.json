@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:39:37.646775+00:00",
+  "generated_at": "2026-11-07T12:28:06.282303+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -487,6 +487,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Craft Society Rock Painting",
+      "group_name": "Craft",
+      "description": "",
+      "location": "",
+      "start_date": "Tuesday 10 November 2026, 6:30pm",
+      "start_date_iso": "2026-11-10T18:30:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93792",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Daisy Beginner, 2-3pm",
       "group_name": "Pole Fitness",
       "description": "",
@@ -528,6 +544,26 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=93350",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Filsoc x Volleyball Karaoke Pres",
+      "group_name": "Filipino",
+      "description": "Filsoc x Volleyball Karaoke Social! BYOB & bring your best voice (or not) \ud83c\udfa4\ud83c\udf7b",
+      "location": "Block B, The Sailworks, Parliament Street, Lancaster LA1 1DQ, UK",
+      "start_date": "Wednesday 11 November 2026, 5:30pm to 11:59pm",
+      "start_date_iso": "2026-11-11T17:30:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=93677",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=93677",
+      "registration_deadline": "2026-11-12T22:56:00",
+      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
