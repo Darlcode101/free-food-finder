@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:27:04.360342+00:00",
+  "generated_at": "2026-11-08T12:46:28.453622+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -134,6 +134,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87691",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Week 6 Monday Lesson Tickets",
+      "group_name": "Ballroom Dancesport Society",
+      "description": "",
+      "location": "",
+      "start_date": "Monday 09 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-09T18:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=93860",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4062,7 +4078,7 @@
       ],
       "registration_url": "https://www.eventbrite.co.uk/e/lums-inaugural-lecture-professor-pete-thomas-tickets-1998365623374?aff=oddtdtcreator&_gl=1*uypqr0*_up*MQ..*_ga*MTc2NTg3MDQ1Mi4xNzg3MDY1NzMw*_ga_TQVES5V6SH*czE3ODcwNjU3MjkkbzEkZzAkdDE3ODcwNjU3MjkkajYwJGwwJGgw",
       "registration_deadline": "2026-11-11T16:00:00Z",
-      "registration_status": "open"
+      "registration_status": ""
     },
     {
       "source": "lancaster.ac.uk",
