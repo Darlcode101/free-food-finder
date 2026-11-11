@@ -1,23 +1,6 @@
 {
-  "generated_at": "2026-11-11T04:42:16.989507+00:00",
+  "generated_at": "2026-11-11T13:33:49.941765+00:00",
   "events": [
-    {
-      "source": "lusu.co.uk",
-      "title": "Remembrance Day Service",
-      "group_name": "Lancaster University Students' Union",
-      "description": "LUSU will host its annual Remembrance Day service tomorrow, Wednesday 11 November, bringing students, staff and the wider University community together to remember those who have served and sacrificed in conflicts past and present. Taking place in Alex Square from 10:40am , the Remembrance Day service will offer an opportunity for our campus community to come together, pause and reflect. The service will include traditional hymns, readings and a two-minute silence, with contributions from Lancaster University Vice-Chancellor Professor Steve Decent and LUSU President Kate Bracewell. Everyone is welcome to attend, with hot drinks available in the Students' Union following the service. Wednesday 11 November | 10:40am | Alex Square View the service location on MazeMap",
-      "location": "Alexandra Square, Bailrigg, Lancaster, UK",
-      "start_date": "Wednesday 11 November 2026, 10:40am to 11:10am",
-      "start_date_iso": "2026-11-11T10:40:00",
-      "event_type": "Other",
-      "is_paid": false,
-      "url": "https://campus.hellorubric.com/?eid=94267",
-      "registration_required": false,
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
     {
       "source": "lusu.co.uk",
       "title": "NUBS round 2",
@@ -2192,6 +2175,23 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Lonsdale College Winter Ball",
+      "group_name": "Lonsdale College",
+      "description": "Lonsdale College Annual Winter Ball at the Lancaster Town Hall on the 2nd December. 2 Course meal with photo opportunities, music and a bar.",
+      "location": "Lancaster Town Hall, Dalton Square, Lancaster, UK",
+      "start_date": "Wednesday 02 December 2026, 7:00pm to 12:00am",
+      "start_date_iso": "2026-12-02T19:00:00",
+      "event_type": "Ball/Dinner/Gala",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=94418",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Week 9 Social: Christmas Dinner",
       "group_name": "Badminton Society",
       "description": "",
@@ -2341,17 +2341,13 @@
       "source": "lusu.co.uk",
       "title": "Cartmel College Winter Ball ",
       "group_name": "Cartmel College",
-      "description": "Join us for an unforgettable event at Lancaster town hall to end Michaelmas term on a high.There will be a 2 course Christmas meal, a DJ, photographer and a bar at Town Hall. We will be sending out a form to find out seating preferences and dietary restrictions FAQ's Q. Where is the event ? A. Town Hall, Dalton Square, Lancaster, LA1 1PJ Q. Can I bring a plus one A. Yes, anyone can purchase their own ticket. Everyone attending will need their own ticket. The email confirmation of purchase is used as the ticket. Q. Are all dietary requirements catered for ? A. Yes, there is a form that needs to be completed whilst purchasing which asks about requirements. Q. Dress code A. Formal, black tie encouraged.",
-      "location": "Ashton Hall, George Street, Services, Lancaster, UK",
-      "start_date": "Thursday 03 December 2026, 7:00pm to 11:15pm",
+      "description": "",
+      "location": "",
+      "start_date": "Thursday 03 December 2026, 7:00pm",
       "start_date_iso": "2026-12-03T19:00:00",
       "event_type": "Ball/Dinner/Gala",
-      "is_paid": false,
+      "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=91747",
-      "registration_required": true,
-      "registration_url": "https://campus.hellorubric.com/?eid=91747",
-      "registration_deadline": "2026-11-27T06:00:00",
-      "registration_status": "open",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4519,6 +4515,24 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "Chanting the Chinese Classics",
+      "description": "Chanting is good for our health. According to recent research, chanting can lower stress hormones, calm our mind, regulate breathing and improve focus. It also helps reduce anxiety and bring a peaceful state to both body and mind.",
+      "location": "Roundhouse B07",
+      "start_date": "Monday 23 November 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-11-23T12:00:36+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/chanting-the-chinese-classics-2026-11-09-12-00",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "Discover BA Social Work - Webinar",
       "description": "All you need to know about studying for a BA Social Work at Lancaster University. ",
       "location": "Live Online",
@@ -4664,6 +4678,24 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Chanting the Chinese Classics",
+      "description": "Chanting is good for our health. According to recent research, chanting can lower stress hormones, calm our mind, regulate breathing and improve focus. It also helps reduce anxiety and bring a peaceful state to both body and mind.",
+      "location": "Roundhouse B07",
+      "start_date": "Monday 30 November 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-11-30T12:00:36+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/chanting-the-chinese-classics-2026-11-30-12-00",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -4830,6 +4862,24 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Chanting the Chinese Classics",
+      "description": "Chanting is good for our health. According to recent research, chanting can lower stress hormones, calm our mind, regulate breathing and improve focus. It also helps reduce anxiety and bring a peaceful state to both body and mind.",
+      "location": "TRH - Roundhouse B02",
+      "start_date": "Monday 7 December 2026, 12:00pm to 1:00pm",
+      "start_date_iso": "2026-12-07T12:00:36+00:00",
+      "event_type": "Talk / Public Lecture",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/chanting-the-chinese-classics-2026-11-30-12-00-2",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Talk / Public Lecture' often includes refreshments"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -5484,5 +5534,5 @@
     }
   ],
   "free_food_count": 2,
-  "probable_free_food_count": 19
+  "probable_free_food_count": 22
 }
