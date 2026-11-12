@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:38:13.228725+00:00",
+  "generated_at": "2026-11-12T23:13:31.278763+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -846,6 +846,28 @@
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Week 7 Social: Games Night",
+      "group_name": "Badminton Society",
+      "description": "Week 7 Social: Games Night \ud83c\udccf \ud83c\udfb2 Location: Furness Lecture Theatre 3 Time: 7 pm Free Pizza! \ud83c\udf55 Bring any board games and card games you would like to play! We will also provide some :) There will also be a Kahoot towards the end of the night!",
+      "location": "Furness College, Tower Avenue, Bailrigg, Lancaster, UK",
+      "start_date": "Wednesday 18 November 2026, 7:00pm to 10:00pm",
+      "start_date_iso": "2026-11-18T19:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=87338",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=87338",
+      "registration_deadline": "2026-11-19T09:00:00",
+      "registration_status": "open",
+      "free_food": true,
+      "matched_phrases": [
+        "Free Pizza"
+      ],
       "probable_free_food": false,
       "probable_reasons": []
     },
@@ -3790,28 +3812,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "A Fireside Chat \u2013 The Accidental Entrepreneur",
-      "description": "Join us for a Fireside Chat with Professor Ian Gordon, entrepreneur, educator and proud Lancaster University alumnus.",
-      "location": "Lancaster University Management School",
-      "start_date": "Thursday 12 November 2026, 6:00pm to 7:30pm",
-      "start_date_iso": "2026-11-12T18:00:03+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/a-fireside-chat-the-accidental-entrepreneur",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments",
-        "mentions 'Fireside Chat'"
-      ],
-      "registration_url": "https://www.trybooking.com/uk/GDEJ",
-      "registration_deadline": "2026-11-12T18:00:00.000",
-      "registration_status": "open"
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Lancaster International Fiction Lecture: Andrey Kurkov \u2018What Can Fiction Do in a Time of War?\u2019",
       "description": "Litfest is delighted that the 6th Lancaster International Fiction Lecture, a joint venture with the School of Global Affairs at Lancaster University, will be given by the acclaimed Ukrainian writer Andrey Kurkov.",
       "location": "Faraday Lecture Theatre",
@@ -3829,22 +3829,6 @@
       ],
       "registration_url": "https://dukeslancaster.org/whats-on/theatre/litfest-andrey-kurkov-lancaster-international-fiction-lecture-2026",
       "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Kantos Chamber Choir: Bront\u00eb",
-      "description": "Lancaster Arts welcomes Kantos Chamber Choir to the Great Hall for the very first time, with an evening that combines choral music and spoken word, inspired by the lives and imaginations of one of literature\u2019s most extraordinary families.",
-      "location": "The Great Hall",
-      "start_date": "Thursday 12 November 2026, 7:30pm to 9:00pm",
-      "start_date_iso": "2026-11-12T19:30:14+00:00",
-      "event_type": "Concert or Performance",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/kantos-chamber-choir-bronte",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
@@ -5213,6 +5197,6 @@
       ]
     }
   ],
-  "free_food_count": 2,
-  "probable_free_food_count": 19
+  "free_food_count": 3,
+  "probable_free_food_count": 18
 }
