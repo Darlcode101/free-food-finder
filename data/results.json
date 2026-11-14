@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:55:25.809446+00:00",
+  "generated_at": "2026-11-14T12:58:28.482759+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -275,6 +275,22 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=75879",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Craft Society x Book Club Bookmark Making",
+      "group_name": "Craft",
+      "description": "",
+      "location": "",
+      "start_date": "Tuesday 17 November 2026, 6:00pm",
+      "start_date_iso": "2026-11-17T18:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=94736",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -806,6 +822,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=93357",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "SC BUCS 26",
+      "group_name": "Swimming and Waterpolo",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 20 November 2026, 7:37am",
+      "start_date_iso": "2026-11-20T07:37:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=94661",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -3666,22 +3698,6 @@
       ],
       "registration_url": "https://dukeslancaster.org/whats-on/theatre/litfest-andrey-kurkov-lancaster-international-fiction-lecture-2026",
       "registration_deadline": ""
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 14 November 2026, 11:00",
-      "description": "Your campus tour will last approximately 75 minutes. ",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 14 November 2026, 11:00am to 12:15pm",
-      "start_date_iso": "2026-11-14T11:00:00+00:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-7-november-2026-1100",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
