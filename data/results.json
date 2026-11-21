@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T14:12:39.169086+00:00",
+  "generated_at": "2026-11-21T22:46:48.272029+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -1757,6 +1757,38 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Week 9: Doubles Tournament - Advanced Division",
+      "group_name": "Badminton Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 05 December 2026, 2:00pm",
+      "start_date_iso": "2026-12-05T14:00:00",
+      "event_type": "Sport/Competition",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=94638",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Week 9: Doubles Tournament - Challenger Division",
+      "group_name": "Badminton Society",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 05 December 2026, 2:00pm",
+      "start_date_iso": "2026-12-05T14:00:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=95387",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Chess Sunday Socials in Town",
       "group_name": "Chess",
       "description": "Chess Society does a weekly Sunday social from 1-3pm in Jailors Barrel, in town. This is in collaboration with the chess club in town that play in the bridges club. This means its a great chance to play more experienced and different players (sometimes the CEO of the ECF is even there). It's extremely casual and a chance to grab a drink too if you want one. We recommend members of all strengths join us in going.",
@@ -2012,6 +2044,22 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=88785",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Christmas Meal",
+      "group_name": "Bowland Netball",
+      "description": "",
+      "location": "",
+      "start_date": "Wednesday 09 December 2026, 8:00pm",
+      "start_date_iso": "2026-12-09T20:00:00",
+      "event_type": "Ball/Dinner/Gala",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=95510",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -3322,38 +3370,6 @@
       "probable_reasons": [
         "event type 'Meeting or Networking' often includes refreshments"
       ]
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "Railways: 200 Years That Transformed Britain",
-      "description": "To mark the bicentenary of the birth of the railway (1825), and the 150th anniversary of the Midland Railway's new main line from London to Scotland via the Settle and Carlisle, the Regional Heritage Centre and the Midland Railway Society are co-hosting a study day on Saturday 21 November 2026.",
-      "location": "LUMS Lecture Theatre 1",
-      "start_date": "Saturday 21 November 2026, 9:30am to 5:00pm",
-      "start_date_iso": "2026-11-21T09:30:46+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/railways-200-years-that-transformed-britain",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 21 November 2026, 13:00",
-      "description": "Your campus tour will last approximately 75 minutes. ",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 21 November 2026, 1:00pm to 2:15pm",
-      "start_date_iso": "2026-11-21T13:00:00+00:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-21-november-2026-1300",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
     },
     {
       "source": "lancaster.ac.uk",
