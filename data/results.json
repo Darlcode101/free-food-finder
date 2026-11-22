@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:02:08.315751+00:00",
+  "generated_at": "2026-11-22T23:14:38.160428+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -301,7 +301,7 @@
     },
     {
       "source": "lusu.co.uk",
-      "title": "Craft Society Photo Frame Decorating",
+      "title": "Photo frame decorating free entry",
       "group_name": "Craft",
       "description": "",
       "location": "",
@@ -1234,6 +1234,26 @@
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87365",
       "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Laparoscopic Foundations",
+      "group_name": "Richard Owen Surgical Society",
+      "description": "The Richard Owen Society is pleased to invite you to our upcoming Laparoscopic Foundations session! Join us for an interactive, practical introduction to laparoscopic surgery, where you will have the opportunity to develop essential surgical skills, including: - Camera navigation and spatial awareness - \u2060Laparoscopic instrument manipulation - \u2060Introduction to surgical suturing techniques We look forward to welcoming you for an evening of practical surgical skills! This session is supported by Ethicon, Purple Surgical and the Royal College of Surgeons of England. We look forward to seeing you there.",
+      "location": "Innovation Laboratory,  HIO, Lancaster University, LA1 4YW, Health Innovation Campus, Bailrigg, Lancaster, UK",
+      "start_date": "Wednesday 02 December 2026, 6:00pm to 8:00pm",
+      "start_date_iso": "2026-12-02T18:00:00",
+      "event_type": "Class/Workshop",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=95685",
+      "registration_required": true,
+      "registration_url": "https://campus.hellorubric.com/?eid=95685",
+      "registration_deadline": "2026-12-03T05:00:00",
+      "registration_status": "",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
