@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-23T05:45:00.420915+00:00",
+  "generated_at": "2026-11-23T17:23:52.563382+00:00",
   "events": [
+    {
+      "source": "lusu.co.uk",
+      "title": "Fish Fleeces",
+      "group_name": "Ultimate Frisbee",
+      "description": "",
+      "location": "",
+      "start_date": "Monday 23 November 2026, 5:07pm",
+      "start_date_iso": "2026-11-23T17:07:00",
+      "event_type": "Other",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=95807",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
     {
       "source": "lusu.co.uk",
       "title": "Level 1 Training Session - Monday",
@@ -2301,6 +2317,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Winter Skills 2027!",
+      "group_name": "Mountaineering",
+      "description": "",
+      "location": "",
+      "start_date": "Friday 08 January 2027, 7:00am",
+      "start_date_iso": "2027-01-08T07:00:00",
+      "event_type": "Trip/Camp",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=95775",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Chess Sunday Socials in Town",
       "group_name": "Chess",
       "description": "Chess Society does a weekly Sunday social from 1-3pm in Jailors Barrel, in town. This is in collaboration with the chess club in town that play in the bridges club. This means its a great chance to play more experienced and different players (sometimes the CEO of the ECF is even there). It's extremely casual and a chance to grab a drink too if you want one. We recommend members of all strengths join us in going.",
@@ -2412,6 +2444,39 @@
       "event_type": "Sport/Competition",
       "is_paid": false,
       "url": "https://campus.hellorubric.com/?eid=87373",
+      "registration_required": false,
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "2 Day Outdoor First Aid Course",
+      "group_name": "Canoe",
+      "description": "",
+      "location": "",
+      "start_date": "Saturday 30 January 2027, 8:30am",
+      "start_date_iso": "2027-01-30T08:30:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=95780",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
+      "title": "Year 3 Half-way Ball",
+      "group_name": "Lancaster University Medical Society (Lancaster MedSoc)",
+      "description": "Title of Event: Year 3 Half-way Ball Organised by: Half-way Ball Committee Date and Time: Saturday 30th January 2027 6-11pm Location: Lancaster Golf Club, LA2 0AJ Description: Join us for a night of music, food and bonding, as we invite you to celebrate being half-way through medical school! Tickets: \u00a342 to be transferred separately (not in the app) Payment account details: \u2022\u00a0 Seoyeon Ji \u2022\u00a0 \u2060sort code: 40-16-72 \u2022\u00a0 \u2060account number: 34528379 \u2022\u00a0 \u2060Make sure to include their names in the reference",
+      "location": "Lancaster Golf Club, Lancaster LA2 0AJ, UK",
+      "start_date": "Saturday 30 January 2027, 6:00pm to 11:00pm",
+      "start_date_iso": "2027-01-30T18:00:00",
+      "event_type": "Ball/Dinner/Gala",
+      "is_paid": false,
+      "url": "https://campus.hellorubric.com/?eid=95793",
       "registration_required": false,
       "free_food": false,
       "matched_phrases": [],
@@ -3187,24 +3252,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Chanting the Chinese Classics",
-      "description": "Chanting is good for our health. According to recent research, chanting can lower stress hormones, calm our mind, regulate breathing and improve focus. It also helps reduce anxiety and bring a peaceful state to both body and mind.",
-      "location": "Roundhouse B07",
-      "start_date": "Monday 23 November 2026, 12:00pm to 1:00pm",
-      "start_date_iso": "2026-11-23T12:00:36+00:00",
-      "event_type": "Talk / Public Lecture",
-      "is_paid": false,
-      "registration_required": false,
-      "url": "https://www.lancaster.ac.uk/events/chanting-the-chinese-classics-2026-11-09-12-00",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": true,
-      "probable_reasons": [
-        "event type 'Talk / Public Lecture' often includes refreshments"
-      ]
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "Discover BA Social Work - Webinar",
       "description": "All you need to know about studying for a BA Social Work at Lancaster University. ",
       "location": "Live Online",
@@ -3607,7 +3654,7 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Cities at the centre, yet still at the legal margins: The Local Turn in Just Transition & International Climate Law",
+      "title": "Cities at the centre, yet still at the legal margins: The Local Turn in Just Transition and International Climate Law",
       "description": "Cities generate most greenhouse-gas emissions and are increasingly at the forefront of climate resilience and hazard management. This presentation explores the growing role of cities in Just Transition and international climate governance, arguing that cities are increasingly expected to deliver both climate action and climate justice while emerging as partners and governance actors in their own right.",
       "location": "Lums LT4 and online",
       "start_date": "Tuesday 8 December 2026, 2:00pm to 3:00pm",
@@ -4258,5 +4305,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 15
+  "probable_free_food_count": 14
 }
