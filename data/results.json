@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:55:01.809888+00:00",
+  "generated_at": "2026-11-25T16:47:45.279592+00:00",
   "events": [
     {
       "source": "lusu.co.uk",
@@ -610,6 +610,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Alumni Social Dance",
+      "group_name": "Swing Dance",
+      "description": "",
+      "location": "",
+      "start_date": "Sunday 29 November 2026, 2:00pm",
+      "start_date_iso": "2026-11-29T14:00:00",
+      "event_type": "Party/BBQ/Social",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=96020",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Sunday Session",
       "group_name": "Parkour and Tricking",
       "description": "",
@@ -881,6 +897,22 @@
     },
     {
       "source": "lusu.co.uk",
+      "title": "Beginners' Session",
+      "group_name": "Mountaineering",
+      "description": "",
+      "location": "",
+      "start_date": "Wednesday 02 December 2026, 1:30pm",
+      "start_date_iso": "2026-12-02T13:30:00",
+      "event_type": "Class/Workshop",
+      "is_paid": true,
+      "url": "https://campus.hellorubric.com/?eid=89070",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lusu.co.uk",
       "title": "Daisy Beginner, 2-3pm",
       "group_name": "Pole Fitness",
       "description": "",
@@ -890,22 +922,6 @@
       "event_type": "Other",
       "is_paid": true,
       "url": "https://campus.hellorubric.com/?eid=93359",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lusu.co.uk",
-      "title": "Beginners' Session",
-      "group_name": "Mountaineering",
-      "description": "",
-      "location": "",
-      "start_date": "Wednesday 02 December 2026, 2:00pm",
-      "start_date_iso": "2026-12-02T14:00:00",
-      "event_type": "Class/Workshop",
-      "is_paid": true,
-      "url": "https://campus.hellorubric.com/?eid=89070",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -3093,22 +3109,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "Tai Chi ",
-      "description": "Wednesdays, 1.30-2.20pm, at Lancaster University Confucius Institute.\n",
-      "location": "Lancaster University Confucius Institute (The Roundhouse)",
-      "start_date": "Wednesday 25 November 2026, 1:30pm to 2:20pm",
-      "start_date_iso": "2026-11-25T13:30:00+00:00",
-      "event_type": "Sport",
-      "is_paid": true,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/tai-chi-2026-11-25-13-30",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 25 November 2026, 16:00",
       "description": "Your campus tour will last approximately 75 minutes.",
       "location": "Welcome Hub",
@@ -3211,6 +3211,22 @@
     },
     {
       "source": "lancaster.ac.uk",
+      "title": "PhD in Education and Social Justice - Discovery webinar",
+      "description": "Interested in our online PhD in Education and Social Justice?",
+      "location": "Live Online",
+      "start_date": "Monday 30 November 2026, 2:00pm to 3:00pm",
+      "start_date_iso": "2026-11-30T14:00:41+00:00",
+      "event_type": "Webinar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/phd-in-education-and-social-justice-discovery-webinar",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
       "title": "The Business Briefing: Employment Law",
       "description": "Join us for The Business Briefing \u2014 an event series from Brabners, a leading UK law firm, and Lancaster University Management School\u2019s Entrepreneurs in Residence.",
       "location": "Lancaster University Management School",
@@ -3240,6 +3256,25 @@
       "matched_phrases": [],
       "probable_free_food": false,
       "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "Short Film Screening 'The True Mirror: Melisa' and Panel Discussion",
+      "description": "The Academy for Gender Equality and Social Justice Research in Organisations, in collaboration with the Department of Entrepreneurship and Strategy, is delighted to invite you to an innovative research seminar featuring a short film screening followed by a panel discussion exploring entrepreneurship, identity and marginalisation across different social and cultural contexts.",
+      "location": "Lancaster University Management School Lecture Theatre 16",
+      "start_date": "Wednesday 2 December 2026, 2:00pm to 3:30pm",
+      "start_date_iso": "2026-12-02T14:00:25+00:00",
+      "event_type": "Seminar",
+      "is_paid": false,
+      "registration_required": false,
+      "url": "https://www.lancaster.ac.uk/events/short-film-screening-the-true-mirror-melisa-and-panel-discussion",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": true,
+      "probable_reasons": [
+        "event type 'Seminar' often includes refreshments",
+        "mentions 'Panel Discussion'"
+      ]
     },
     {
       "source": "lancaster.ac.uk",
@@ -3572,6 +3607,22 @@
       "is_paid": false,
       "registration_required": true,
       "url": "https://www.lancaster.ac.uk/events/live-stream-campus-and-city-tour-17-november-1200-2026-11-17-12-00",
+      "free_food": false,
+      "matched_phrases": [],
+      "probable_free_food": false,
+      "probable_reasons": []
+    },
+    {
+      "source": "lancaster.ac.uk",
+      "title": "PhD in Education and Social Justice - Discovery webinar",
+      "description": "Interested in our online PhD in Education and Social Justice?",
+      "location": "Live Online",
+      "start_date": "Tuesday 15 December 2026, 1:00pm to 2:00pm",
+      "start_date_iso": "2026-12-15T13:00:41+00:00",
+      "event_type": "Webinar",
+      "is_paid": false,
+      "registration_required": true,
+      "url": "https://www.lancaster.ac.uk/events/phd-in-education-and-social-justice-discovery-webinar-2026-11-30-14-00",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4219,38 +4270,6 @@
     },
     {
       "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 27 March 2027, 11:00",
-      "description": "Your campus tour will last approximately 75 minutes.",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 27 March 2027, 11:00am to 12:15pm",
-      "start_date_iso": "2027-03-27T11:00:00+00:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-6-march-2027-1100",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
-      "title": "On Campus Tour - 27 March 2027, 13:00",
-      "description": "Your campus tour will last approximately 75 minutes.",
-      "location": "Welcome Hub",
-      "start_date": "Saturday 27 March 2027, 1:00pm to 2:15pm",
-      "start_date_iso": "2027-03-27T13:00:00+00:00",
-      "event_type": "Campus Tour",
-      "is_paid": false,
-      "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-27-march-2027-1100",
-      "free_food": false,
-      "matched_phrases": [],
-      "probable_free_food": false,
-      "probable_reasons": []
-    },
-    {
-      "source": "lancaster.ac.uk",
       "title": "On Campus Tour - 31 March 2027, 16:00",
       "description": "Your campus tour will last approximately 75 minutes.",
       "location": "Welcome Hub",
@@ -4259,7 +4278,7 @@
       "event_type": "Campus Tour",
       "is_paid": false,
       "registration_required": true,
-      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-31-march-2027-1600",
+      "url": "https://www.lancaster.ac.uk/events/on-campus-tour-24-march-2027-1600",
       "free_food": false,
       "matched_phrases": [],
       "probable_free_food": false,
@@ -4514,5 +4533,5 @@
     }
   ],
   "free_food_count": 0,
-  "probable_free_food_count": 14
+  "probable_free_food_count": 15
 }
